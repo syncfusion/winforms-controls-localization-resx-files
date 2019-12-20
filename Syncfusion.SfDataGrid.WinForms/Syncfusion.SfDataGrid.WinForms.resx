@@ -168,16 +168,8 @@
   <data name="FilterControl_DateSortDescending" xml:space="preserve">
     <value>Sort Newest to Oldest</value>
   </data>
-  <data name="FilterControl_DoesNotBeginWith" xml:space="preserve">
-    <value>Does Not Begin With</value>
-    <comment>Text for does not begin with</comment>
-  </data>
   <data name="FilterControl_DoesNotContain" xml:space="preserve">
     <value>Does Not Contain</value>
-  </data>
-  <data name="FilterControl_DoesNotEndWith" xml:space="preserve">
-    <value>Does Not End With</value>
-    <comment>Text for does not end with</comment>
   </data>
   <data name="FilterControl_Done" xml:space="preserve">
     <value>Done</value>

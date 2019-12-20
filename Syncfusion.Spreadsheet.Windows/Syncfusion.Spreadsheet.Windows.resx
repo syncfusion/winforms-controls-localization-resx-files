@@ -2024,22 +2024,4 @@ A user has restricted value that can be entered into this cell.</value>
   <data name="FilterErrorMessage" xml:space="preserve">
     <value>This can't be applied to the selected range. Select a single cell in a range and try again.</value>
   </data>
-<data name="InsertCopiedCells" xml:space="preserve">
-    <value>Insert Copied Cells</value>
-  </data>
-  <data name="InsertCutCells" xml:space="preserve">
-    <value>Insert Cut Cells</value>
-  </data>
-  <data name="InsertPaste" xml:space="preserve">
-    <value>Insert Paste</value>
-  </data>
-  <data name="ShiftCellsDown" xml:space="preserve">
-    <value>Shift cells down</value>
-  </data>
-  <data name="ShiftCellsRight" xml:space="preserve">
-    <value>Shift cells right</value>
-  </data>
-  <data name="ValidationMessage_IntersectCells" xml:space="preserve">
-    <value>This Selection is not valid. Make sure the copy and paste areas don't overlap unless they are the same size and shape.</value>
-  </data>
 </root>
