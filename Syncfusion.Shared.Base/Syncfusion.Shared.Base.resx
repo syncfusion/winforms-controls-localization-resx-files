@@ -1,0 +1,978 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Abort" xml:space="preserve">
+    <value>&amp;Abort</value>
+  </data>
+  <data name="ActiveBorder" xml:space="preserve">
+    <value>ActiveBorder</value>
+  </data>
+  <data name="ActiveCaption" xml:space="preserve">
+    <value>ActiveCaption</value>
+  </data>
+  <data name="ActiveCaptionText" xml:space="preserve">
+    <value>ActiveCaptionText</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>&amp;Add</value>
+  </data>
+  <data name="AliceBlue" xml:space="preserve">
+    <value>AliceBlue</value>
+  </data>
+  <data name="AntiqueWhite" xml:space="preserve">
+    <value>AntiqueWhite</value>
+  </data>
+  <data name="AppWorkspace" xml:space="preserve">
+    <value>AppWorkspace</value>
+  </data>
+  <data name="Aqua" xml:space="preserve">
+    <value>Aqua</value>
+  </data>
+  <data name="Aquamarine" xml:space="preserve">
+    <value>Aquamarine</value>
+  </data>
+  <data name="Azure" xml:space="preserve">
+    <value>Azure</value>
+  </data>
+  <data name="Beige" xml:space="preserve">
+    <value>Beige</value>
+  </data>
+  <data name="Bisque" xml:space="preserve">
+    <value>Bisque</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="BlanchedAlmond" xml:space="preserve">
+    <value>BlanchedAlmond</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="BlueViolet" xml:space="preserve">
+    <value>BlueViolet</value>
+  </data>
+  <data name="Bottom" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>Brown</value>
+  </data>
+  <data name="BurlyWood" xml:space="preserve">
+    <value>BurlyWood</value>
+  </data>
+  <data name="ButtonFace" xml:space="preserve">
+    <value>ButtonFace</value>
+  </data>
+  <data name="ButtonHighlight" xml:space="preserve">
+    <value>ButtonHighlight</value>
+  </data>
+  <data name="ButtonShadow" xml:space="preserve">
+    <value>ButtonShadow</value>
+  </data>
+  <data name="CadetBlue" xml:space="preserve">
+    <value>CadetBlue</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="CategoryAction" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="CategoryAppearance" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="CategoryBehavior" xml:space="preserve">
+    <value>Behavior</value>
+  </data>
+  <data name="CategoryData" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>C&amp;hange</value>
+  </data>
+  <data name="ChangeAll" xml:space="preserve">
+    <value>Change A&amp;ll</value>
+  </data>
+  <data name="Chartreuse" xml:space="preserve">
+    <value>Chartreuse</value>
+  </data>
+  <data name="Chocolate" xml:space="preserve">
+    <value>Chocolate</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ColorEditorPaletteTab" xml:space="preserve">
+    <value>Palette</value>
+  </data>
+  <data name="ColorEditorStandardTab" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="ColorEditorSystemTab" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Co&amp;ntinue</value>
+  </data>
+  <data name="Control" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="ControlDark" xml:space="preserve">
+    <value>ControlDark</value>
+  </data>
+  <data name="ControlDarkDark" xml:space="preserve">
+    <value>ControlDarkDark</value>
+  </data>
+  <data name="ControlLight" xml:space="preserve">
+    <value>ControlLight</value>
+  </data>
+  <data name="ControlLightLight" xml:space="preserve">
+    <value>ControlLightLight</value>
+  </data>
+  <data name="ControlText" xml:space="preserve">
+    <value>ControlText</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="Coral" xml:space="preserve">
+    <value>Coral</value>
+  </data>
+  <data name="CornflowerBlue" xml:space="preserve">
+    <value>CornflowerBlue</value>
+  </data>
+  <data name="Cornsilk" xml:space="preserve">
+    <value>Cornsilk</value>
+  </data>
+  <data name="Crimson" xml:space="preserve">
+    <value>Crimson</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Cu&amp;t</value>
+  </data>
+  <data name="Cyan" xml:space="preserve">
+    <value>Cyan</value>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>DarkBlue</value>
+  </data>
+  <data name="DarkCyan" xml:space="preserve">
+    <value>DarkCyan</value>
+  </data>
+  <data name="DarkGoldenrod" xml:space="preserve">
+    <value>DarkGoldenrod</value>
+  </data>
+  <data name="DarkGray" xml:space="preserve">
+    <value>DarkGray</value>
+  </data>
+  <data name="DarkGreen" xml:space="preserve">
+    <value>DarkGreen</value>
+  </data>
+  <data name="DarkKhaki" xml:space="preserve">
+    <value>DarkKhaki</value>
+  </data>
+  <data name="DarkMagenta" xml:space="preserve">
+    <value>DarkMagenta</value>
+  </data>
+  <data name="DarkOliveGreen" xml:space="preserve">
+    <value>DarkOliveGreen</value>
+  </data>
+  <data name="DarkOrange" xml:space="preserve">
+    <value>DarkOrange</value>
+  </data>
+  <data name="DarkOrchid" xml:space="preserve">
+    <value>DarkOrchid</value>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>DarkRed</value>
+  </data>
+  <data name="DarkSalmon" xml:space="preserve">
+    <value>DarkSalmon</value>
+  </data>
+  <data name="DarkSeaGreen" xml:space="preserve">
+    <value>DarkSeaGreen</value>
+  </data>
+  <data name="DarkSlateBlue" xml:space="preserve">
+    <value>DarkSlateBlue</value>
+  </data>
+  <data name="DarkSlateGray" xml:space="preserve">
+    <value>DarkSlateGray</value>
+  </data>
+  <data name="DarkTurquoise" xml:space="preserve">
+    <value>DarkTurquoise</value>
+  </data>
+  <data name="DarkViolet" xml:space="preserve">
+    <value>DarkViolet</value>
+  </data>
+  <data name="DeepPink" xml:space="preserve">
+    <value>DeepPink</value>
+  </data>
+  <data name="DeepSkyBlue" xml:space="preserve">
+    <value>DeepSkyBlue</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteAll" xml:space="preserve">
+    <value>Delete A&amp;ll</value>
+  </data>
+  <data name="DescriptionMenuItemText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Desktop" xml:space="preserve">
+    <value>Desktop</value>
+  </data>
+  <data name="DimGray" xml:space="preserve">
+    <value>DimGray</value>
+  </data>
+  <data name="DodgerBlue" xml:space="preserve">
+    <value>DodgerBlue</value>
+  </data>
+  <data name="FewerButtonsItemsText" xml:space="preserve">
+    <value>Show &amp;Fewer Buttons</value>
+  </data>
+  <data name="Firebrick" xml:space="preserve">
+    <value>Firebrick</value>
+  </data>
+  <data name="FloralWhite" xml:space="preserve">
+    <value>FloralWhite</value>
+  </data>
+  <data name="ForestGreen" xml:space="preserve">
+    <value>ForestGreen</value>
+  </data>
+  <data name="Fuchsia" xml:space="preserve">
+    <value>Fuchsia</value>
+  </data>
+  <data name="Gainsboro" xml:space="preserve">
+    <value>Gainsboro</value>
+  </data>
+  <data name="GhostWhite" xml:space="preserve">
+    <value>GhostWhite</value>
+  </data>
+  <data name="Gold" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="Goldenrod" xml:space="preserve">
+    <value>Goldenrod</value>
+  </data>
+  <data name="GradientActiveCaption" xml:space="preserve">
+    <value>GradientActiveCaption</value>
+  </data>
+  <data name="GradientInactiveCaption" xml:space="preserve">
+    <value>GradientInactiveCaption</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Gray</value>
+  </data>
+  <data name="GrayText" xml:space="preserve">
+    <value>GrayText</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="GreenYellow" xml:space="preserve">
+    <value>GreenYellow</value>
+  </data>
+  <data name="GroupBarAddRemoveButton" xml:space="preserve">
+    <value>&amp;Add or Remove Buttons</value>
+  </data>
+  <data name="GroupBarDropDownToolTip" xml:space="preserve">
+    <value>Configure Buttons</value>
+  </data>
+  <data name="GroupBarExpandButtonToolTip" xml:space="preserve">
+    <value>Expand the Navigation Pane</value>
+  </data>
+  <data name="GroupBarMinimizeButtonToolTip" xml:space="preserve">
+    <value>Minimize the Navigation Pane</value>
+  </data>
+  <data name="GroupBarNavigationPaneTooltip" xml:space="preserve">
+    <value>Click to expand Navigation Pane</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Highlight" xml:space="preserve">
+    <value>Highlight</value>
+  </data>
+  <data name="HighlightText" xml:space="preserve">
+    <value>HighlightText</value>
+  </data>
+  <data name="Honeydew" xml:space="preserve">
+    <value>Honeydew</value>
+  </data>
+  <data name="HotPink" xml:space="preserve">
+    <value>HotPink</value>
+  </data>
+  <data name="HotTrack" xml:space="preserve">
+    <value>HotTrack</value>
+  </data>
+  <data name="Ignore" xml:space="preserve">
+    <value>&amp;Ignore</value>
+  </data>
+  <data name="IgnoreAll" xml:space="preserve">
+    <value>I&amp;gnore All</value>
+  </data>
+  <data name="IgnoreOnce" xml:space="preserve">
+    <value>&amp;Ignore Once</value>
+  </data>
+  <data name="InactiveBorder" xml:space="preserve">
+    <value>InactiveBorder</value>
+  </data>
+  <data name="InactiveCaption" xml:space="preserve">
+    <value>InactiveCaption</value>
+  </data>
+  <data name="InactiveCaptionText" xml:space="preserve">
+    <value>InactiveCaptionText</value>
+  </data>
+  <data name="IndianRed" xml:space="preserve">
+    <value>IndianRed</value>
+  </data>
+  <data name="Indigo" xml:space="preserve">
+    <value>Indigo</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="InfoText" xml:space="preserve">
+    <value>InfoText</value>
+  </data>
+  <data name="InvalidArgument" xml:space="preserve">
+    <value>'{1}' is not a valid value for '{0}'.</value>
+  </data>
+  <data name="InvalidLowBoundArgumentEx" xml:space="preserve">
+    <value>'{1}' is not a valid value for '{0}'.  '{0}' must be greater than or equal to {2}.</value>
+  </data>
+  <data name="InvalidLowBoundArgumentEx2" xml:space="preserve">
+    <value>Value {0} too small and out of range. Lower Bounds is {1}.</value>
+  </data>
+  <data name="Ivory" xml:space="preserve">
+    <value>Ivory</value>
+  </data>
+  <data name="Khaki" xml:space="preserve">
+    <value>Khaki</value>
+  </data>
+  <data name="Lavender" xml:space="preserve">
+    <value>Lavender</value>
+  </data>
+  <data name="LavenderBlush" xml:space="preserve">
+    <value>LavenderBlush</value>
+  </data>
+  <data name="LawnGreen" xml:space="preserve">
+    <value>LawnGreen</value>
+  </data>
+  <data name="LeftEdge" xml:space="preserve">
+    <value>Left Edge</value>
+  </data>
+  <data name="LemonChiffon" xml:space="preserve">
+    <value>LemonChiffon</value>
+  </data>
+  <data name="LightBlue" xml:space="preserve">
+    <value>LightBlue</value>
+  </data>
+  <data name="LightCoral" xml:space="preserve">
+    <value>LightCoral</value>
+  </data>
+  <data name="LightCyan" xml:space="preserve">
+    <value>LightCyan</value>
+  </data>
+  <data name="LightGoldenrodYellow" xml:space="preserve">
+    <value>LightGoldenrodYellow</value>
+  </data>
+  <data name="LightGray" xml:space="preserve">
+    <value>LightGray</value>
+  </data>
+  <data name="LightGreen" xml:space="preserve">
+    <value>LightGreen</value>
+  </data>
+  <data name="LightPink" xml:space="preserve">
+    <value>LightPink</value>
+  </data>
+  <data name="LightSalmon" xml:space="preserve">
+    <value>LightSalmon</value>
+  </data>
+  <data name="LightSeaGreen" xml:space="preserve">
+    <value>LightSeaGreen</value>
+  </data>
+  <data name="LightSkyBlue" xml:space="preserve">
+    <value>LightSkyBlue</value>
+  </data>
+  <data name="LightSlateGray" xml:space="preserve">
+    <value>LightSlateGray</value>
+  </data>
+  <data name="LightSteelBlue" xml:space="preserve">
+    <value>LightSteelBlue</value>
+  </data>
+  <data name="LightYellow" xml:space="preserve">
+    <value>LightYellow</value>
+  </data>
+  <data name="Lime" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="LimeGreen" xml:space="preserve">
+    <value>LimeGreen</value>
+  </data>
+  <data name="Linen" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="Magenta" xml:space="preserve">
+    <value>Magenta</value>
+  </data>
+  <data name="Maroon" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="Maximize" xml:space="preserve">
+    <value>Maximize</value>
+  </data>
+  <data name="MediumAquamarine" xml:space="preserve">
+    <value>MediumAquamarine</value>
+  </data>
+  <data name="MediumBlue" xml:space="preserve">
+    <value>MediumBlue</value>
+  </data>
+  <data name="MediumOrchid" xml:space="preserve">
+    <value>MediumOrchid</value>
+  </data>
+  <data name="MediumPurple" xml:space="preserve">
+    <value>MediumPurple</value>
+  </data>
+  <data name="MediumSeaGreen" xml:space="preserve">
+    <value>MediumSeaGreen</value>
+  </data>
+  <data name="MediumSlateBlue" xml:space="preserve">
+    <value>MediumSlateBlue</value>
+  </data>
+  <data name="MediumSpringGreen" xml:space="preserve">
+    <value>MediumSpringGreen</value>
+  </data>
+  <data name="MediumTurquoise" xml:space="preserve">
+    <value>MediumTurquoise</value>
+  </data>
+  <data name="MediumVioletRed" xml:space="preserve">
+    <value>MediumVioletRed</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="MenuBar" xml:space="preserve">
+    <value>MenuBar</value>
+  </data>
+  <data name="MenuHighlight" xml:space="preserve">
+    <value>MenuHighlight</value>
+  </data>
+  <data name="MenuText" xml:space="preserve">
+    <value>MenuText</value>
+  </data>
+  <data name="MidnightBlue" xml:space="preserve">
+    <value>MidnightBlue</value>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>Minimize</value>
+  </data>
+  <data name="MintCream" xml:space="preserve">
+    <value>MintCream</value>
+  </data>
+  <data name="MistyRose" xml:space="preserve">
+    <value>MistyRose</value>
+  </data>
+  <data name="Moccasin" xml:space="preserve">
+    <value>Moccasin</value>
+  </data>
+  <data name="MoreButtonsItemsText" xml:space="preserve">
+    <value>Show &amp;More Buttons</value>
+  </data>
+  <data name="NavajoWhite" xml:space="preserve">
+    <value>NavajoWhite</value>
+  </data>
+  <data name="Navy" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>&amp;No</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="OldLace" xml:space="preserve">
+    <value>OldLace</value>
+  </data>
+  <data name="Olive" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="OliveDrab" xml:space="preserve">
+    <value>OliveDrab</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>&amp;Options</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="OrangeRed" xml:space="preserve">
+    <value>OrangeRed</value>
+  </data>
+  <data name="Orchid" xml:space="preserve">
+    <value>Orchid</value>
+  </data>
+  <data name="PageDown" xml:space="preserve">
+    <value>Page Down</value>
+  </data>
+  <data name="PageLeft" xml:space="preserve">
+    <value>Page Left</value>
+  </data>
+  <data name="PageRight" xml:space="preserve">
+    <value>Page Right</value>
+  </data>
+  <data name="PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="PaleGoldenrod" xml:space="preserve">
+    <value>PaleGoldenrod</value>
+  </data>
+  <data name="PaleGreen" xml:space="preserve">
+    <value>PaleGreen</value>
+  </data>
+  <data name="PaleTurquoise" xml:space="preserve">
+    <value>PaleTurquoise</value>
+  </data>
+  <data name="PaleVioletRed" xml:space="preserve">
+    <value>PaleVioletRed</value>
+  </data>
+  <data name="PapayaWhip" xml:space="preserve">
+    <value>PapayaWhip</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="PeachPuff" xml:space="preserve">
+    <value>PeachPuff</value>
+  </data>
+  <data name="Peru" xml:space="preserve">
+    <value>Peru</value>
+  </data>
+  <data name="Pink" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="Plum" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="PowderBlue" xml:space="preserve">
+    <value>PowderBlue</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="RecordNavigationBarAddNewRecord" xml:space="preserve">
+    <value>Add new Record</value>
+  </data>
+  <data name="RecordNavigationBarCurrentRecord" xml:space="preserve">
+    <value>Current Record</value>
+  </data>
+  <data name="RecordNavigationBarFirstRecord" xml:space="preserve">
+    <value>First Record</value>
+  </data>
+  <data name="RecordNavigationBarLastRecord" xml:space="preserve">
+    <value>Last Record</value>
+  </data>
+  <data name="RecordNavigationBarNextRecord" xml:space="preserve">
+    <value>Next Record</value>
+  </data>
+  <data name="RecordNavigationBarPreviousRecord" xml:space="preserve">
+    <value>Previous Record</value>
+  </data>
+  <data name="RecordNavigationBarRecord" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="RecordNavigationBarRecordCount" xml:space="preserve">
+    <value>Record Count</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="ResetMenuItemText" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Restore_Down" xml:space="preserve">
+    <value>Restore Down</value>
+  </data>
+  <data name="Restore_Up" xml:space="preserve">
+    <value>Restore Up</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>&amp;Retry</value>
+  </data>
+  <data name="RightEdge" xml:space="preserve">
+    <value>Right Edge</value>
+  </data>
+  <data name="RosyBrown" xml:space="preserve">
+    <value>RosyBrown</value>
+  </data>
+  <data name="RoyalBlue" xml:space="preserve">
+    <value>RoyalBlue</value>
+  </data>
+  <data name="SaddleBrown" xml:space="preserve">
+    <value>SaddleBrown</value>
+  </data>
+  <data name="Salmon" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="SandyBrown" xml:space="preserve">
+    <value>SandyBrown</value>
+  </data>
+  <data name="ScrollBar" xml:space="preserve">
+    <value>ScrollBar</value>
+  </data>
+  <data name="ScrollBar_Bottom" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="ScrollBar_LeftEdge" xml:space="preserve">
+    <value>LeftEdge</value>
+  </data>
+  <data name="ScrollBar_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="ScrollBar_PageLeft" xml:space="preserve">
+    <value>PageLeft</value>
+  </data>
+  <data name="ScrollBar_PageRight" xml:space="preserve">
+    <value>PageRight</value>
+  </data>
+  <data name="ScrollBar_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="ScrollBar_RightEdge" xml:space="preserve">
+    <value>RightEdge</value>
+  </data>
+  <data name="ScrollBar_ScrollDown" xml:space="preserve">
+    <value>ScrollDown</value>
+  </data>
+  <data name="ScrollBar_ScrollHere" xml:space="preserve">
+    <value>ScrollHere</value>
+  </data>
+  <data name="ScrollBar_ScrollLeft" xml:space="preserve">
+    <value>LeftScroll</value>
+  </data>
+  <data name="ScrollBar_ScrollRight" xml:space="preserve">
+    <value>RightScroll</value>
+  </data>
+  <data name="ScrollBar_ScrollUp" xml:space="preserve">
+    <value>ScrollUp</value>
+  </data>
+  <data name="ScrollBar_Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="ScrollDown" xml:space="preserve">
+    <value>Scroll Down</value>
+  </data>
+  <data name="ScrollHere" xml:space="preserve">
+    <value>Scroll Here</value>
+  </data>
+  <data name="ScrollLeft" xml:space="preserve">
+    <value>Scroll Left</value>
+  </data>
+  <data name="ScrollRight" xml:space="preserve">
+    <value>Scroll Right</value>
+  </data>
+  <data name="ScrollUp" xml:space="preserve">
+    <value>Scroll Up</value>
+  </data>
+  <data name="SeaGreen" xml:space="preserve">
+    <value>SeaGreen</value>
+  </data>
+  <data name="SeaShell" xml:space="preserve">
+    <value>SeaShell</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="Sienna" xml:space="preserve">
+    <value>Sienna</value>
+  </data>
+  <data name="Silver" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="SkyBlue" xml:space="preserve">
+    <value>SkyBlue</value>
+  </data>
+  <data name="SlateBlue" xml:space="preserve">
+    <value>SlateBlue</value>
+  </data>
+  <data name="SlateGray" xml:space="preserve">
+    <value>SlateGray</value>
+  </data>
+  <data name="Snow" xml:space="preserve">
+    <value>Snow</value>
+  </data>
+  <data name="SpellCheckCompletedAlert" xml:space="preserve">
+    <value>Spell Check Complete.</value>
+  </data>
+  <data name="SpellCheckerButtonAddToDictionary" xml:space="preserve">
+    <value>&amp;Add to Dictionary</value>
+  </data>
+  <data name="SpellCheckerButtonCustomDictionary" xml:space="preserve">
+    <value>&amp;Custom Dictionary</value>
+  </data>
+  <data name="SpellCheckerButtonNew" xml:space="preserve">
+    <value>&amp;New...</value>
+  </data>
+  <data name="SpellCheckerDialogCaption" xml:space="preserve">
+    <value>Spell Checker</value>
+  </data>
+  <data name="SpellCheckerDictioanryEditorCaption" xml:space="preserve">
+    <value>Custom Dictionary Editor</value>
+  </data>
+  <data name="SpellCheckerIgnoreEmailAddress" xml:space="preserve">
+    <value>Ignore &amp;Email addresses</value>
+  </data>
+  <data name="SpellCheckerIgnoreFileNames" xml:space="preserve">
+    <value>Ignore &amp;file names</value>
+  </data>
+  <data name="SpellCheckerIgnoreHTMLTags" xml:space="preserve">
+    <value>Ignore &amp;Html tags</value>
+  </data>
+  <data name="SpellCheckerIgnoreInternetAddress" xml:space="preserve">
+    <value>Ignore &amp;Internet addresses</value>
+  </data>
+  <data name="SpellCheckerIgnoreMixedCase" xml:space="preserve">
+    <value>Ignore words in &amp;Mixed Case</value>
+  </data>
+  <data name="SpellCheckerIgnoreSpecialCharacters" xml:space="preserve">
+    <value>Ignore Special &amp;Characters</value>
+  </data>
+  <data name="SpellCheckerIgnoreUpperCase" xml:space="preserve">
+    <value>Ignore words in &amp;UPPER CASE</value>
+  </data>
+  <data name="SpellCheckerIgnoreWordsWithNumbers" xml:space="preserve">
+    <value>Ignore words with &amp;numbers</value>
+  </data>
+  <data name="SpellCheckerLabelDictionary" xml:space="preserve">
+    <value>D&amp;ictionary:</value>
+  </data>
+  <data name="SpellCheckerLabelDictionaryPath" xml:space="preserve">
+    <value>Custom Dictionary &amp;Path:</value>
+  </data>
+  <data name="SpellCheckerLabelNotInDictionary" xml:space="preserve">
+    <value>Not in &amp;Dictionary:</value>
+  </data>
+  <data name="SpellCheckerLabelOptions" xml:space="preserve">
+    <value>Spell Checker Options</value>
+  </data>
+  <data name="SpellCheckerLabelSuggestions" xml:space="preserve">
+    <value>&amp;Suggestions :</value>
+  </data>
+  <data name="SpellCheckerLabelWords" xml:space="preserve">
+    <value>&amp;Words:</value>
+  </data>
+  <data name="SpellCheckerOptionsDialogCaption" xml:space="preserve">
+    <value>Spell Checker Options</value>
+  </data>
+  <data name="SpringGreen" xml:space="preserve">
+    <value>SpringGreen</value>
+  </data>
+  <data name="SteelBlue" xml:space="preserve">
+    <value>SteelBlue</value>
+  </data>
+  <data name="StyleCategoryAppearance" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="TabBarControlAdd" xml:space="preserve">
+    <value>Add Tab</value>
+  </data>
+  <data name="TabBarControlRemove" xml:space="preserve">
+    <value>Remove Tab</value>
+  </data>
+  <data name="TabBarPageOnTabBarPage" xml:space="preserve">
+    <value>A TabBarPage cannot be added to another TabBarPage.  TabBarPages can only be added to TabBarControls.</value>
+  </data>
+  <data name="TabBarSplitterControlAdd" xml:space="preserve">
+    <value>Add Tab</value>
+  </data>
+  <data name="TabBarSplitterControlRemove" xml:space="preserve">
+    <value>Remove Tab</value>
+  </data>
+  <data name="TabBarToolTipEmptyIcon" xml:space="preserve">
+    <value>'{0}' must not be empty.</value>
+  </data>
+  <data name="Tan" xml:space="preserve">
+    <value>Tan</value>
+  </data>
+  <data name="Teal" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="TextParseFailedFormat" xml:space="preserve">
+    <value>Failed to parse Text("{0}") expected text in the format "{1}".</value>
+  </data>
+  <data name="Thistle" xml:space="preserve">
+    <value>Thistle</value>
+  </data>
+  <data name="Tomato" xml:space="preserve">
+    <value>Tomato</value>
+  </data>
+  <data name="Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="TopLeftBottomRight" xml:space="preserve">
+    <value>top, left, bottom, right</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="TryAgain" xml:space="preserve">
+    <value>&amp;TryAgain</value>
+  </data>
+  <data name="Turquoise" xml:space="preserve">
+    <value>Turquoise</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>&amp;Undo</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>U&amp;pdate</value>
+  </data>
+  <data name="Violet" xml:space="preserve">
+    <value>Violet</value>
+  </data>
+  <data name="Wheat" xml:space="preserve">
+    <value>Wheat</value>
+  </data>
+  <data name="White" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="WhiteSmoke" xml:space="preserve">
+    <value>WhiteSmoke</value>
+  </data>
+  <data name="Window" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="WindowFrame" xml:space="preserve">
+    <value>WindowFrame</value>
+  </data>
+  <data name="WindowText" xml:space="preserve">
+    <value>WindowText</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="YellowGreen" xml:space="preserve">
+    <value>YellowGreen</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>&amp;Yes</value>
+  </data>
+</root>
