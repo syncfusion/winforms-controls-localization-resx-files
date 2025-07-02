@@ -14,7 +14,7 @@ When you are changing the application culture, then you can localize the applica
 public Form1()
 {
     System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("de-DE");
-    System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("de-DE");
+    System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("de-DE"); 
     InitializeComponent();
 }
 ```
