@@ -9,7 +9,7 @@ Localization is the process of translating the application resources into differ
 ### Changing application culture
 
 When you are changing the application culture, then you can localize the application based on application culture by creating .resx file.
- 
+  
 ```
 public Form1()
 {
