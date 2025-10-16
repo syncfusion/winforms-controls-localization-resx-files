@@ -19,7 +19,7 @@ public Form1()
 }
 ```
 
-## Creating .resx files
+## Creating .resx files 
 
 You can create .resx files for any languages by following steps,
 
