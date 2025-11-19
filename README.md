@@ -6,7 +6,7 @@ This respository contains the default resources file (.resx) of Syncfusion Windo
 
 Localization is the process of translating the application resources into different language for the specific cultures. You can localize the syncfusion Windows Forms Controls by adding resource file for each language.
 
-### Changing application culture
+### Changing application culture 
 
 When you are changing the application culture, then you can localize the application based on application culture by creating .resx file.
   
