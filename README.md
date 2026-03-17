@@ -1,5 +1,5 @@
-# Localization of Syncfusion® WF controls using .resx files         
-
+# Localization of Syncfusion® WF controls using .resx files          
+ 
 This respository contains the default resources file (.resx) of Syncfusion Windows Forms libraries. You can use this resource files to localize the strings for any selected language.
 
 ## Localization of Syncfusion Windows Forms Controls
