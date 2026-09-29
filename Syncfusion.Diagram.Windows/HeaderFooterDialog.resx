@@ -1,0 +1,1617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_checkHFTextVisible.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_checkHFTextVisible.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 16</value>
+  </data>
+  <data name="m_checkHFTextVisible.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_checkHFTextVisible.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="m_checkHFTextVisible.Text" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="&gt;&gt;m_checkHFTextVisible.Name" xml:space="preserve">
+    <value>m_checkHFTextVisible</value>
+  </data>
+  <data name="&gt;&gt;m_checkHFTextVisible.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_checkHFTextVisible.Parent" xml:space="preserve">
+    <value>m_groupHFSelection</value>
+  </data>
+  <data name="&gt;&gt;m_checkHFTextVisible.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_btnHFOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_btnHFOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 400</value>
+  </data>
+  <data name="m_btnHFOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 24</value>
+  </data>
+  <data name="m_btnHFOK.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="m_btnHFOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFOK.Name" xml:space="preserve">
+    <value>m_btnHFOK</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFOK.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_btnHFCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_btnHFCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 400</value>
+  </data>
+  <data name="m_btnHFCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 24</value>
+  </data>
+  <data name="m_btnHFCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="m_btnHFCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFCancel.Name" xml:space="preserve">
+    <value>m_btnHFCancel</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFCancel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_lblHFBoundsLeftMargin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblHFBoundsLeftMargin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 24</value>
+  </data>
+  <data name="m_lblHFBoundsLeftMargin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="m_lblHFBoundsLeftMargin.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblHFBoundsLeftMargin.Text" xml:space="preserve">
+    <value>Left Margin:</value>
+  </data>
+  <data name="m_lblHFBoundsLeftMargin.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBoundsLeftMargin.Name" xml:space="preserve">
+    <value>m_lblHFBoundsLeftMargin</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBoundsLeftMargin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBoundsLeftMargin.Parent" xml:space="preserve">
+    <value>m_panelHFBounds</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBoundsLeftMargin.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_lblHFBoundsRightMargin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblHFBoundsRightMargin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 56</value>
+  </data>
+  <data name="m_lblHFBoundsRightMargin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="m_lblHFBoundsRightMargin.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblHFBoundsRightMargin.Text" xml:space="preserve">
+    <value>Right Margin:</value>
+  </data>
+  <data name="m_lblHFBoundsRightMargin.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBoundsRightMargin.Name" xml:space="preserve">
+    <value>m_lblHFBoundsRightMargin</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBoundsRightMargin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBoundsRightMargin.Parent" xml:space="preserve">
+    <value>m_panelHFBounds</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBoundsRightMargin.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_lblHFBoundsWidth.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblHFBoundsWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 88</value>
+  </data>
+  <data name="m_lblHFBoundsWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="m_lblHFBoundsWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblHFBoundsWidth.Text" xml:space="preserve">
+    <value>Width:</value>
+  </data>
+  <data name="m_lblHFBoundsWidth.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBoundsWidth.Name" xml:space="preserve">
+    <value>m_lblHFBoundsWidth</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBoundsWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBoundsWidth.Parent" xml:space="preserve">
+    <value>m_panelHFBounds</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBoundsWidth.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_lblHFBoundsHeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblHFBoundsHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 120</value>
+  </data>
+  <data name="m_lblHFBoundsHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="m_lblHFBoundsHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblHFBoundsHeight.Text" xml:space="preserve">
+    <value>Height:</value>
+  </data>
+  <data name="m_lblHFBoundsHeight.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBoundsHeight.Name" xml:space="preserve">
+    <value>m_lblHFBoundsHeight</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBoundsHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBoundsHeight.Parent" xml:space="preserve">
+    <value>m_panelHFBounds</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBoundsHeight.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_checkHFBoundsAutosize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_checkHFBoundsAutosize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 152</value>
+  </data>
+  <data name="m_checkHFBoundsAutosize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 22</value>
+  </data>
+  <data name="m_checkHFBoundsAutosize.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="m_checkHFBoundsAutosize.Text" xml:space="preserve">
+    <value>Autosize</value>
+  </data>
+  <data name="&gt;&gt;m_checkHFBoundsAutosize.Name" xml:space="preserve">
+    <value>m_checkHFBoundsAutosize</value>
+  </data>
+  <data name="&gt;&gt;m_checkHFBoundsAutosize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_checkHFBoundsAutosize.Parent" xml:space="preserve">
+    <value>m_panelHFBounds</value>
+  </data>
+  <data name="&gt;&gt;m_checkHFBoundsAutosize.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_lblHFBorderColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblHFBorderColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 16</value>
+  </data>
+  <data name="m_lblHFBorderColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 23</value>
+  </data>
+  <data name="m_lblHFBorderColor.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblHFBorderColor.Text" xml:space="preserve">
+    <value>Color:</value>
+  </data>
+  <data name="m_lblHFBorderColor.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBorderColor.Name" xml:space="preserve">
+    <value>m_lblHFBorderColor</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBorderColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBorderColor.Parent" xml:space="preserve">
+    <value>m_panelHFBorder</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBorderColor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_lblHFBorderStyle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblHFBorderStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 56</value>
+  </data>
+  <data name="m_lblHFBorderStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 23</value>
+  </data>
+  <data name="m_lblHFBorderStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblHFBorderStyle.Text" xml:space="preserve">
+    <value>Style:</value>
+  </data>
+  <data name="m_lblHFBorderStyle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBorderStyle.Name" xml:space="preserve">
+    <value>m_lblHFBorderStyle</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBorderStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBorderStyle.Parent" xml:space="preserve">
+    <value>m_panelHFBorder</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBorderStyle.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_comboHFBorderStyle.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="m_comboHFBorderStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 56</value>
+  </data>
+  <data name="m_comboHFBorderStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="m_comboHFBorderStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_comboHFBorderStyle.Name" xml:space="preserve">
+    <value>m_comboHFBorderStyle</value>
+  </data>
+  <data name="&gt;&gt;m_comboHFBorderStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_comboHFBorderStyle.Parent" xml:space="preserve">
+    <value>m_panelHFBorder</value>
+  </data>
+  <data name="&gt;&gt;m_comboHFBorderStyle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_comboHFBorderWeight.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="m_comboHFBorderWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 96</value>
+  </data>
+  <data name="m_comboHFBorderWeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="m_comboHFBorderWeight.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_comboHFBorderWeight.Name" xml:space="preserve">
+    <value>m_comboHFBorderWeight</value>
+  </data>
+  <data name="&gt;&gt;m_comboHFBorderWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_comboHFBorderWeight.Parent" xml:space="preserve">
+    <value>m_panelHFBorder</value>
+  </data>
+  <data name="&gt;&gt;m_comboHFBorderWeight.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_lblHFBorderWeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblHFBorderWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 96</value>
+  </data>
+  <data name="m_lblHFBorderWeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 23</value>
+  </data>
+  <data name="m_lblHFBorderWeight.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblHFBorderWeight.Text" xml:space="preserve">
+    <value>Weight:</value>
+  </data>
+  <data name="m_lblHFBorderWeight.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBorderWeight.Name" xml:space="preserve">
+    <value>m_lblHFBorderWeight</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBorderWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBorderWeight.Parent" xml:space="preserve">
+    <value>m_panelHFBorder</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFBorderWeight.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="m_checkHFBorderVisible.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_checkHFBorderVisible.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 136</value>
+  </data>
+  <data name="m_checkHFBorderVisible.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 22</value>
+  </data>
+  <data name="m_checkHFBorderVisible.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_checkHFBorderVisible.Text" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="&gt;&gt;m_checkHFBorderVisible.Name" xml:space="preserve">
+    <value>m_checkHFBorderVisible</value>
+  </data>
+  <data name="&gt;&gt;m_checkHFBorderVisible.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_checkHFBorderVisible.Parent" xml:space="preserve">
+    <value>m_panelHFBorder</value>
+  </data>
+  <data name="&gt;&gt;m_checkHFBorderVisible.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="m_radioHFFooter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_radioHFFooter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 19</value>
+  </data>
+  <data name="m_radioHFFooter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="m_radioHFFooter.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="m_radioHFFooter.Text" xml:space="preserve">
+    <value>Footer</value>
+  </data>
+  <data name="&gt;&gt;m_radioHFFooter.Name" xml:space="preserve">
+    <value>m_radioHFFooter</value>
+  </data>
+  <data name="&gt;&gt;m_radioHFFooter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_radioHFFooter.Parent" xml:space="preserve">
+    <value>m_groupHFSelection</value>
+  </data>
+  <data name="&gt;&gt;m_radioHFFooter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_radioHFHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_radioHFHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 19</value>
+  </data>
+  <data name="m_radioHFHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="m_radioHFHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="m_radioHFHeader.Text" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="&gt;&gt;m_radioHFHeader.Name" xml:space="preserve">
+    <value>m_radioHFHeader</value>
+  </data>
+  <data name="&gt;&gt;m_radioHFHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_radioHFHeader.Parent" xml:space="preserve">
+    <value>m_groupHFSelection</value>
+  </data>
+  <data name="&gt;&gt;m_radioHFHeader.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_numHFBoundsLeftMargin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 24</value>
+  </data>
+  <data name="m_numHFBoundsLeftMargin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="m_numHFBoundsLeftMargin.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;m_numHFBoundsLeftMargin.Name" xml:space="preserve">
+    <value>m_numHFBoundsLeftMargin</value>
+  </data>
+  <data name="&gt;&gt;m_numHFBoundsLeftMargin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_numHFBoundsLeftMargin.Parent" xml:space="preserve">
+    <value>m_panelHFBounds</value>
+  </data>
+  <data name="&gt;&gt;m_numHFBoundsLeftMargin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_numHFBoundsRightMargin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 56</value>
+  </data>
+  <data name="m_numHFBoundsRightMargin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="m_numHFBoundsRightMargin.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;m_numHFBoundsRightMargin.Name" xml:space="preserve">
+    <value>m_numHFBoundsRightMargin</value>
+  </data>
+  <data name="&gt;&gt;m_numHFBoundsRightMargin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_numHFBoundsRightMargin.Parent" xml:space="preserve">
+    <value>m_panelHFBounds</value>
+  </data>
+  <data name="&gt;&gt;m_numHFBoundsRightMargin.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="m_numHFBoundsWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 88</value>
+  </data>
+  <data name="m_numHFBoundsWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="m_numHFBoundsWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;m_numHFBoundsWidth.Name" xml:space="preserve">
+    <value>m_numHFBoundsWidth</value>
+  </data>
+  <data name="&gt;&gt;m_numHFBoundsWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_numHFBoundsWidth.Parent" xml:space="preserve">
+    <value>m_panelHFBounds</value>
+  </data>
+  <data name="&gt;&gt;m_numHFBoundsWidth.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="m_numHFBoundsHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 120</value>
+  </data>
+  <data name="m_numHFBoundsHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="m_numHFBoundsHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;m_numHFBoundsHeight.Name" xml:space="preserve">
+    <value>m_numHFBoundsHeight</value>
+  </data>
+  <data name="&gt;&gt;m_numHFBoundsHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_numHFBoundsHeight.Parent" xml:space="preserve">
+    <value>m_panelHFBounds</value>
+  </data>
+  <data name="&gt;&gt;m_numHFBoundsHeight.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="m_panelHFBounds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_panelHFBounds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 192</value>
+  </data>
+  <data name="m_panelHFBounds.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;m_panelHFBounds.Name" xml:space="preserve">
+    <value>m_panelHFBounds</value>
+  </data>
+  <data name="&gt;&gt;m_panelHFBounds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_panelHFBounds.Parent" xml:space="preserve">
+    <value>m_tpBounds</value>
+  </data>
+  <data name="&gt;&gt;m_panelHFBounds.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_pictureHFBorderPreview.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_pictureHFBorderPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 16</value>
+  </data>
+  <data name="m_pictureHFBorderPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 128</value>
+  </data>
+  <data name="m_pictureHFBorderPreview.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;m_pictureHFBorderPreview.Name" xml:space="preserve">
+    <value>m_pictureHFBorderPreview</value>
+  </data>
+  <data name="&gt;&gt;m_pictureHFBorderPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_pictureHFBorderPreview.Parent" xml:space="preserve">
+    <value>m_panelHFBorder</value>
+  </data>
+  <data name="&gt;&gt;m_pictureHFBorderPreview.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_btnHFBorderSelectColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_btnHFBorderSelectColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="m_btnHFBorderSelectColor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="m_btnHFBorderSelectColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 23</value>
+  </data>
+  <data name="m_btnHFBorderSelectColor.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="m_btnHFBorderSelectColor.Text" xml:space="preserve">
+    <value>Choose Color...</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFBorderSelectColor.Name" xml:space="preserve">
+    <value>m_btnHFBorderSelectColor</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFBorderSelectColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFBorderSelectColor.Parent" xml:space="preserve">
+    <value>m_panelHFBorder</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFBorderSelectColor.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_panelHFBorder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_panelHFBorder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 192</value>
+  </data>
+  <data name="m_panelHFBorder.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;m_panelHFBorder.Name" xml:space="preserve">
+    <value>m_panelHFBorder</value>
+  </data>
+  <data name="&gt;&gt;m_panelHFBorder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_panelHFBorder.Parent" xml:space="preserve">
+    <value>m_tpBorderStyle</value>
+  </data>
+  <data name="&gt;&gt;m_panelHFBorder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mnuPage.Text" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="mnuTotalPages.Text" xml:space="preserve">
+    <value>Total Pages</value>
+  </data>
+  <data name="mnuCurrentTime.Text" xml:space="preserve">
+    <value>Current Time              - &amp;&amp;T</value>
+  </data>
+  <data name="mnuCurrentDateShort.Text" xml:space="preserve">
+    <value>Current Date (short) - &amp;&amp;d</value>
+  </data>
+  <data name="mnuCurrentDateLong.Text" xml:space="preserve">
+    <value>Current Date (long)   - &amp;&amp;D</value>
+  </data>
+  <data name="menuItem6.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="mnuHelp.Text" xml:space="preserve">
+    <value>for &amp;&amp; type it twice</value>
+  </data>
+  <data name="m_groupHFSelection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 120</value>
+  </data>
+  <data name="m_groupHFSelection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 56</value>
+  </data>
+  <data name="m_groupHFSelection.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="m_groupHFSelection.Text" xml:space="preserve">
+    <value>Header / Footer properties selection</value>
+  </data>
+  <data name="&gt;&gt;m_groupHFSelection.Name" xml:space="preserve">
+    <value>m_groupHFSelection</value>
+  </data>
+  <data name="&gt;&gt;m_groupHFSelection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_groupHFSelection.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_groupHFSelection.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_pictureHFReducedView.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_pictureHFReducedView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="m_pictureHFReducedView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 112</value>
+  </data>
+  <data name="m_pictureHFReducedView.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;m_pictureHFReducedView.Name" xml:space="preserve">
+    <value>m_pictureHFReducedView</value>
+  </data>
+  <data name="&gt;&gt;m_pictureHFReducedView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_pictureHFReducedView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_pictureHFReducedView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="conMenuHF.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="m_txtHFImagePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 24</value>
+  </data>
+  <data name="m_txtHFImagePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 20</value>
+  </data>
+  <data name="m_txtHFImagePath.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;m_txtHFImagePath.Name" xml:space="preserve">
+    <value>m_txtHFImagePath</value>
+  </data>
+  <data name="&gt;&gt;m_txtHFImagePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_txtHFImagePath.Parent" xml:space="preserve">
+    <value>m_panelHFBackgroundImage</value>
+  </data>
+  <data name="&gt;&gt;m_txtHFImagePath.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_pictureHFImagePreview.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_pictureHFImagePreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 96</value>
+  </data>
+  <data name="m_pictureHFImagePreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="m_pictureHFImagePreview.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;m_pictureHFImagePreview.Name" xml:space="preserve">
+    <value>m_pictureHFImagePreview</value>
+  </data>
+  <data name="&gt;&gt;m_pictureHFImagePreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_pictureHFImagePreview.Parent" xml:space="preserve">
+    <value>m_panelHFBackgroundImage</value>
+  </data>
+  <data name="&gt;&gt;m_pictureHFImagePreview.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_comboHFImageLayout.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="m_comboHFImageLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 56</value>
+  </data>
+  <data name="m_comboHFImageLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 21</value>
+  </data>
+  <data name="m_comboHFImageLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_comboHFImageLayout.Name" xml:space="preserve">
+    <value>m_comboHFImageLayout</value>
+  </data>
+  <data name="&gt;&gt;m_comboHFImageLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_comboHFImageLayout.Parent" xml:space="preserve">
+    <value>m_panelHFBackgroundImage</value>
+  </data>
+  <data name="&gt;&gt;m_comboHFImageLayout.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_btnHFImageChoose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_btnHFImageChoose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 24</value>
+  </data>
+  <data name="m_btnHFImageChoose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="m_btnHFImageChoose.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_btnHFImageChoose.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFImageChoose.Name" xml:space="preserve">
+    <value>m_btnHFImageChoose</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFImageChoose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFImageChoose.Parent" xml:space="preserve">
+    <value>m_panelHFBackgroundImage</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFImageChoose.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_lblHFImageLayout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblHFImageLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 56</value>
+  </data>
+  <data name="m_lblHFImageLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 22</value>
+  </data>
+  <data name="m_lblHFImageLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblHFImageLayout.Text" xml:space="preserve">
+    <value>Layout:</value>
+  </data>
+  <data name="m_lblHFImageLayout.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFImageLayout.Name" xml:space="preserve">
+    <value>m_lblHFImageLayout</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFImageLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFImageLayout.Parent" xml:space="preserve">
+    <value>m_panelHFBackgroundImage</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFImageLayout.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_panelHFBackgroundImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_panelHFBackgroundImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 192</value>
+  </data>
+  <data name="m_panelHFBackgroundImage.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;m_panelHFBackgroundImage.Name" xml:space="preserve">
+    <value>m_panelHFBackgroundImage</value>
+  </data>
+  <data name="&gt;&gt;m_panelHFBackgroundImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_panelHFBackgroundImage.Parent" xml:space="preserve">
+    <value>m_tpBackgroundImage</value>
+  </data>
+  <data name="&gt;&gt;m_panelHFBackgroundImage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_lblHFTextColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblHFTextColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 112</value>
+  </data>
+  <data name="m_lblHFTextColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 24</value>
+  </data>
+  <data name="m_lblHFTextColor.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="m_lblHFTextColor.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="m_lblHFTextColor.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextColor.Name" xml:space="preserve">
+    <value>m_lblHFTextColor</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextColor.Parent" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextColor.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="m_btnHFTextColorSelection.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_btnHFTextColorSelection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 112</value>
+  </data>
+  <data name="m_btnHFTextColorSelection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="m_btnHFTextColorSelection.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_btnHFTextColorSelection.Text" xml:space="preserve">
+    <value>Choose color...</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextColorSelection.Name" xml:space="preserve">
+    <value>m_btnHFTextColorSelection</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextColorSelection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextColorSelection.Parent" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextColorSelection.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="m_lblHFTextFont.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblHFTextFont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 112</value>
+  </data>
+  <data name="m_lblHFTextFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 24</value>
+  </data>
+  <data name="m_lblHFTextFont.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="m_lblHFTextFont.Text" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="m_lblHFTextFont.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextFont.Name" xml:space="preserve">
+    <value>m_lblHFTextFont</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextFont.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextFont.Parent" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextFont.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="m_btnHFTextFontSelection.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_btnHFTextFontSelection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 112</value>
+  </data>
+  <data name="m_btnHFTextFontSelection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 23</value>
+  </data>
+  <data name="m_btnHFTextFontSelection.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_btnHFTextFontSelection.Text" xml:space="preserve">
+    <value>Choose font...</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextFontSelection.Name" xml:space="preserve">
+    <value>m_btnHFTextFontSelection</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextFontSelection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextFontSelection.Parent" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextFontSelection.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="m_comboHFTextCulture.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="m_comboHFTextCulture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 88</value>
+  </data>
+  <data name="m_comboHFTextCulture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 21</value>
+  </data>
+  <data name="m_comboHFTextCulture.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_comboHFTextCulture.Name" xml:space="preserve">
+    <value>m_comboHFTextCulture</value>
+  </data>
+  <data name="&gt;&gt;m_comboHFTextCulture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_comboHFTextCulture.Parent" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_comboHFTextCulture.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="m_lblHFTextCenter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblHFTextCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 24</value>
+  </data>
+  <data name="m_lblHFTextCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="m_lblHFTextCenter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblHFTextCenter.Text" xml:space="preserve">
+    <value>Center:</value>
+  </data>
+  <data name="m_lblHFTextCenter.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextCenter.Name" xml:space="preserve">
+    <value>m_lblHFTextCenter</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextCenter.Parent" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextCenter.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="m_btnHFTextCenter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_btnHFTextCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 24</value>
+  </data>
+  <data name="m_btnHFTextCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="m_btnHFTextCenter.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_btnHFTextCenter.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextCenter.Name" xml:space="preserve">
+    <value>m_btnHFTextCenter</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextCenter.Parent" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextCenter.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="m_btnHFTextRight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_btnHFTextRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 48</value>
+  </data>
+  <data name="m_btnHFTextRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="m_btnHFTextRight.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="m_btnHFTextRight.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextRight.Name" xml:space="preserve">
+    <value>m_btnHFTextRight</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextRight.Parent" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextRight.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="m_lblHFTextRight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblHFTextRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 48</value>
+  </data>
+  <data name="m_lblHFTextRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="m_lblHFTextRight.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblHFTextRight.Text" xml:space="preserve">
+    <value>Right:</value>
+  </data>
+  <data name="m_lblHFTextRight.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextRight.Name" xml:space="preserve">
+    <value>m_lblHFTextRight</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextRight.Parent" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextRight.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="m_txtHFTextCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 24</value>
+  </data>
+  <data name="m_txtHFTextCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 20</value>
+  </data>
+  <data name="m_txtHFTextCenter.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_txtHFTextCenter.Name" xml:space="preserve">
+    <value>m_txtHFTextCenter</value>
+  </data>
+  <data name="&gt;&gt;m_txtHFTextCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_txtHFTextCenter.Parent" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_txtHFTextCenter.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="m_lblHFTextLeft.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblHFTextLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 0</value>
+  </data>
+  <data name="m_lblHFTextLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="m_lblHFTextLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblHFTextLeft.Text" xml:space="preserve">
+    <value>Left:</value>
+  </data>
+  <data name="m_lblHFTextLeft.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextLeft.Name" xml:space="preserve">
+    <value>m_lblHFTextLeft</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextLeft.Parent" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextLeft.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_txtHFTextRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 48</value>
+  </data>
+  <data name="m_txtHFTextRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 20</value>
+  </data>
+  <data name="m_txtHFTextRight.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;m_txtHFTextRight.Name" xml:space="preserve">
+    <value>m_txtHFTextRight</value>
+  </data>
+  <data name="&gt;&gt;m_txtHFTextRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_txtHFTextRight.Parent" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_txtHFTextRight.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_txtHFTextLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 0</value>
+  </data>
+  <data name="m_txtHFTextLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 20</value>
+  </data>
+  <data name="m_txtHFTextLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_txtHFTextLeft.Name" xml:space="preserve">
+    <value>m_txtHFTextLeft</value>
+  </data>
+  <data name="&gt;&gt;m_txtHFTextLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_txtHFTextLeft.Parent" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_txtHFTextLeft.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_btnHFTextLeft.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_btnHFTextLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 0</value>
+  </data>
+  <data name="m_btnHFTextLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="m_btnHFTextLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_btnHFTextLeft.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextLeft.Name" xml:space="preserve">
+    <value>m_btnHFTextLeft</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextLeft.Parent" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_btnHFTextLeft.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_lblHFTextCulture.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblHFTextCulture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 72</value>
+  </data>
+  <data name="m_lblHFTextCulture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 14</value>
+  </data>
+  <data name="m_lblHFTextCulture.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="m_lblHFTextCulture.Text" xml:space="preserve">
+    <value>Culture </value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextCulture.Name" xml:space="preserve">
+    <value>m_lblHFTextCulture</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextCulture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextCulture.Parent" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextCulture.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_lblHFTextSample.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblHFTextSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 136</value>
+  </data>
+  <data name="m_lblHFTextSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 56</value>
+  </data>
+  <data name="m_lblHFTextSample.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="m_lblHFTextSample.Text" xml:space="preserve">
+    <value>Sample Text</value>
+  </data>
+  <data name="m_lblHFTextSample.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextSample.Name" xml:space="preserve">
+    <value>m_lblHFTextSample</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextSample.Parent" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_lblHFTextSample.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_panelHFText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_panelHFText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 192</value>
+  </data>
+  <data name="m_panelHFText.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;m_panelHFText.Name" xml:space="preserve">
+    <value>m_panelHFText</value>
+  </data>
+  <data name="&gt;&gt;m_panelHFText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_panelHFText.Parent" xml:space="preserve">
+    <value>m_tpText</value>
+  </data>
+  <data name="&gt;&gt;m_panelHFText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_tpText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="m_tpText.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="m_tpText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 193</value>
+  </data>
+  <data name="m_tpText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_tpText.Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="&gt;&gt;m_tpText.Name" xml:space="preserve">
+    <value>m_tpText</value>
+  </data>
+  <data name="&gt;&gt;m_tpText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tpText.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;m_tpText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_tpBackgroundImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="m_tpBackgroundImage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="m_tpBackgroundImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 193</value>
+  </data>
+  <data name="m_tpBackgroundImage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_tpBackgroundImage.Text" xml:space="preserve">
+    <value>BackgroundImage</value>
+  </data>
+  <data name="&gt;&gt;m_tpBackgroundImage.Name" xml:space="preserve">
+    <value>m_tpBackgroundImage</value>
+  </data>
+  <data name="&gt;&gt;m_tpBackgroundImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tpBackgroundImage.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;m_tpBackgroundImage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_tpBounds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="m_tpBounds.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="m_tpBounds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 193</value>
+  </data>
+  <data name="m_tpBounds.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_tpBounds.Text" xml:space="preserve">
+    <value>Bounds</value>
+  </data>
+  <data name="&gt;&gt;m_tpBounds.Name" xml:space="preserve">
+    <value>m_tpBounds</value>
+  </data>
+  <data name="&gt;&gt;m_tpBounds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tpBounds.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;m_tpBounds.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_tpBorderStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="m_tpBorderStyle.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="m_tpBorderStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 193</value>
+  </data>
+  <data name="m_tpBorderStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_tpBorderStyle.Text" xml:space="preserve">
+    <value>BorderStyle</value>
+  </data>
+  <data name="&gt;&gt;m_tpBorderStyle.Name" xml:space="preserve">
+    <value>m_tpBorderStyle</value>
+  </data>
+  <data name="&gt;&gt;m_tpBorderStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tpBorderStyle.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;m_tpBorderStyle.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 176</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 219</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>5, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>378, 432</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Header and Footer</value>
+  </data>
+  <data name="&gt;&gt;mnuPage.Name" xml:space="preserve">
+    <value>mnuPage</value>
+  </data>
+  <data name="&gt;&gt;mnuPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuTotalPages.Name" xml:space="preserve">
+    <value>mnuTotalPages</value>
+  </data>
+  <data name="&gt;&gt;mnuTotalPages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuCurrentTime.Name" xml:space="preserve">
+    <value>mnuCurrentTime</value>
+  </data>
+  <data name="&gt;&gt;mnuCurrentTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuCurrentDateShort.Name" xml:space="preserve">
+    <value>mnuCurrentDateShort</value>
+  </data>
+  <data name="&gt;&gt;mnuCurrentDateShort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuCurrentDateLong.Name" xml:space="preserve">
+    <value>mnuCurrentDateLong</value>
+  </data>
+  <data name="&gt;&gt;mnuCurrentDateLong.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItem6.Name" xml:space="preserve">
+    <value>menuItem6</value>
+  </data>
+  <data name="&gt;&gt;menuItem6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuHelp.Name" xml:space="preserve">
+    <value>mnuHelp</value>
+  </data>
+  <data name="&gt;&gt;mnuHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;conMenuHF.Name" xml:space="preserve">
+    <value>conMenuHF</value>
+  </data>
+  <data name="&gt;&gt;conMenuHF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>HeaderFooterDialog</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
