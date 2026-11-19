@@ -1,0 +1,3609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="test_data" xml:space="preserve">
+    <value>Unknown Value</value>
+  </data>
+  <data name="ContextPromptIndexFormat" xml:space="preserve">
+    <value>{0} of {1}</value>
+    <comment>{0} - current prompt index, the fisrt parameter that will be passed to string.Format. {1} - total count of the context prompts.</comment>
+  </data>
+  <data name="errArgEnumExpected" xml:space="preserve">
+    <value>Argument should represent enumeration type.</value>
+  </data>
+  <data name="backGroundSolidFill" xml:space="preserve">
+    <value>Solid</value>
+  </data>
+  <data name="colorEmpty" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="noneHatch" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="LexemTreeRoot" xml:space="preserve">
+    <value>Lexems</value>
+  </data>
+  <data name="FormatConfigSampleText" xml:space="preserve">
+    <value>Sample Text</value>
+  </data>
+  <data name="ConfigCreateLanguage" xml:space="preserve">
+    <value>  New configuration ...</value>
+  </data>
+  <data name="ConfigSaveOthersConfig" xml:space="preserve">
+    <value>You have changed configuration that you had not created.\nSave changes?</value>
+  </data>
+  <data name="ConfigSaveChanges" xml:space="preserve">
+    <value>Save changes</value>
+  </data>
+  <data name="errInvalidLocalizedEnumValueName" xml:space="preserve">
+    <value>There is no enum value with such localized name.</value>
+  </data>
+  <data name="enum_KnownColor_ActiveBorder" xml:space="preserve">
+    <value>Active Border</value>
+  </data>
+  <data name="enum_KnownColor_ActiveCaption" xml:space="preserve">
+    <value>Active Caption</value>
+  </data>
+  <data name="enum_KnownColor_ActiveCaptionText" xml:space="preserve">
+    <value>Active Caption Text</value>
+  </data>
+  <data name="enum_KnownColor_AppWorkspace" xml:space="preserve">
+    <value>Application Workspace</value>
+  </data>
+  <data name="enum_KnownColor_Control" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="enum_KnownColor_ControlDark" xml:space="preserve">
+    <value>Control Dark</value>
+  </data>
+  <data name="enum_KnownColor_ControlDarkDark" xml:space="preserve">
+    <value>Control DarkDark</value>
+  </data>
+  <data name="enum_KnownColor_ControlLight" xml:space="preserve">
+    <value>Control Light</value>
+  </data>
+  <data name="enum_KnownColor_ControlLightLight" xml:space="preserve">
+    <value>Control LightLight</value>
+  </data>
+  <data name="enum_KnownColor_ControlText" xml:space="preserve">
+    <value>Control Text</value>
+  </data>
+  <data name="enum_KnownColor_Desktop" xml:space="preserve">
+    <value>Desktop</value>
+  </data>
+  <data name="enum_KnownColor_GrayText" xml:space="preserve">
+    <value>Gray Text</value>
+  </data>
+  <data name="enum_KnownColor_Highlight" xml:space="preserve">
+    <value>Highlight</value>
+  </data>
+  <data name="enum_KnownColor_HighlightText" xml:space="preserve">
+    <value>Highlight Text</value>
+  </data>
+  <data name="enum_KnownColor_HotTrack" xml:space="preserve">
+    <value>HotTrack</value>
+  </data>
+  <data name="enum_KnownColor_InactiveBorder" xml:space="preserve">
+    <value>Inactive Border</value>
+  </data>
+  <data name="enum_KnownColor_InactiveCaption" xml:space="preserve">
+    <value>Inactive Caption</value>
+  </data>
+  <data name="enum_KnownColor_InactiveCaptionText" xml:space="preserve">
+    <value>Inactive Caption Text</value>
+  </data>
+  <data name="enum_KnownColor_Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="enum_KnownColor_InfoText" xml:space="preserve">
+    <value>Info Text</value>
+  </data>
+  <data name="enum_KnownColor_Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="enum_KnownColor_MenuText" xml:space="preserve">
+    <value>Menu Text</value>
+  </data>
+  <data name="enum_KnownColor_ScrollBar" xml:space="preserve">
+    <value>ScrollBar</value>
+  </data>
+  <data name="enum_KnownColor_Window" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="enum_KnownColor_WindowFrame" xml:space="preserve">
+    <value>Window Frame</value>
+  </data>
+  <data name="enum_KnownColor_WindowText" xml:space="preserve">
+    <value>Window Text</value>
+  </data>
+  <data name="enum_KnownColor_Transparent" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="enum_KnownColor_AliceBlue" xml:space="preserve">
+    <value>AliceBlue</value>
+  </data>
+  <data name="enum_KnownColor_AntiqueWhite" xml:space="preserve">
+    <value>AntiqueWhite</value>
+  </data>
+  <data name="enum_KnownColor_Aqua" xml:space="preserve">
+    <value>Aqua</value>
+  </data>
+  <data name="enum_KnownColor_Aquamarine" xml:space="preserve">
+    <value>Aquamarine</value>
+  </data>
+  <data name="enum_KnownColor_Azure" xml:space="preserve">
+    <value>Azure</value>
+  </data>
+  <data name="enum_KnownColor_Beige" xml:space="preserve">
+    <value>Beige</value>
+  </data>
+  <data name="enum_KnownColor_Bisque" xml:space="preserve">
+    <value>Bisque</value>
+  </data>
+  <data name="enum_KnownColor_Black" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="enum_KnownColor_BlanchedAlmond" xml:space="preserve">
+    <value>BlanchedAlmond</value>
+  </data>
+  <data name="enum_KnownColor_Blue" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="enum_KnownColor_BlueViolet" xml:space="preserve">
+    <value>BlueViolet</value>
+  </data>
+  <data name="enum_KnownColor_Brown" xml:space="preserve">
+    <value>Brown</value>
+  </data>
+  <data name="enum_KnownColor_BurlyWood" xml:space="preserve">
+    <value>BurlyWood</value>
+  </data>
+  <data name="enum_KnownColor_CadetBlue" xml:space="preserve">
+    <value>CadetBlue</value>
+  </data>
+  <data name="enum_KnownColor_Chartreuse" xml:space="preserve">
+    <value>Chartreuse</value>
+  </data>
+  <data name="enum_KnownColor_Chocolate" xml:space="preserve">
+    <value>Chocolate</value>
+  </data>
+  <data name="enum_KnownColor_Coral" xml:space="preserve">
+    <value>Coral</value>
+  </data>
+  <data name="enum_KnownColor_CornflowerBlue" xml:space="preserve">
+    <value>CornflowerBlue</value>
+  </data>
+  <data name="enum_KnownColor_Cornsilk" xml:space="preserve">
+    <value>Cornsilk</value>
+  </data>
+  <data name="enum_KnownColor_Crimson" xml:space="preserve">
+    <value>Crimson</value>
+  </data>
+  <data name="enum_KnownColor_Cyan" xml:space="preserve">
+    <value>Cyan</value>
+  </data>
+  <data name="enum_KnownColor_DarkBlue" xml:space="preserve">
+    <value>DarkBlue</value>
+  </data>
+  <data name="enum_KnownColor_DarkCyan" xml:space="preserve">
+    <value>DarkCyan</value>
+  </data>
+  <data name="enum_KnownColor_DarkGoldenrod" xml:space="preserve">
+    <value>DarkGoldenrod</value>
+  </data>
+  <data name="enum_KnownColor_DarkGray" xml:space="preserve">
+    <value>DarkGray</value>
+  </data>
+  <data name="enum_KnownColor_DarkGreen" xml:space="preserve">
+    <value>DarkGreen</value>
+  </data>
+  <data name="enum_KnownColor_DarkKhaki" xml:space="preserve">
+    <value>DarkKhaki</value>
+  </data>
+  <data name="enum_KnownColor_DarkMagenta" xml:space="preserve">
+    <value>DarkMagenta</value>
+  </data>
+  <data name="enum_KnownColor_DarkOliveGreen" xml:space="preserve">
+    <value>DarkOliveGreen</value>
+  </data>
+  <data name="enum_KnownColor_DarkOrange" xml:space="preserve">
+    <value>DarkOrange</value>
+  </data>
+  <data name="enum_KnownColor_DarkOrchid" xml:space="preserve">
+    <value>DarkOrchid</value>
+  </data>
+  <data name="enum_KnownColor_DarkRed" xml:space="preserve">
+    <value>DarkRed</value>
+  </data>
+  <data name="enum_KnownColor_DarkSalmon" xml:space="preserve">
+    <value>DarkSalmon</value>
+  </data>
+  <data name="enum_KnownColor_DarkSeaGreen" xml:space="preserve">
+    <value>DarkSeaGreen</value>
+  </data>
+  <data name="enum_KnownColor_DarkSlateBlue" xml:space="preserve">
+    <value>DarkSlateBlue</value>
+  </data>
+  <data name="enum_KnownColor_DarkSlateGray" xml:space="preserve">
+    <value>DarkSlateGray</value>
+  </data>
+  <data name="enum_KnownColor_DarkTurquoise" xml:space="preserve">
+    <value>DarkTurquoise</value>
+  </data>
+  <data name="enum_KnownColor_DarkViolet" xml:space="preserve">
+    <value>DarkViolet</value>
+  </data>
+  <data name="enum_KnownColor_DeepPink" xml:space="preserve">
+    <value>DeepPink</value>
+  </data>
+  <data name="enum_KnownColor_DeepSkyBlue" xml:space="preserve">
+    <value>DeepSkyBlue</value>
+  </data>
+  <data name="enum_KnownColor_DimGray" xml:space="preserve">
+    <value>DimGray</value>
+  </data>
+  <data name="enum_KnownColor_DodgerBlue" xml:space="preserve">
+    <value>DodgerBlue</value>
+  </data>
+  <data name="enum_KnownColor_Firebrick" xml:space="preserve">
+    <value>Firebrick</value>
+  </data>
+  <data name="enum_KnownColor_FloralWhite" xml:space="preserve">
+    <value>FloralWhite</value>
+  </data>
+  <data name="enum_KnownColor_ForestGreen" xml:space="preserve">
+    <value>ForestGreen</value>
+  </data>
+  <data name="enum_KnownColor_Fuchsia" xml:space="preserve">
+    <value>Fuchsia</value>
+  </data>
+  <data name="enum_KnownColor_Gainsboro" xml:space="preserve">
+    <value>Gainsboro</value>
+  </data>
+  <data name="enum_KnownColor_GhostWhite" xml:space="preserve">
+    <value>GhostWhite</value>
+  </data>
+  <data name="enum_KnownColor_Gold" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="enum_KnownColor_Goldenrod" xml:space="preserve">
+    <value>Goldenrod</value>
+  </data>
+  <data name="enum_KnownColor_Gray" xml:space="preserve">
+    <value>Gray</value>
+  </data>
+  <data name="enum_KnownColor_Green" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="enum_KnownColor_GreenYellow" xml:space="preserve">
+    <value>GreenYellow</value>
+  </data>
+  <data name="enum_KnownColor_Honeydew" xml:space="preserve">
+    <value>Honeydew</value>
+  </data>
+  <data name="enum_KnownColor_HotPink" xml:space="preserve">
+    <value>HotPink</value>
+  </data>
+  <data name="enum_KnownColor_IndianRed" xml:space="preserve">
+    <value>IndianRed</value>
+  </data>
+  <data name="enum_KnownColor_Indigo" xml:space="preserve">
+    <value>Indigo</value>
+  </data>
+  <data name="enum_KnownColor_Ivory" xml:space="preserve">
+    <value>Ivory</value>
+  </data>
+  <data name="enum_KnownColor_Khaki" xml:space="preserve">
+    <value>Khaki</value>
+  </data>
+  <data name="enum_KnownColor_Lavender" xml:space="preserve">
+    <value>Lavender</value>
+  </data>
+  <data name="enum_KnownColor_LavenderBlush" xml:space="preserve">
+    <value>LavenderBlush</value>
+  </data>
+  <data name="enum_KnownColor_LawnGreen" xml:space="preserve">
+    <value>LawnGreen</value>
+  </data>
+  <data name="enum_KnownColor_LemonChiffon" xml:space="preserve">
+    <value>LemonChiffon</value>
+  </data>
+  <data name="enum_KnownColor_LightBlue" xml:space="preserve">
+    <value>LightBlue</value>
+  </data>
+  <data name="enum_KnownColor_LightCoral" xml:space="preserve">
+    <value>LightCoral</value>
+  </data>
+  <data name="enum_KnownColor_LightCyan" xml:space="preserve">
+    <value>LightCyan</value>
+  </data>
+  <data name="enum_KnownColor_LightGoldenrodYellow" xml:space="preserve">
+    <value>LightGoldenrodYellow</value>
+  </data>
+  <data name="enum_KnownColor_LightGray" xml:space="preserve">
+    <value>LightGray</value>
+  </data>
+  <data name="enum_KnownColor_LightGreen" xml:space="preserve">
+    <value>LightGreen</value>
+  </data>
+  <data name="enum_KnownColor_LightPink" xml:space="preserve">
+    <value>LightPink</value>
+  </data>
+  <data name="enum_KnownColor_LightSalmon" xml:space="preserve">
+    <value>LightSalmon</value>
+  </data>
+  <data name="enum_KnownColor_LightSeaGreen" xml:space="preserve">
+    <value>LightSeaGreen</value>
+  </data>
+  <data name="enum_KnownColor_LightSkyBlue" xml:space="preserve">
+    <value>LightSkyBlue</value>
+  </data>
+  <data name="enum_KnownColor_LightSlateGray" xml:space="preserve">
+    <value>LightSlateGray</value>
+  </data>
+  <data name="enum_KnownColor_LightSteelBlue" xml:space="preserve">
+    <value>LightSteelBlue</value>
+  </data>
+  <data name="enum_KnownColor_LightYellow" xml:space="preserve">
+    <value>LightYellow</value>
+  </data>
+  <data name="enum_KnownColor_Lime" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="enum_KnownColor_LimeGreen" xml:space="preserve">
+    <value>LimeGreen</value>
+  </data>
+  <data name="enum_KnownColor_Linen" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="enum_KnownColor_Magenta" xml:space="preserve">
+    <value>Magenta</value>
+  </data>
+  <data name="enum_KnownColor_Maroon" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="enum_KnownColor_MediumAquamarine" xml:space="preserve">
+    <value>MediumAquamarine</value>
+  </data>
+  <data name="enum_KnownColor_MediumBlue" xml:space="preserve">
+    <value>MediumBlue</value>
+  </data>
+  <data name="enum_KnownColor_MediumOrchid" xml:space="preserve">
+    <value>MediumOrchid</value>
+  </data>
+  <data name="enum_KnownColor_MediumPurple" xml:space="preserve">
+    <value>MediumPurple</value>
+  </data>
+  <data name="enum_KnownColor_MediumSeaGreen" xml:space="preserve">
+    <value>MediumSeaGreen</value>
+  </data>
+  <data name="enum_KnownColor_MediumSlateBlue" xml:space="preserve">
+    <value>MediumSlateBlue</value>
+  </data>
+  <data name="enum_KnownColor_MediumSpringGreen" xml:space="preserve">
+    <value>MediumSpringGreen</value>
+  </data>
+  <data name="enum_KnownColor_MediumTurquoise" xml:space="preserve">
+    <value>MediumTurquoise</value>
+  </data>
+  <data name="enum_KnownColor_MediumVioletRed" xml:space="preserve">
+    <value>MediumVioletRed</value>
+  </data>
+  <data name="enum_KnownColor_MidnightBlue" xml:space="preserve">
+    <value>MidnightBlue</value>
+  </data>
+  <data name="enum_KnownColor_MintCream" xml:space="preserve">
+    <value>MintCream</value>
+  </data>
+  <data name="enum_KnownColor_MistyRose" xml:space="preserve">
+    <value>MistyRose</value>
+  </data>
+  <data name="enum_KnownColor_Moccasin" xml:space="preserve">
+    <value>Moccasin</value>
+  </data>
+  <data name="enum_KnownColor_NavajoWhite" xml:space="preserve">
+    <value>NavajoWhite</value>
+  </data>
+  <data name="enum_KnownColor_Navy" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="enum_KnownColor_OldLace" xml:space="preserve">
+    <value>OldLace</value>
+  </data>
+  <data name="enum_KnownColor_Olive" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="enum_KnownColor_OliveDrab" xml:space="preserve">
+    <value>OliveDrab</value>
+  </data>
+  <data name="enum_KnownColor_Orange" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="enum_KnownColor_OrangeRed" xml:space="preserve">
+    <value>OrangeRed</value>
+  </data>
+  <data name="enum_KnownColor_Orchid" xml:space="preserve">
+    <value>Orchid</value>
+  </data>
+  <data name="enum_KnownColor_PaleGoldenrod" xml:space="preserve">
+    <value>PaleGoldenrod</value>
+  </data>
+  <data name="enum_KnownColor_PaleGreen" xml:space="preserve">
+    <value>PaleGreen</value>
+  </data>
+  <data name="enum_KnownColor_PaleTurquoise" xml:space="preserve">
+    <value>PaleTurquoise</value>
+  </data>
+  <data name="enum_KnownColor_PaleVioletRed" xml:space="preserve">
+    <value>PaleVioletRed</value>
+  </data>
+  <data name="enum_KnownColor_PapayaWhip" xml:space="preserve">
+    <value>PapayaWhip</value>
+  </data>
+  <data name="enum_KnownColor_PeachPuff" xml:space="preserve">
+    <value>PeachPuff</value>
+  </data>
+  <data name="enum_KnownColor_Peru" xml:space="preserve">
+    <value>Peru</value>
+  </data>
+  <data name="enum_KnownColor_Pink" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="enum_KnownColor_Plum" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="enum_KnownColor_PowderBlue" xml:space="preserve">
+    <value>PowderBlue</value>
+  </data>
+  <data name="enum_KnownColor_Purple" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="enum_KnownColor_Red" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="enum_KnownColor_RosyBrown" xml:space="preserve">
+    <value>RosyBrown</value>
+  </data>
+  <data name="enum_KnownColor_RoyalBlue" xml:space="preserve">
+    <value>RoyalBlue</value>
+  </data>
+  <data name="enum_KnownColor_SaddleBrown" xml:space="preserve">
+    <value>SaddleBrown</value>
+  </data>
+  <data name="enum_KnownColor_Salmon" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="enum_KnownColor_SandyBrown" xml:space="preserve">
+    <value>SandyBrown</value>
+  </data>
+  <data name="enum_KnownColor_SeaGreen" xml:space="preserve">
+    <value>SeaGreen</value>
+  </data>
+  <data name="enum_KnownColor_SeaShell" xml:space="preserve">
+    <value>SeaShell</value>
+  </data>
+  <data name="enum_KnownColor_Sienna" xml:space="preserve">
+    <value>Sienna</value>
+  </data>
+  <data name="enum_KnownColor_Silver" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="enum_KnownColor_SkyBlue" xml:space="preserve">
+    <value>SkyBlue</value>
+  </data>
+  <data name="enum_KnownColor_SlateBlue" xml:space="preserve">
+    <value>SlateBlue</value>
+  </data>
+  <data name="enum_KnownColor_SlateGray" xml:space="preserve">
+    <value>SlateGray</value>
+  </data>
+  <data name="enum_KnownColor_Snow" xml:space="preserve">
+    <value>Snow</value>
+  </data>
+  <data name="enum_KnownColor_SpringGreen" xml:space="preserve">
+    <value>SpringGreen</value>
+  </data>
+  <data name="enum_KnownColor_SteelBlue" xml:space="preserve">
+    <value>SteelBlue</value>
+  </data>
+  <data name="enum_KnownColor_Tan" xml:space="preserve">
+    <value>Tan</value>
+  </data>
+  <data name="enum_KnownColor_Teal" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="enum_KnownColor_Thistle" xml:space="preserve">
+    <value>Thistle</value>
+  </data>
+  <data name="enum_KnownColor_Tomato" xml:space="preserve">
+    <value>Tomato</value>
+  </data>
+  <data name="enum_KnownColor_Turquoise" xml:space="preserve">
+    <value>Turquoise</value>
+  </data>
+  <data name="enum_KnownColor_Violet" xml:space="preserve">
+    <value>Violet</value>
+  </data>
+  <data name="enum_KnownColor_Wheat" xml:space="preserve">
+    <value>Wheat</value>
+  </data>
+  <data name="enum_KnownColor_White" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="enum_KnownColor_WhiteSmoke" xml:space="preserve">
+    <value>WhiteSmoke</value>
+  </data>
+  <data name="enum_KnownColor_Yellow" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="enum_KnownColor_YellowGreen" xml:space="preserve">
+    <value>YellowGreen</value>
+  </data>
+  <data name="enum_SimpleFontStyle_Regular" xml:space="preserve">
+    <value>Regular</value>
+  </data>
+  <data name="enum_SimpleFontStyle_Bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="enum_SimpleFontStyle_Italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="enum_SimpleFontStyle_BoldItalic" xml:space="preserve">
+    <value>Bold&amp;Italic</value>
+  </data>
+  <data name="enum_HatchStyle_Horizontal" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="enum_HatchStyle_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="enum_HatchStyle_Vertical" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="enum_HatchStyle_ForwardDiagonal" xml:space="preserve">
+    <value>Forward Diagonal</value>
+  </data>
+  <data name="enum_HatchStyle_BackwardDiagonal" xml:space="preserve">
+    <value>Backward Diagonal</value>
+  </data>
+  <data name="enum_HatchStyle_Cross" xml:space="preserve">
+    <value>Cross</value>
+  </data>
+  <data name="enum_HatchStyle_LargeGrid" xml:space="preserve">
+    <value>LargeGrid</value>
+  </data>
+  <data name="enum_HatchStyle_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="enum_HatchStyle_DiagonalCross" xml:space="preserve">
+    <value>Diagonal Cross</value>
+  </data>
+  <data name="enum_HatchStyle_Percent05" xml:space="preserve">
+    <value>Percent05</value>
+  </data>
+  <data name="enum_HatchStyle_Percent10" xml:space="preserve">
+    <value>Percent10</value>
+  </data>
+  <data name="enum_HatchStyle_Percent20" xml:space="preserve">
+    <value>Percent20</value>
+  </data>
+  <data name="enum_HatchStyle_Percent25" xml:space="preserve">
+    <value>Percent25</value>
+  </data>
+  <data name="enum_HatchStyle_Percent30" xml:space="preserve">
+    <value>Percent30</value>
+  </data>
+  <data name="enum_HatchStyle_Percent40" xml:space="preserve">
+    <value>Percent40</value>
+  </data>
+  <data name="enum_HatchStyle_Percent50" xml:space="preserve">
+    <value>Percent50</value>
+  </data>
+  <data name="enum_HatchStyle_Percent60" xml:space="preserve">
+    <value>Percent60</value>
+  </data>
+  <data name="enum_HatchStyle_Percent70" xml:space="preserve">
+    <value>Percent70</value>
+  </data>
+  <data name="enum_HatchStyle_Percent75" xml:space="preserve">
+    <value>Percent75</value>
+  </data>
+  <data name="enum_HatchStyle_Percent80" xml:space="preserve">
+    <value>Percent80</value>
+  </data>
+  <data name="enum_HatchStyle_Percent90" xml:space="preserve">
+    <value>Percent90</value>
+  </data>
+  <data name="enum_HatchStyle_LightDownwardDiagonal" xml:space="preserve">
+    <value>Light Downward Diagonal</value>
+  </data>
+  <data name="enum_HatchStyle_LightUpwardDiagonal" xml:space="preserve">
+    <value>Light Upward Diagonal</value>
+  </data>
+  <data name="enum_HatchStyle_DarkDownwardDiagonal" xml:space="preserve">
+    <value>Dark Downward Diagonal</value>
+  </data>
+  <data name="enum_HatchStyle_DarkUpwardDiagonal" xml:space="preserve">
+    <value>Dark Upward Diagonal</value>
+  </data>
+  <data name="enum_HatchStyle_WideDownwardDiagonal" xml:space="preserve">
+    <value>Wide Downward Diagonal</value>
+  </data>
+  <data name="enum_HatchStyle_WideUpwardDiagonal" xml:space="preserve">
+    <value>Wide Upward Diagonal</value>
+  </data>
+  <data name="enum_HatchStyle_LightVertical" xml:space="preserve">
+    <value>Light Vertical</value>
+  </data>
+  <data name="enum_HatchStyle_LightHorizontal" xml:space="preserve">
+    <value>Light Horizontal</value>
+  </data>
+  <data name="enum_HatchStyle_NarrowVertical" xml:space="preserve">
+    <value>Narrow Vertical</value>
+  </data>
+  <data name="enum_HatchStyle_NarrowHorizontal" xml:space="preserve">
+    <value>Narrow Horizontal</value>
+  </data>
+  <data name="enum_HatchStyle_DarkVertical" xml:space="preserve">
+    <value>Dark Vertical</value>
+  </data>
+  <data name="enum_HatchStyle_DarkHorizontal" xml:space="preserve">
+    <value>Dark Horizontal</value>
+  </data>
+  <data name="enum_HatchStyle_DashedDownwardDiagonal" xml:space="preserve">
+    <value>Dashed Downward Diagonal</value>
+  </data>
+  <data name="enum_HatchStyle_DashedUpwardDiagonal" xml:space="preserve">
+    <value>Dashed Upward Diagonal</value>
+  </data>
+  <data name="enum_HatchStyle_DashedHorizontal" xml:space="preserve">
+    <value>Dashed Horizontal</value>
+  </data>
+  <data name="enum_HatchStyle_DashedVertical" xml:space="preserve">
+    <value>Dashed Vertical</value>
+  </data>
+  <data name="enum_HatchStyle_SmallConfetti" xml:space="preserve">
+    <value>Small Confetti</value>
+  </data>
+  <data name="enum_HatchStyle_LargeConfetti" xml:space="preserve">
+    <value>Large Confetti</value>
+  </data>
+  <data name="enum_HatchStyle_ZigZag" xml:space="preserve">
+    <value>Zig Zag</value>
+  </data>
+  <data name="enum_HatchStyle_Wave" xml:space="preserve">
+    <value>Wave</value>
+  </data>
+  <data name="enum_HatchStyle_DiagonalBrick" xml:space="preserve">
+    <value>Diagonal Brick</value>
+  </data>
+  <data name="enum_HatchStyle_HorizontalBrick" xml:space="preserve">
+    <value>Horizontal Brick</value>
+  </data>
+  <data name="enum_HatchStyle_Weave" xml:space="preserve">
+    <value>Weave</value>
+  </data>
+  <data name="enum_HatchStyle_Plaid" xml:space="preserve">
+    <value>Plaid</value>
+  </data>
+  <data name="enum_HatchStyle_Divot" xml:space="preserve">
+    <value>Divot</value>
+  </data>
+  <data name="enum_HatchStyle_DottedGrid" xml:space="preserve">
+    <value>Dotted Grid</value>
+  </data>
+  <data name="enum_HatchStyle_DottedDiamond" xml:space="preserve">
+    <value>Dotted Diamond</value>
+  </data>
+  <data name="enum_HatchStyle_Shingle" xml:space="preserve">
+    <value>Shingle</value>
+  </data>
+  <data name="enum_HatchStyle_Trellis" xml:space="preserve">
+    <value>Trellis</value>
+  </data>
+  <data name="enum_HatchStyle_Sphere" xml:space="preserve">
+    <value>Sphere</value>
+  </data>
+  <data name="enum_HatchStyle_SmallGrid" xml:space="preserve">
+    <value>Small Grid</value>
+  </data>
+  <data name="enum_HatchStyle_SmallCheckerBoard" xml:space="preserve">
+    <value>Small Checker Board</value>
+  </data>
+  <data name="enum_HatchStyle_LargeCheckerBoard" xml:space="preserve">
+    <value>Large Checker Board</value>
+  </data>
+  <data name="enum_HatchStyle_OutlinedDiamond" xml:space="preserve">
+    <value>Outlined Diamond</value>
+  </data>
+  <data name="enum_HatchStyle_SolidDiamond" xml:space="preserve">
+    <value>Solid Diamond</value>
+  </data>
+  <data name="enum_UnderlineStyle_None" xml:space="preserve">
+    <value>No Underlining</value>
+  </data>
+  <data name="enum_UnderlineStyle_Solid" xml:space="preserve">
+    <value>Solid Line</value>
+  </data>
+  <data name="enum_UnderlineStyle_DashDot" xml:space="preserve">
+    <value>Dash-Dot Line</value>
+  </data>
+  <data name="enum_UnderlineStyle_Dot" xml:space="preserve">
+    <value>Dot Line</value>
+  </data>
+  <data name="enum_UnderlineStyle_Dash" xml:space="preserve">
+    <value>Dash Line</value>
+  </data>
+  <data name="enum_UnderlineStyle_Wave" xml:space="preserve">
+    <value>Wave Line</value>
+  </data>
+  <data name="enum_UnderlineWeight_Thin" xml:space="preserve">
+    <value>Thin</value>
+  </data>
+  <data name="enum_UnderlineWeight_Bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="enum_UnderlineWeight_Double" xml:space="preserve">
+    <value>Double</value>
+  </data>
+  <data name="enum_UnderlineWeight_DoubleBold" xml:space="preserve">
+    <value>Double Bold</value>
+  </data>
+  <data name="errEnumValueNotDefined" xml:space="preserve">
+    <value>Specified value is not defined in given enum.</value>
+  </data>
+  <data name="propName_EditControl_SelectionMarginWidth" xml:space="preserve">
+    <value>SelectionMarginWidth</value>
+  </data>
+  <data name="descr_EditControl_SelectionMarginWidth" xml:space="preserve">
+    <value>Specifies width of the selection margin area.</value>
+  </data>
+  <data name="propName_EditControl_AutoIndentGuideline" xml:space="preserve">
+    <value>AutoIndentGuideline</value>
+  </data>
+  <data name="descr_EditControl_AutoIndentGuideline" xml:space="preserve">
+    <value>Specifies whether indent guideline should be automatically shown.</value>
+  </data>
+  <data name="propName_EditControl_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="descr_EditControl_Text" xml:space="preserve">
+    <value>Specifies editable text of the control.</value>
+  </data>
+  <data name="propName_EditControl_GraphicsInterpolationMode" xml:space="preserve">
+    <value>GraphicsInterpolationMode</value>
+  </data>
+  <data name="descr_EditControl_GraphicsInterpolationMode" xml:space="preserve">
+    <value>Specifies interpolation mode.</value>
+  </data>
+  <data name="propName_EditControl_ShowIndentationGuidelines" xml:space="preserve">
+    <value>ShowIndentationGuidelines</value>
+  </data>
+  <data name="descr_EditControl_ShowIndentationGuidelines" xml:space="preserve">
+    <value>Specifies whether indentation guidelines and block start/end highlighting should be drawn.</value>
+  </data>
+  <data name="propName_EditControl_BackgroundColor" xml:space="preserve">
+    <value>BackgroundColor</value>
+  </data>
+  <data name="descr_EditControl_BackgroundColor" xml:space="preserve">
+    <value>Specifies background fill style and color.</value>
+  </data>
+  <data name="propName_EditControl_VirtualSpaceMode" xml:space="preserve">
+    <value>VirtualSpaceMode</value>
+  </data>
+  <data name="descr_EditControl_VirtualSpaceMode" xml:space="preserve">
+    <value>Specifies whether virtual space mode is enabled.</value>
+  </data>
+  <data name="propName_EditControl_CurrentColumn" xml:space="preserve">
+    <value>CurrentColumn</value>
+  </data>
+  <data name="descr_EditControl_CurrentColumn" xml:space="preserve">
+    <value>Specifies current column index of the cursor. Column index is one-based.</value>
+  </data>
+  <data name="propName_EditControl_ShowCollapse" xml:space="preserve">
+    <value>ShowCollapse</value>
+  </data>
+  <data name="descr_EditControl_ShowCollapse" xml:space="preserve">
+    <value>Specifies whether collapsers area should be visible.</value>
+  </data>
+  <data name="propName_EditControl_GroupUndo" xml:space="preserve">
+    <value>GroupUndo</value>
+  </data>
+  <data name="descr_EditControl_GroupUndo" xml:space="preserve">
+    <value>Specifies whether undo operations should be grouped.</value>
+  </data>
+  <data name="propName_EditControl_ShowWhitespaces" xml:space="preserve">
+    <value>ShowWhitespaces</value>
+  </data>
+  <data name="descr_EditControl_ShowWhitespaces" xml:space="preserve">
+    <value>Specifies whether whitespaces should be shown as special symbols.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Tag" xml:space="preserve">
+    <value>User defined data associated with the control.</value>
+  </data>
+  <data name="propName_EditControl_TabSize" xml:space="preserve">
+    <value>TabSize</value>
+  </data>
+  <data name="descr_EditControl_TabSize" xml:space="preserve">
+    <value>Specifies tab size in spaces.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Size" xml:space="preserve">
+    <value>The size of the control in pixels.</value>
+  </data>
+  <data name="propName_EditControl_ShowSelectionMargin" xml:space="preserve">
+    <value>ShowSelectionMargin</value>
+  </data>
+  <data name="descr_EditControl_ShowSelectionMargin" xml:space="preserve">
+    <value>Specifies whether selection margin area should be visible.</value>
+  </data>
+  <data name="propName_EditControl_ShowVerticalSplitters" xml:space="preserve">
+    <value>ShowVerticalSplitters</value>
+  </data>
+  <data name="descr_EditControl_ShowVerticalSplitters" xml:space="preserve">
+    <value>Specifies whether vertical splitters should be visible.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Enabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Enabled" xml:space="preserve">
+    <value>Indicates whether the control is enabled.</value>
+  </data>
+  <data name="propName_EditControl_AllowDrop" xml:space="preserve">
+    <value>AllowDrop</value>
+  </data>
+  <data name="descr_EditControl_AllowDrop" xml:space="preserve">
+    <value>Specifies whether drag and drop operations are allowed for control.</value>
+  </data>
+  <data name="propName_EditControl_TransferFocusOnTab" xml:space="preserve">
+    <value>TransferFocusOnTab</value>
+  </data>
+  <data name="descr_EditControl_TransferFocusOnTab" xml:space="preserve">
+    <value>Specifies whether control should transfer focus to the next control when user presses tab key, or it should insert tab symbol instead.</value>
+  </data>
+  <data name="propName_EditControl_GraphicsSmoothingMode" xml:space="preserve">
+    <value>GraphicsSmoothingMode</value>
+  </data>
+  <data name="descr_EditControl_GraphicsSmoothingMode" xml:space="preserve">
+    <value>Specifies smoothing mode.</value>
+  </data>
+  <data name="propName_EditControl_ReadOnly" xml:space="preserve">
+    <value>ReadOnly</value>
+  </data>
+  <data name="descr_EditControl_ReadOnly" xml:space="preserve">
+    <value>Specifies whether edit control is in readonly mode.</value>
+  </data>
+  <data name="propName_EditControl_ConvertOnLoad" xml:space="preserve">
+    <value>ConvertOnLoad</value>
+  </data>
+  <data name="descr_EditControl_ConvertOnLoad" xml:space="preserve">
+    <value>Specifies whether all new-line symbols in text should be converted to one common new-line symbol on load.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_BackgroundImage" xml:space="preserve">
+    <value>BackgroundImage</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_BackgroundImage" xml:space="preserve">
+    <value>The background image used for the control.</value>
+  </data>
+  <data name="propName_EditControl_UpdateContextChoiceList" xml:space="preserve">
+    <value>UpdateContextChoiceList</value>
+  </data>
+  <data name="descr_EditControl_UpdateContextChoiceList" xml:space="preserve">
+    <value>Specifies whether context choice list should be updated when user changes cursors postion.</value>
+  </data>
+  <data name="propName_EditControl_ShowLineNumbers" xml:space="preserve">
+    <value>ShowLineNumbers</value>
+  </data>
+  <data name="descr_EditControl_ShowLineNumbers" xml:space="preserve">
+    <value>Specifies whether line numbers should be shown.</value>
+  </data>
+  <data name="propName_EditControl_GraphicsCompositingQuality" xml:space="preserve">
+    <value>GraphicsCompositingQuality</value>
+  </data>
+  <data name="descr_EditControl_GraphicsCompositingQuality" xml:space="preserve">
+    <value>Specifies image composition qaulity.</value>
+  </data>
+  <data name="propName_EditControl_TransparentSelection" xml:space="preserve">
+    <value>TransparentSelection</value>
+  </data>
+  <data name="descr_EditControl_TransparentSelection" xml:space="preserve">
+    <value>Specifies whether transparent selection should (WinXP style selection) be used or invers selection should be used instead (Standard text selection).</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_AccessibleRole" xml:space="preserve">
+    <value>AccessibleRole</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_AccessibleRole" xml:space="preserve">
+    <value>The role that will be reported to accessibility clients.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_ContextMenu" xml:space="preserve">
+    <value>ContextMenu</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ContextMenu" xml:space="preserve">
+    <value>The shortcut menu to display when the user right-clicks the control.</value>
+  </data>
+  <data name="propName_EditControl_InsertMode" xml:space="preserve">
+    <value>InsertMode</value>
+  </data>
+  <data name="descr_EditControl_InsertMode" xml:space="preserve">
+    <value>Specifes insert mode state.</value>
+  </data>
+  <data name="propName_EditControl_IndentLineColor" xml:space="preserve">
+    <value>IndentLineColor</value>
+  </data>
+  <data name="descr_EditControl_IndentLineColor" xml:space="preserve">
+    <value>Specifes color of the block indentation line.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_AccessibleName" xml:space="preserve">
+    <value>AccessibleName</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_AccessibleName" xml:space="preserve">
+    <value>The name that will be reported to accessibility clients.</value>
+  </data>
+  <data name="propName_EditControl_SelectionMarginBackgroundColor" xml:space="preserve">
+    <value>SelectionMarginBackgroundColor</value>
+  </data>
+  <data name="descr_EditControl_SelectionMarginBackgroundColor" xml:space="preserve">
+    <value>Specifies selection margin area color.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_RightToLeft" xml:space="preserve">
+    <value>RightToLeft</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_RightToLeft" xml:space="preserve">
+    <value>Indicates whether the control should draw right-to-left for RTL languages.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_ScrollableControl_AutoScroll" xml:space="preserve">
+    <value>AutoScroll</value>
+  </data>
+  <data name="System.Windows.Forms.descr_ScrollableControl_AutoScroll" xml:space="preserve">
+    <value>Determines whether scroll bars will automatically appear if controls are placed outside the form's client area.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Cursor" xml:space="preserve">
+    <value>Cursor</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Cursor" xml:space="preserve">
+    <value>The cursor that appears when the mouse passes over the control.</value>
+  </data>
+  <data name="propName_EditControl_UserMarginRightWidth" xml:space="preserve">
+    <value>UserMarginRightWidth</value>
+  </data>
+  <data name="descr_EditControl_UserMarginRightWidth" xml:space="preserve">
+    <value>Specifies user margin width.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_ForeColor" xml:space="preserve">
+    <value>ForeColor</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ForeColor" xml:space="preserve">
+    <value>The foreground color used to display text and graphics in the control.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Dock" xml:space="preserve">
+    <value>Dock</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Dock" xml:space="preserve">
+    <value>The docking location of the control, indicating which borders are docked to the container.</value>
+  </data>
+  <data name="propName_EditControl_OnlyHighlightMatchingBraces" xml:space="preserve">
+    <value>OnlyHighlightMatchingBraces</value>
+  </data>
+  <data name="descr_EditControl_OnlyHighlightMatchingBraces" xml:space="preserve">
+    <value>Specifies whether only start and end of the block should be highlighted or guideline should be drawn either.</value>
+  </data>
+  <data name="propName_EditControl_AutoIndent" xml:space="preserve">
+    <value>AutoIndent</value>
+  </data>
+  <data name="descr_EditControl_AutoIndent" xml:space="preserve">
+    <value>Specifies whether text should be automatically indented while pressing Return key.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Font" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Font" xml:space="preserve">
+    <value>The font used to display text in the control.</value>
+  </data>
+  <data name="propName_EditControl_CurrentLine" xml:space="preserve">
+    <value>CurrentLine</value>
+  </data>
+  <data name="descr_EditControl_CurrentLine" xml:space="preserve">
+    <value>Specifies current line index of the cursor. Line index is one-based.</value>
+  </data>
+  <data name="propName_EditControl_SharedFileMode" xml:space="preserve">
+    <value>SharedFileMode</value>
+  </data>
+  <data name="descr_EditControl_SharedFileMode" xml:space="preserve">
+    <value>Specifies whether entire file should be loaded into the memory (so file will be loaded in shared access mode), or it should be loaded just partially with exclusive access.</value>
+  </data>
+  <data name="propName_EditControl_UseTabs" xml:space="preserve">
+    <value>UseTabs</value>
+  </data>
+  <data name="descr_EditControl_UseTabs" xml:space="preserve">
+    <value>Specifies whether tab symbol is allowed or spaces should be used instead.</value>
+  </data>
+  <data name="propName_EditControl_GraphicsTextRenderingHint" xml:space="preserve">
+    <value>GraphicsTextRenderingHint</value>
+  </data>
+  <data name="descr_EditControl_GraphicsTextRenderingHint" xml:space="preserve">
+    <value>Specifies text hinting mode.</value>
+  </data>
+  <data name="propName_EditControl_WordWrap" xml:space="preserve">
+    <value>WordWrap</value>
+  </data>
+  <data name="descr_EditControl_WordWrap" xml:space="preserve">
+    <value>Specifies whether word wrapping is enabled.</value>
+  </data>
+  <data name="propName_EditControl_BorderStyle" xml:space="preserve">
+    <value>BorderStyle</value>
+  </data>
+  <data name="descr_EditControl_BorderStyle" xml:space="preserve">
+    <value>Specifies style of the controls border.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_DataBindings" xml:space="preserve">
+    <value>DataBindings</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_DataBindings" xml:space="preserve">
+    <value>This collection holds all the bindings of properties of this control to data sources.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_CausesValidation" xml:space="preserve">
+    <value>CausesValidation</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_CausesValidation" xml:space="preserve">
+    <value>Indicates whether this control causes and raises validation events.</value>
+  </data>
+  <data name="propName_EditControl_ContextMenuEnabled" xml:space="preserve">
+    <value>ContextMenuEnabled</value>
+  </data>
+  <data name="descr_EditControl_ContextMenuEnabled" xml:space="preserve">
+    <value>Specifies whether context menu can be shown on right-click.</value>
+  </data>
+  <data name="propName_EditControl_ShowHorizontalSplitters" xml:space="preserve">
+    <value>ShowHorizontalSplitters</value>
+  </data>
+  <data name="descr_EditControl_ShowHorizontalSplitters" xml:space="preserve">
+    <value>Specifies whether horizontal splitters should be visible.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_TabIndex" xml:space="preserve">
+    <value>TabIndex</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_TabIndex" xml:space="preserve">
+    <value>Determines the index in the TAB order that this control will occupy.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_ImeMode" xml:space="preserve">
+    <value>ImeMode</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ImeMode" xml:space="preserve">
+    <value>Determines the IME (Input Method Editor) status of the object when selected.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_AccessibleDescription" xml:space="preserve">
+    <value>AccessibleDescription</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_AccessibleDescription" xml:space="preserve">
+    <value>The description that will be reported to accessibility clients.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_ScrollableControl_AutoScrollMinSize" xml:space="preserve">
+    <value>AutoScrollMinSize</value>
+  </data>
+  <data name="System.Windows.Forms.descr_ScrollableControl_AutoScrollMinSize" xml:space="preserve">
+    <value>The minimum logical size for the auto scroll region.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Anchor" xml:space="preserve">
+    <value>Anchor</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Anchor" xml:space="preserve">
+    <value>The anchor of the control. Anchors define to which edges of the container a certain control is bound. When a control is anchored to an edge, the distance between the control's closest edge and the specified edge will remain constant.</value>
+  </data>
+  <data name="propName_EditControl_SingleLineMode" xml:space="preserve">
+    <value>SingleLineMode</value>
+  </data>
+  <data name="descr_EditControl_SingleLineMode" xml:space="preserve">
+    <value>Specifies whether single line mode is enabled.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_TabStop" xml:space="preserve">
+    <value>TabStop</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_TabStop" xml:space="preserve">
+    <value>Indicates whether the user can use the TAB key to give focus to the control.</value>
+  </data>
+  <data name="propName_EditControl_SelectionMarginForegroundColor" xml:space="preserve">
+    <value>SelectionMarginForegroundColor</value>
+  </data>
+  <data name="descr_EditControl_SelectionMarginForegroundColor" xml:space="preserve">
+    <value>Specifies selection margin color.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_ScrollableControl_DockPadding" xml:space="preserve">
+    <value>DockPadding</value>
+  </data>
+  <data name="System.Windows.Forms.descr_ScrollableControl_DockPadding" xml:space="preserve">
+    <value>This determines the size of the border for docked controls.</value>
+  </data>
+  <data name="propName_EditControl_ShowMarkers" xml:space="preserve">
+    <value>ShowMarkers</value>
+  </data>
+  <data name="descr_EditControl_ShowMarkers" xml:space="preserve">
+    <value>Specifies whether bookmarks area should be visible.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Location" xml:space="preserve">
+    <value>The position of the top-left corner of the control with respect to its container.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_BackColor" xml:space="preserve">
+    <value>BackColor</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_BackColor" xml:space="preserve">
+    <value>The background color used to display text and graphics in the control.</value>
+  </data>
+  <data name="propName_EditControl_ShowRightUserMargin" xml:space="preserve">
+    <value>ShowRightUserMargin</value>
+  </data>
+  <data name="descr_EditControl_ShowRightUserMargin" xml:space="preserve">
+    <value>Specifies whether user margin should be visible.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_ScrollableControl_AutoScrollMargin" xml:space="preserve">
+    <value>AutoScrollMargin</value>
+  </data>
+  <data name="System.Windows.Forms.descr_ScrollableControl_AutoScrollMargin" xml:space="preserve">
+    <value>The margin around controls during auto scroll.</value>
+  </data>
+  <data name="System.Windows.Forms.propName_Control_Visible" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Visible" xml:space="preserve">
+    <value>Determines whether the control is visible or hidden.</value>
+  </data>
+  <data name="propName_EditControl_IndentBlockHighlightingColor" xml:space="preserve">
+    <value>IndentBlockHighlightingColor</value>
+  </data>
+  <data name="descr_EditControl_IndentBlockHighlightingColor" xml:space="preserve">
+    <value>Specifes color used for highlighting indented block start and end.</value>
+  </data>
+  <data name="eventName_EditControl_ContextPromptBeforeOpen" xml:space="preserve">
+    <value>ContextPromptBeforeOpen</value>
+  </data>
+  <data name="descr_EditControl_ContextPromptBeforeOpen" xml:space="preserve">
+    <value>Occurs when context prompt window is about to open. User can cancel it.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_DragDrop" xml:space="preserve">
+    <value>DragDrop</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_DragDrop" xml:space="preserve">
+    <value>Occurs when the mouse drags an item and the user releases the mouse indicating that the item should be 'dropped' into this Control.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_DoubleClick" xml:space="preserve">
+    <value>DoubleClick</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_DoubleClick" xml:space="preserve">
+    <value>Occurs when the control is double-clicked.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_RightToLeftChanged" xml:space="preserve">
+    <value>RightToLeftChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_RightToLeftChanged" xml:space="preserve">
+    <value>Event fired when the value of RightToLeft property is changed on Control</value>
+  </data>
+  <data name="eventName_EditControl_ContextPromptSelectionChanged" xml:space="preserve">
+    <value>ContextPromptSelectionChanged</value>
+  </data>
+  <data name="descr_EditControl_ContextPromptSelectionChanged" xml:space="preserve">
+    <value>Occurs when context prompt item has been selected.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_HelpRequested" xml:space="preserve">
+    <value>HelpRequested</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_HelpRequested" xml:space="preserve">
+    <value>Occurs when the user invokes help for the control.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_TabStopChanged" xml:space="preserve">
+    <value>TabStopChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_TabStopChanged" xml:space="preserve">
+    <value>Event fired when the value of TabStop property is changed on Control</value>
+  </data>
+  <data name="eventName_EditControl_ContextChoiceOpen" xml:space="preserve">
+    <value>ContextChoiceOpen</value>
+  </data>
+  <data name="descr_EditControl_ContextChoiceOpen" xml:space="preserve">
+    <value>Occurs when context choice window has been opened.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_MouseLeave" xml:space="preserve">
+    <value>MouseLeave</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MouseLeave" xml:space="preserve">
+    <value>Occurs when the mouse leaves the visible part of the control.</value>
+  </data>
+  <data name="eventName_EditControl_ContextChoiceBeforeOpen" xml:space="preserve">
+    <value>ContextChoiceBeforeOpen</value>
+  </data>
+  <data name="descr_EditControl_ContextChoiceBeforeOpen" xml:space="preserve">
+    <value>Occurs when context choice window is about to open. User can cancel context choice window.</value>
+  </data>
+  <data name="eventName_EditControl_ContextPromptOpen" xml:space="preserve">
+    <value>ContextPromptOpen</value>
+  </data>
+  <data name="descr_EditControl_ContextPromptOpen" xml:space="preserve">
+    <value>Occurs when context prompt has been opened.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_BackColorChanged" xml:space="preserve">
+    <value>BackColorChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_BackColorChanged" xml:space="preserve">
+    <value>Event fired when the value of BackColor property is changed on Control</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_QueryContinueDrag" xml:space="preserve">
+    <value>QueryContinueDrag</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_QueryContinueDrag" xml:space="preserve">
+    <value>Occurs when the mouse drags an item. The system requests whether the drag and drop operation should be allowed to continue.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Resize" xml:space="preserve">
+    <value>Resize</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Resize" xml:space="preserve">
+    <value>Occurs when a control is resized.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Move" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Move" xml:space="preserve">
+    <value>Occurs when a control is moved.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_TabIndexChanged" xml:space="preserve">
+    <value>TabIndexChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_TabIndexChanged" xml:space="preserve">
+    <value>Event fired when the value of TabIndex property is changed on Control</value>
+  </data>
+  <data name="eventName_EditControl_CanUndoRedoChanged" xml:space="preserve">
+    <value>CanUndoRedoChanged</value>
+  </data>
+  <data name="descr_EditControl_CanUndoRedoChanged" xml:space="preserve">
+    <value>Occurs when CanUndoRedo state is has been changed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Layout" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Layout" xml:space="preserve">
+    <value>Occurs when the control is about to lay out its contents.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_CausesValidationChanged" xml:space="preserve">
+    <value>CausesValidationChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_CausesValidationChanged" xml:space="preserve">
+    <value>Event fired when the value of CausesValidation property is changed on Control</value>
+  </data>
+  <data name="eventName_EditControl_ContextChoiceUpdate" xml:space="preserve">
+    <value>ContextChoiceUpdate</value>
+  </data>
+  <data name="descr_EditControl_ContextChoiceUpdate" xml:space="preserve">
+    <value>Occurs when context choice list should be updated.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_VisibleChanged" xml:space="preserve">
+    <value>VisibleChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_VisibleChanged" xml:space="preserve">
+    <value>Occurs when the control's visibility changes.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_DragOver" xml:space="preserve">
+    <value>DragOver</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_DragOver" xml:space="preserve">
+    <value>Occurs when the mouse drags an item and is moving over the client area of this Control.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Paint" xml:space="preserve">
+    <value>Paint</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Paint" xml:space="preserve">
+    <value>Occurs when a control needs repainting.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_SystemColorsChanged" xml:space="preserve">
+    <value>SystemColorsChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_SystemColorsChanged" xml:space="preserve">
+    <value>Event fired when the system colors change</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_MouseMove" xml:space="preserve">
+    <value>MouseMove</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MouseMove" xml:space="preserve">
+    <value>Occurs when the mouse is moved.</value>
+  </data>
+  <data name="eventName_EditControl_CursorPositionChanged" xml:space="preserve">
+    <value>CursorPositionChanged</value>
+  </data>
+  <data name="descr_EditControl_CursorPositionChanged" xml:space="preserve">
+    <value>Occurs when cursors position has been changed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Leave" xml:space="preserve">
+    <value>Leave</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Leave" xml:space="preserve">
+    <value>Occurs when the control is no longer the active control of the form.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_BindingContextChanged" xml:space="preserve">
+    <value>BindingContextChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_BindingContextChanged" xml:space="preserve">
+    <value>Event fired when the value of BindingContext property is changed on Control</value>
+  </data>
+  <data name="eventName_EditControl_TextChanging" xml:space="preserve">
+    <value>TextChanging</value>
+  </data>
+  <data name="descr_EditControl_TextChanging" xml:space="preserve">
+    <value>Occurs when text is about to change.</value>
+  </data>
+  <data name="eventName_EditControl_ContextChoiceClose" xml:space="preserve">
+    <value>ContextChoiceClose</value>
+  </data>
+  <data name="descr_EditControl_ContextChoiceClose" xml:space="preserve">
+    <value>Occurs when context choice window has been closed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_StyleChanged" xml:space="preserve">
+    <value>StyleChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_StyleChanged" xml:space="preserve">
+    <value>Event fired when the window style of a Control is changed</value>
+  </data>
+  <data name="eventName_EditControl_ReadOnlyChanged" xml:space="preserve">
+    <value>ReadOnlyChanged</value>
+  </data>
+  <data name="descr_EditControl_ReadOnlyChanged" xml:space="preserve">
+    <value>Occurs when ReadOnly property value has been changed. </value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Validating" xml:space="preserve">
+    <value>Validating</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Validating" xml:space="preserve">
+    <value>Occurs when a control is being validated.  Set to True the Cancel property on the event parameter to cancel the validation.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_ImeModeChanged" xml:space="preserve">
+    <value>ImeModeChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ImeModeChanged" xml:space="preserve">
+    <value>Occurs when the control's IME mode changes</value>
+  </data>
+  <data name="eventName_EditControl_WordWrapChanged" xml:space="preserve">
+    <value>WordWrapChanged</value>
+  </data>
+  <data name="descr_EditControl_WordWrapChanged" xml:space="preserve">
+    <value>Occurs when WordWrap property value has been changed.</value>
+  </data>
+  <data name="eventName_EditControl_RegisteringKeyCommands" xml:space="preserve">
+    <value>RegisteringKeyCommands</value>
+  </data>
+  <data name="descr_EditControl_RegisteringKeyCommands" xml:space="preserve">
+    <value>Occurs when custom key-binding command should be registered.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_MouseHover" xml:space="preserve">
+    <value>MouseHover</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MouseHover" xml:space="preserve">
+    <value>Occurs when the mouse remains stationary inside of the control for an amount of time.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_DragLeave" xml:space="preserve">
+    <value>DragLeave</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_DragLeave" xml:space="preserve">
+    <value>Occurs when the mouse drags an item and is no longer over the client area for this Control.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_BackgroundImageChanged" xml:space="preserve">
+    <value>BackgroundImageChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_BackgroundImageChanged" xml:space="preserve">
+    <value>Event fired when the value of BackgroundImage property is changed on Control</value>
+  </data>
+  <data name="eventName_EditControl_DrawLineMark" xml:space="preserve">
+    <value>DrawLineMark</value>
+  </data>
+  <data name="descr_EditControl_DrawLineMark" xml:space="preserve">
+    <value>Occurs when custom line mark should be drawn.</value>
+  </data>
+  <data name="eventName_EditControl_ContextPromptClose" xml:space="preserve">
+    <value>ContextPromptClose</value>
+  </data>
+  <data name="descr_EditControl_ContextPromptClose" xml:space="preserve">
+    <value>Occurs when context prompt window has been closed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_DragEnter" xml:space="preserve">
+    <value>DragEnter</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_DragEnter" xml:space="preserve">
+    <value>Occurs when the mouse drags an item into the client area for this Control.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_LocationChanged" xml:space="preserve">
+    <value>LocationChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_LocationChanged" xml:space="preserve">
+    <value>Event fired when the value of Location property is changed on Control</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_GiveFeedback" xml:space="preserve">
+    <value>GiveFeedback</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_GiveFeedback" xml:space="preserve">
+    <value>Occurs when the mouse drags an item. The system requests that the Control provide feedback to that effect.</value>
+  </data>
+  <data name="eventName_EditControl_OperationStopped" xml:space="preserve">
+    <value>OperationStopped</value>
+  </data>
+  <data name="descr_EditControl_OperationStopped" xml:space="preserve">
+    <value>Occurs when operation ends.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_QueryAccessibilityHelp" xml:space="preserve">
+    <value>QueryAccessibilityHelp</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_QueryAccessibilityHelp" xml:space="preserve">
+    <value>Occurs when an Accessibility client invokes help for the control.</value>
+  </data>
+  <data name="eventName_EditControl_InsertModeChanged" xml:space="preserve">
+    <value>InsertModeChanged</value>
+  </data>
+  <data name="descr_EditControl_InsertModeChanged" xml:space="preserve">
+    <value>Occurs when InsertMode property value has been changed.</value>
+  </data>
+  <data name="eventName_EditControl_PaintUserMargin" xml:space="preserve">
+    <value>PaintUserMargin</value>
+  </data>
+  <data name="descr_EditControl_PaintUserMargin" xml:space="preserve">
+    <value>Occurs when user margin should be drawn.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_SizeChanged" xml:space="preserve">
+    <value>SizeChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_SizeChanged" xml:space="preserve">
+    <value>Event fired when the value of Size property is changed on Control</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Validated" xml:space="preserve">
+    <value>Validated</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Validated" xml:space="preserve">
+    <value>Occurs after a control has been successfully validated.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_FontChanged" xml:space="preserve">
+    <value>FontChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_FontChanged" xml:space="preserve">
+    <value>Event fired when the value of Font property is changed on Control</value>
+  </data>
+  <data name="eventName_EditControl_SingleLineChanged" xml:space="preserve">
+    <value>SingleLineChanged</value>
+  </data>
+  <data name="descr_EditControl_SingleLineChanged" xml:space="preserve">
+    <value>Occurs when SingleLineMode property value has been changed.</value>
+  </data>
+  <data name="eventName_EditControl_UpdateContextToolTip" xml:space="preserve">
+    <value>UpdateContextToolTip</value>
+  </data>
+  <data name="descr_EditControl_UpdateContextToolTip" xml:space="preserve">
+    <value>Occurs when context tooltip text should be updated.</value>
+  </data>
+  <data name="eventName_EditControl_ConfigurationChanged" xml:space="preserve">
+    <value>ConfigurationChanged</value>
+  </data>
+  <data name="descr_EditControl_ConfigurationChanged" xml:space="preserve">
+    <value>Occurs when configuration has been changed.</value>
+  </data>
+  <data name="eventName_EditControl_SelectionChanged" xml:space="preserve">
+    <value>SelectionChanged</value>
+  </data>
+  <data name="descr_EditControl_SelectionChanged" xml:space="preserve">
+    <value>Occurs when selection has been changed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_EnabledChanged" xml:space="preserve">
+    <value>EnabledChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_EnabledChanged" xml:space="preserve">
+    <value>Occurs when the control's enabled state changes.</value>
+  </data>
+  <data name="eventName_EditControl_MenuFill" xml:space="preserve">
+    <value>MenuFill</value>
+  </data>
+  <data name="descr_EditControl_MenuFill" xml:space="preserve">
+    <value>Occurs when context menu is about to open. User can handle this event to add custom menu items.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_CursorChanged" xml:space="preserve">
+    <value>CursorChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_CursorChanged" xml:space="preserve">
+    <value>Event fired when the value of Cursor property is changed on Control</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_ChangeUICues" xml:space="preserve">
+    <value>ChangeUICues</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ChangeUICues" xml:space="preserve">
+    <value>Occurs when focus rectangles and keyboard cue underlines are being shown or hidden.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_UserControl_Load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="System.Windows.Forms.descr_UserControl_Load" xml:space="preserve">
+    <value>Occurs whenever the user control loads.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_MouseDown" xml:space="preserve">
+    <value>MouseDown</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MouseDown" xml:space="preserve">
+    <value>Occurs when a mouse button is pressed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_KeyPress" xml:space="preserve">
+    <value>KeyPress</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_KeyPress" xml:space="preserve">
+    <value>Occurs after the user is finished pressing a key.</value>
+  </data>
+  <data name="eventName_EditControl_ContextPromptUpdate" xml:space="preserve">
+    <value>ContextPromptUpdate</value>
+  </data>
+  <data name="descr_EditControl_ContextPromptUpdate" xml:space="preserve">
+    <value>Occurs user has moved cursor and context prompt should be updated.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Click" xml:space="preserve">
+    <value>Click</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Click" xml:space="preserve">
+    <value>Occurs when the control is clicked.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_MouseEnter" xml:space="preserve">
+    <value>MouseEnter</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MouseEnter" xml:space="preserve">
+    <value>Occurs when the mouse enters the visible part of the control.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_DockChanged" xml:space="preserve">
+    <value>DockChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_DockChanged" xml:space="preserve">
+    <value>Event fired when the value of Dock property is changed on Control</value>
+  </data>
+  <data name="eventName_EditControl_RegisteringDefaultKeyBindings" xml:space="preserve">
+    <value>RegisteringDefaultKeyBindings</value>
+  </data>
+  <data name="descr_EditControl_RegisteringDefaultKeyBindings" xml:space="preserve">
+    <value>Occurs when default key bindings should be added.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_KeyDown" xml:space="preserve">
+    <value>KeyDown</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_KeyDown" xml:space="preserve">
+    <value>Occurs when a key is first pressed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_Enter" xml:space="preserve">
+    <value>Occurs when the control becomes the active control of the form.</value>
+  </data>
+  <data name="eventName_EditControl_ChangingStream" xml:space="preserve">
+    <value>ChangingStream</value>
+  </data>
+  <data name="descr_EditControl_ChangingStream" xml:space="preserve">
+    <value>Occurs when underlying stream of the control is about to change.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_KeyUp" xml:space="preserve">
+    <value>KeyUp</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_KeyUp" xml:space="preserve">
+    <value>Occurs when a key is released.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_ContextMenuChanged" xml:space="preserve">
+    <value>ContextMenuChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ContextMenuChanged" xml:space="preserve">
+    <value>Event fired when the value of ContextMenu property is changed on Control</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_MouseUp" xml:space="preserve">
+    <value>MouseUp</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_MouseUp" xml:space="preserve">
+    <value>Occurs when a mouse button is released.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_ParentChanged" xml:space="preserve">
+    <value>ParentChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ParentChanged" xml:space="preserve">
+    <value>Event fired when the value of Parent property is changed on Control</value>
+  </data>
+  <data name="eventName_EditControl_LanguageChanged" xml:space="preserve">
+    <value>LanguageChanged</value>
+  </data>
+  <data name="descr_EditControl_LanguageChanged" xml:space="preserve">
+    <value>Occurs when current language of the control has been changed.</value>
+  </data>
+  <data name="System.Windows.Forms.eventName_Control_ForeColorChanged" xml:space="preserve">
+    <value>ForeColorChanged</value>
+  </data>
+  <data name="System.Windows.Forms.descr_Control_ForeColorChanged" xml:space="preserve">
+    <value>Event fired when the value of ForeColor property is changed on Control</value>
+  </data>
+  <data name="eventName_EditControl_OperationStarted" xml:space="preserve">
+    <value>OperationStarted</value>
+  </data>
+  <data name="descr_EditControl_OperationStarted" xml:space="preserve">
+    <value>Occurs when some operation starts.</value>
+  </data>
+  <data name="eventName_EditControl_ContextChoiceItemSelected" xml:space="preserve">
+    <value>ContextChoiceItemSelected</value>
+  </data>
+  <data name="descr_EditControl_ContextChoiceItemSelected" xml:space="preserve">
+    <value>Occurs when context choice item has been selected.</value>
+  </data>
+  <data name="errNotImplemented" xml:space="preserve">
+    <value>This functionality is not implemented.</value>
+  </data>
+  <data name="Appearance" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="Behavior" xml:space="preserve">
+    <value>Behavior</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Render Quality" xml:space="preserve">
+    <value>Render Quality</value>
+  </data>
+  <data name="System.Windows.Forms.Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="System.Windows.Forms.Layout" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="System.Windows.Forms.Behavior" xml:space="preserve">
+    <value>Behavior</value>
+  </data>
+  <data name="System.Windows.Forms.Appearance" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="System.Windows.Forms.Accessibility" xml:space="preserve">
+    <value>Accessibility</value>
+  </data>
+  <data name="System.Windows.Forms.Focus" xml:space="preserve">
+    <value>Focus</value>
+  </data>
+  <data name="Intellisense" xml:space="preserve">
+    <value>Intellisense</value>
+  </data>
+  <data name="System.Windows.Forms.Drag Drop" xml:space="preserve">
+    <value>Drag Drop</value>
+  </data>
+  <data name="System.Windows.Forms.Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="System.Windows.Forms.Property Changed" xml:space="preserve">
+    <value>Property Changed</value>
+  </data>
+  <data name="System.Windows.Forms.Mouse" xml:space="preserve">
+    <value>Mouse</value>
+  </data>
+  <data name="Property Changed" xml:space="preserve">
+    <value>Property Changed</value>
+  </data>
+  <data name="System.Windows.Forms.Key" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="formatGoToDialogCaption" xml:space="preserve">
+    <value>Line Number {0}-{1}:</value>
+  </data>
+  <data name="contextmenuEdit" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="contextmenuFile" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="contextmenuAdvanced" xml:space="preserve">
+    <value>&amp;Advanced</value>
+  </data>
+  <data name="contextmenuBookmarks" xml:space="preserve">
+    <value>&amp;Bookmarks</value>
+  </data>
+  <data name="contextmenuOptions" xml:space="preserve">
+    <value>&amp;Options...</value>
+  </data>
+  <data name="contextmenuCut" xml:space="preserve">
+    <value>Cu&amp;t</value>
+  </data>
+  <data name="contextmenuCopy" xml:space="preserve">
+    <value>Cop&amp;y</value>
+  </data>
+  <data name="contextmenuPaste" xml:space="preserve">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="contextmenuDelete" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="contextmenuUndo" xml:space="preserve">
+    <value>&amp;Undo</value>
+  </data>
+  <data name="contextmenuRedo" xml:space="preserve">
+    <value>R&amp;edo</value>
+  </data>
+  <data name="contextmenuFind" xml:space="preserve">
+    <value>&amp;Find...</value>
+  </data>
+  <data name="contextmenuReplace" xml:space="preserve">
+    <value>&amp;Replace...</value>
+  </data>
+  <data name="contextmenuGoto" xml:space="preserve">
+    <value>&amp;Go to...</value>
+  </data>
+  <data name="contextmenuSelectAll" xml:space="preserve">
+    <value>&amp;Select All</value>
+  </data>
+  <data name="contextmenuDeleteAll" xml:space="preserve">
+    <value>De&amp;lete All</value>
+  </data>
+  <data name="contextmenuNew" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="contextmenuOpen" xml:space="preserve">
+    <value>&amp;Open...</value>
+  </data>
+  <data name="contextmenuClose" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="contextmenuSave" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="contextmenuSaveAs" xml:space="preserve">
+    <value>Save &amp;As...</value>
+  </data>
+  <data name="contextmenuPrintPreview" xml:space="preserve">
+    <value>Print Pre&amp;view...</value>
+  </data>
+  <data name="contextmenuPrint" xml:space="preserve">
+    <value>&amp;Print</value>
+  </data>
+  <data name="contextmenuTabifySelection" xml:space="preserve">
+    <value>&amp;Tabify Selection</value>
+  </data>
+  <data name="contextmenuUntabifySelection" xml:space="preserve">
+    <value>&amp;Untabify Selection</value>
+  </data>
+  <data name="contextmenuIndentSelection" xml:space="preserve">
+    <value>&amp;Indent Selection</value>
+  </data>
+  <data name="contextmenuUnindentSelection" xml:space="preserve">
+    <value>U&amp;nindent Selection</value>
+  </data>
+  <data name="contextmenuCommentSelection" xml:space="preserve">
+    <value>&amp;Comment Selection</value>
+  </data>
+  <data name="contextmenuUncommentSelection" xml:space="preserve">
+    <value>Unc&amp;omment Selection</value>
+  </data>
+  <data name="contextmenuCollapseAll" xml:space="preserve">
+    <value>Co&amp;llapse All</value>
+  </data>
+  <data name="contextmenuExpandAll" xml:space="preserve">
+    <value>&amp;Expand All</value>
+  </data>
+  <data name="contextmenuToggleBookmark" xml:space="preserve">
+    <value>Toggle Bookmark</value>
+  </data>
+  <data name="contextmenuNextBookmark" xml:space="preserve">
+    <value>Next Bookmark</value>
+  </data>
+  <data name="contextmenuPrevBookmark" xml:space="preserve">
+    <value>Previous Bookmark</value>
+  </data>
+  <data name="contextmenuClearBookmarks" xml:space="preserve">
+    <value>Clear Bookmarks</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_163" xml:space="preserve">
+    <value>Version of the stream changed.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_160" xml:space="preserve">
+    <value>file open mode does not suport read operations</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_161" xml:space="preserve">
+    <value>file open mode does not support seek operations</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_14" xml:space="preserve">
+    <value>name - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_167" xml:space="preserve">
+    <value>This line does not belong to this parser.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_164" xml:space="preserve">
+    <value>Current line index is wrong( no such location in stream )</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_165" xml:space="preserve">
+    <value>Given line does not belong to this parser.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_10" xml:space="preserve">
+    <value>Parameter can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_11" xml:space="preserve">
+    <value>Control already has cursor!</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_12" xml:space="preserve">
+    <value>Control does not have cursor!</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_13" xml:space="preserve">
+    <value>Format was not created.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_37" xml:space="preserve">
+    <value>Value can not be less window.Position and greater window.Size</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_34" xml:space="preserve">
+    <value>Stream can not be read-only.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_35" xml:space="preserve">
+    <value>Value can not be less 0 and greater this.Length</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_119" xml:space="preserve">
+    <value>Name of the menu item can not be empty or null.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_118" xml:space="preserve">
+    <value>value - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_115" xml:space="preserve">
+    <value>No ParsePoint available.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_114" xml:space="preserve">
+    <value>Coordinate convertion operation is supported only on CoordinatePoints that have a parser assigned.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_117" xml:space="preserve">
+    <value>You are trying to create CoordinatePoint, that does not point to any position in editor. Please, check your code.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_28" xml:space="preserve">
+    <value>AutoPush property value must be greater than zero.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_111" xml:space="preserve">
+    <value>Merging of </value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_26" xml:space="preserve">
+    <value>Value can not be less than 1</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_113" xml:space="preserve">
+    <value>Two languages has reference on the same filename extension</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_112" xml:space="preserve">
+    <value>This feature is not implemented yet</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_23" xml:space="preserve">
+    <value>Start point is not available.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_22" xml:space="preserve">
+    <value>Do not use it for nothing.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_21" xml:space="preserve">
+    <value>Value can not be less 0 and greater list count - 1</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_20" xml:space="preserve">
+    <value>Wrong value</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_147" xml:space="preserve">
+    <value>File open flags make seek operation unavailable. "+
+          "To work properly File must support Seek operation.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_108" xml:space="preserve">
+    <value>extension - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_109" xml:space="preserve">
+    <value>strFileName - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_166" xml:space="preserve">
+    <value>Line with a specified index can not be found in stream.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_104" xml:space="preserve">
+    <value>Duplicated</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_105" xml:space="preserve">
+    <value>m_arrCL</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_38" xml:space="preserve">
+    <value>Layer \"" + name + "\" does not exists.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_39" xml:space="preserve">
+    <value>No fragments were not found.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_36" xml:space="preserve">
+    <value>Value can not be less 0 and greater data.Length</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_101" xml:space="preserve">
+    <value>position can't be less ZERO.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_102" xml:space="preserve">
+    <value>LineLabelFormat - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_103" xml:space="preserve">
+    <value>Something is wrong!!!!!</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_32" xml:space="preserve">
+    <value>insert position is larger then Lenght</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_33" xml:space="preserve">
+    <value>Can not flush changes: underlying stream is readonly.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_30" xml:space="preserve">
+    <value>Value can not be less 0 and greater or equal buffer length</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_31" xml:space="preserve">
+    <value>Value can not be less than 0 and greater than buffer length - offset</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_139" xml:space="preserve">
+    <value>stream does not support seek operation</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_138" xml:space="preserve">
+    <value>stream does not support Seek operation</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_137" xml:space="preserve">
+    <value>Configurator can not be null.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_136" xml:space="preserve">
+    <value>Value can not be less 0 and greater keySequence.Length - 1</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_135" xml:space="preserve">
+    <value>Parent can not be set to null.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_134" xml:space="preserve">
+    <value>Processor can not be null.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_133" xml:space="preserve">
+    <value>Binding`s key is already initialized.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_132" xml:space="preserve">
+    <value>Key processor was not initialized.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_131" xml:space="preserve">
+    <value>Wrong Points Order</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_130" xml:space="preserve">
+    <value>Wrong range.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_2" xml:space="preserve">
+    <value>Line is unreliable and can not be used.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_128" xml:space="preserve">
+    <value>Coordinate point should be attached to phisical coordinates.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_106" xml:space="preserve">
+    <value>iIndex &gt; m_arrCL.Length - 1 </value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_107" xml:space="preserve">
+    <value>name - it's wrong lang name</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_100" xml:space="preserve">
+    <value>value can't be less ZERO.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_124" xml:space="preserve">
+    <value>Config Has Wrong Format : ConfigLanguage Is Not Closed</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_125" xml:space="preserve">
+    <value>name</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_122" xml:space="preserve">
+    <value>data can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_123" xml:space="preserve">
+    <value>size</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_120" xml:space="preserve">
+    <value>Event handler can not be null.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_121" xml:space="preserve">
+    <value>Value can not be less 0 and greater Length</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_116" xml:space="preserve">
+    <value>No virtual position available.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_110" xml:space="preserve">
+    <value>configFile - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_129" xml:space="preserve">
+    <value>start and end are in wrong order.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_126" xml:space="preserve">
+    <value>Name must be unique.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_127" xml:space="preserve">
+    <value>Value can not be less 0 and greater m_list.Count - 1</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_85" xml:space="preserve">
+    <value>Line number should be in range [1.." + m_parser.TotalLines.ToString() + "].</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_84" xml:space="preserve">
+    <value>Loading of just one file at a time is supported.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_87" xml:space="preserve">
+    <value>No undo actions can be performen while recording undo group.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_86" xml:space="preserve">
+    <value>Column number should be greater than 0.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_81" xml:space="preserve">
+    <value>Wrong position given.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_80" xml:space="preserve">
+    <value>Cursor manager is not available.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_83" xml:space="preserve">
+    <value>Can not be less than 1 or greater than lines count.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_82" xml:space="preserve">
+    <value>Parser is null.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_89" xml:space="preserve">
+    <value>Rendered lexem data is not correct.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_88" xml:space="preserve">
+    <value>No redo actions can be performen while recording undo group.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_94" xml:space="preserve">
+    <value>text - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_95" xml:space="preserve">
+    <value>Operation has already stopped.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_96" xml:space="preserve">
+    <value>Empty params are not allowed</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_97" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_90" xml:space="preserve">
+    <value>Start and end coordinates should belong to one virtual line.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_91" xml:space="preserve">
+    <value>End coordinates should be AFTER start coordinate.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_92" xml:space="preserve">
+    <value>Specified drawing format is not supported.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_93" xml:space="preserve">
+    <value>Printing start page does not exists.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_98" xml:space="preserve">
+    <value>Somthing is wrong: lexem index can not be found!</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_99" xml:space="preserve">
+    <value>Lexem parser should support ILexemEnumeratorParserInfo interface, othrwise getting stack by column is not supported.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_63" xml:space="preserve">
+    <value>Lines list can not contain null value.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_61" xml:space="preserve">
+    <value>str - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_60" xml:space="preserve">
+    <value>Cannot delete unaccessible text.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_72" xml:space="preserve">
+    <value>Undo group has not been opened.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_70" xml:space="preserve">
+    <value>Line number is out of range.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_71" xml:space="preserve">
+    <value>Undo group has been already opened.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_49" xml:space="preserve">
+    <value>Referenced lexem can not be collapsable.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_48" xml:space="preserve">
+    <value>Referenced lexem must have end block.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_41" xml:space="preserve">
+    <value>CheckText - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_40" xml:space="preserve">
+    <value>NotifyText - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_43" xml:space="preserve">
+    <value>There is no language.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_42" xml:space="preserve">
+    <value>DialogCaption - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_45" xml:space="preserve">
+    <value>Lexem with id=" + m_iNextID.ToString() + " does not exists</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_44" xml:space="preserve">
+    <value>Language configuration was not found.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_47" xml:space="preserve">
+    <value>Referenced lexem must have no begin block.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_46" xml:space="preserve">
+    <value>Referenced lexem must be complex.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_58" xml:space="preserve">
+    <value>Stream offset is out of range.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_59" xml:space="preserve">
+    <value>Add LineCount update, fix positions update!</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_50" xml:space="preserve">
+    <value>Choise list dropper can be assigned only to non-complex lexems.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_51" xml:space="preserve">
+    <value>Context prompt dropper can be assigned only to non-complex lexems.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_52" xml:space="preserve">
+    <value>You can not access unreliable point.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_53" xml:space="preserve">
+    <value>Start can not be zeroless</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_54" xml:space="preserve">
+    <value>Size can not be zeroless</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_55" xml:space="preserve">
+    <value>Position can not be zeroless</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_56" xml:space="preserve">
+    <value>Can not Close Disposed object</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_57" xml:space="preserve">
+    <value>buffer - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_18" xml:space="preserve">
+    <value>ParsePoint Manager is in update state.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_75" xml:space="preserve">
+    <value>Wrong Stack</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_159" xml:space="preserve">
+    <value>Value can not be 0 less </value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_158" xml:space="preserve">
+    <value>endOfLine - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_69" xml:space="preserve">
+    <value>currentFilePath - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_68" xml:space="preserve">
+    <value>fileName - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_151" xml:space="preserve">
+    <value>Position is out of buffer array bounds</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_150" xml:space="preserve">
+    <value>file opened not without seek operation support</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_153" xml:space="preserve">
+    <value>Value can not be less 0 and greater buffer.Length</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_152" xml:space="preserve">
+    <value>Length or Position has wrong value. Buffer size is too smal for specified values</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_155" xml:space="preserve">
+    <value>Size of input array must be equel or greater to MaxMultiTokenLength property value</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_62" xml:space="preserve">
+    <value>Y can not be less then zero.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_156" xml:space="preserve">
+    <value>must be unreachable code</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_67" xml:space="preserve">
+    <value>Parser can not be null!</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_66" xml:space="preserve">
+    <value>End of the group can not be less or equal to its start.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_65" xml:space="preserve">
+    <value>Can not map this physical point.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_64" xml:space="preserve">
+    <value>Line must be inherited from RenderedLine class.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_9" xml:space="preserve">
+    <value>Text can be replaced only with text with the same length.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_8" xml:space="preserve">
+    <value>Invalid coordinates</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_5" xml:space="preserve">
+    <value>Value can not be less than 1.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_4" xml:space="preserve">
+    <value>This feature is not supported in uncached mode.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_7" xml:space="preserve">
+    <value>sourceName - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_6" xml:space="preserve">
+    <value>formatName - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_1" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_3" xml:space="preserve">
+    <value>Parse point must point to the first column in line.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_148" xml:space="preserve">
+    <value>m_chPeekChar</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_149" xml:space="preserve">
+    <value>file opened not in read mode</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_78" xml:space="preserve">
+    <value>Input stream is not available.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_79" xml:space="preserve">
+    <value>Configuration is not available.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_140" xml:space="preserve">
+    <value>stream read/write operations is closed.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_141" xml:space="preserve">
+    <value>stream</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_142" xml:space="preserve">
+    <value>stream does not support read operation</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_143" xml:space="preserve">
+    <value>stream does not support Read operation</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_144" xml:space="preserve">
+    <value>stream does not support write operation</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_73" xml:space="preserve">
+    <value>Line number is invalid.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_146" xml:space="preserve">
+    <value>Call first Reset() and then ModeNext() methods. Incorrect use of interface.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_19" xml:space="preserve">
+    <value>Value can not be less 0 and greater list count</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_76" xml:space="preserve">
+    <value>No current stack</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_77" xml:space="preserve">
+    <value>Parser is not available.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_74" xml:space="preserve">
+    <value>Stack points to the data after the end of the stream.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_15" xml:space="preserve">
+    <value>If you are using your own measuring that use your own drawing.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_16" xml:space="preserve">
+    <value>Text can not be null or empty.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_17" xml:space="preserve">
+    <value>Value can not be less 0</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_154" xml:space="preserve">
+    <value>Value can not be less 0 and greater buffer.Length - offset</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_173" xml:space="preserve">
+    <value>Stack can not be empty, first element is always LanguageConfig without lexem.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_172" xml:space="preserve">
+    <value>Lexem config stack can not be empty!</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_171" xml:space="preserve">
+    <value>Reference to null detected.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_170" xml:space="preserve">
+    <value>Line is invalid.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_175" xml:space="preserve">
+    <value>Configuration list member can not be null.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_174" xml:space="preserve">
+    <value>token - string can not be empty</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_29" xml:space="preserve">
+    <value>stream must support Read and Seek operations</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_27" xml:space="preserve">
+    <value>Position can not be zeroless and greater stream Length</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_25" xml:space="preserve">
+    <value>Range does not exists.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_24" xml:space="preserve">
+    <value>Parse points are wrong</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_168" xml:space="preserve">
+    <value>Can not insert after the line end.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_169" xml:space="preserve">
+    <value>End line can not be prior to start line. </value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_145" xml:space="preserve">
+    <value>stream does not support Write operation</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_162" xml:space="preserve">
+    <value>You must initialize enumerator by calling Reset() method</value>
+  </data>
+  <data name="msgLinuNumberingProblem" xml:space="preserve">
+    <value>There are some problems with line numbering.</value>
+  </data>
+  <data name="msgSaveModified" xml:space="preserve">
+    <value>File was changed, do you want to save changes?</value>
+  </data>
+  <data name="msgSaveModifiedCaption" xml:space="preserve">
+    <value>Save changes</value>
+  </data>
+  <data name="msgKeyBindingsSetDefault" xml:space="preserve">
+    <value>All your changes will be lost. Do you really want to reset the key bindings to the defaults?</value>
+  </data>
+  <data name="msgKeyBindingsSetDefaultCaption" xml:space="preserve">
+    <value>Key bindings</value>
+  </data>
+  <data name="msgSaveFileUsingEncoding" xml:space="preserve">
+    <value>If you save file using this encoding, some data may be lost. Do you want to proceed?</value>
+  </data>
+  <data name="msgSaveFileUsingEncodingCaption" xml:space="preserve">
+    <value>Saving file using new encoding</value>
+  </data>
+  <data name="msgSaveStreamUsingEncoding" xml:space="preserve">
+    <value>If you save stream using this encoding, some data may be lost. Do you want to proceed?</value>
+  </data>
+  <data name="msgSaveStreamUsingEncodingCaption" xml:space="preserve">
+    <value>Saving stream using new encoding</value>
+  </data>
+  <data name="msgFindNothingFound" xml:space="preserve">
+    <value>No text was found.</value>
+  </data>
+  <data name="msgFindNothingFoundCaption" xml:space="preserve">
+    <value>Find text</value>
+  </data>
+  <data name="msgXmlConfigLoadError" xml:space="preserve">
+    <value>Can't load defined XML document.</value>
+  </data>
+  <data name="printPageNamuberPrefix" xml:space="preserve">
+    <value>Page:</value>
+  </data>
+  <data name="printDocumentNamePrefix" xml:space="preserve">
+    <value>File:</value>
+  </data>
+  <data name="printDocumentUnnamed" xml:space="preserve">
+    <value>New document</value>
+  </data>
+  <data name="propName_EditControl_PageHeaderAndFooterVisible" xml:space="preserve">
+    <value>PageHeaderAndFooterVisible</value>
+  </data>
+  <data name="descr_EditControl_PageHeaderAndFooterVisible" xml:space="preserve">
+    <value>Specifies whether page header and footer should be printed.</value>
+  </data>
+  <data name="propName_EditControl_PrintDocumentName" xml:space="preserve">
+    <value>PrintDocumentName</value>
+  </data>
+  <data name="descr_EditControl_PrintDocumentName" xml:space="preserve">
+    <value>Specifies whether document name should be printed when page header is visible.</value>
+  </data>
+  <data name="propName_EditControl_PrintPageNumber" xml:space="preserve">
+    <value>PrintPageNumber</value>
+  </data>
+  <data name="descr_EditControl_PrintPageNumber" xml:space="preserve">
+    <value>Specifies whether page number should be printed when page footer is visible.</value>
+  </data>
+  <data name="eventName_EditControl_PrintFooter" xml:space="preserve">
+    <value>PrintFooter</value>
+  </data>
+  <data name="descr_EditControl_PrintFooter" xml:space="preserve">
+    <value>Occurs when document is printed and page footer needs to be printed.</value>
+  </data>
+  <data name="Printing" xml:space="preserve">
+    <value>Printing</value>
+  </data>
+  <data name="eventName_EditControl_ContextChoiceSelectedTextInsert" xml:space="preserve">
+    <value>ContextChoiceSelectedTextInsert</value>
+  </data>
+  <data name="descr_EditControl_ContextChoiceSelectedTextInsert" xml:space="preserve">
+    <value>Occurs when editor is about to insert selected context choice item to the text. Action can be canceled.</value>
+  </data>
+  <data name="eventName_EditControl_PrintHeader" xml:space="preserve">
+    <value>PrintHeader</value>
+  </data>
+  <data name="descr_EditControl_PrintHeader" xml:space="preserve">
+    <value>Occurs when document is printed and page header needs to be printed.</value>
+  </data>
+  <data name="eventName_EditControl_IndicatorMarginDoubleClick" xml:space="preserve">
+    <value>IndicatorMarginDoubleClick</value>
+  </data>
+  <data name="descr_EditControl_IndicatorMarginDoubleClick" xml:space="preserve">
+    <value>Occurs when user double clicks on the indicator margin.</value>
+  </data>
+  <data name="eventName_EditControl_IndicatorMarginClick" xml:space="preserve">
+    <value>IndicatorMarginClick</value>
+  </data>
+  <data name="descr_EditControl_IndicatorMarginClick" xml:space="preserve">
+    <value>Occurs when users single clicks on the indicator margin.</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_180" xml:space="preserve">
+    <value>Start point does not point to any lexem.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_181" xml:space="preserve">
+    <value>Wrong value for TabSize property. It must be between {0} and {1}.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_177" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_179" xml:space="preserve">
+    <value>The position specified can not be translated to the virtual coordinates system.</value>
+  </data>
+  <data name="DEF_EXCEPTION_UNNAMED_178" xml:space="preserve">
+    <value>Point can not be empty.</value>
+  </data>
+  <data name="statusbarReadonly" xml:space="preserve">
+    <value>Read only</value>
+  </data>
+  <data name="statusbarNotReadonly" xml:space="preserve">
+    <value />
+  </data>
+  <data name="statusbarOverwrite" xml:space="preserve">
+    <value>OVR</value>
+  </data>
+  <data name="statusbarInsert" xml:space="preserve">
+    <value>INS</value>
+  </data>
+  <data name="statusbarPosition" xml:space="preserve">
+    <value>Line: {0,8}; Column: {1,8}</value>
+  </data>
+  <data name="optionsAppearance" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="optionsAppearanceAreas" xml:space="preserve">
+    <value>Areas</value>
+  </data>
+  <data name="optionsAppearanceText" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="optionsAppearanceControl" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="optionsBehavior" xml:space="preserve">
+    <value>Behavior</value>
+  </data>
+  <data name="optionsBehaviorGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="optionsBehaviorTabs" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="msgEncodingChanged" xml:space="preserve">
+    <value>Encoding was changed due to insertion of unsupported symbols. Do you want to save using new encoding?</value>
+  </data>
+  <data name="propName_EditControl_ContextChoiceBorderColor" xml:space="preserve">
+    <value>ContextChoiceBorderColor</value>
+  </data>
+  <data name="descr_EditControl_ContextChoiceBorderColor" xml:space="preserve">
+    <value>Specifies color of context choice form border. Used when UseXPStyle is set to false,
+			otherwise 3D border is drawn.</value>
+  </data>
+  <data name="propName_EditControl_WordWrapType" xml:space="preserve">
+    <value>WordWrapType</value>
+  </data>
+  <data name="descr_EditControl_WordWrapType" xml:space="preserve">
+    <value>Specifies type of word wrapping.</value>
+  </data>
+  <data name="propName_EditControl_AutoSize" xml:space="preserve">
+    <value>AutoSize</value>
+  </data>
+  <data name="descr_EditControl_AutoSize" xml:space="preserve">
+    <value>Specifies whether autoresizing of the control is turned on.</value>
+  </data>
+  <data name="propName_EditControl_WordWrapMarginLineColor" xml:space="preserve">
+    <value>WordWrapMarginLineColor</value>
+  </data>
+  <data name="descr_EditControl_WordWrapMarginLineColor" xml:space="preserve">
+    <value>Specifies color of line that delimits text area.</value>
+  </data>
+  <data name="propName_EditControl_UserMarginTextFont" xml:space="preserve">
+    <value>UserMarginTextFont</value>
+  </data>
+  <data name="descr_EditControl_UserMarginTextFont" xml:space="preserve">
+    <value>Specifies default font of user margin text.</value>
+  </data>
+  <data name="propName_EditControl_VisualColumn" xml:space="preserve">
+    <value>VisualColumn</value>
+  </data>
+  <data name="descr_EditControl_VisualColumn" xml:space="preserve">
+    <value>Specifies virtual column. Virtual column is visual position of character on the screen.</value>
+  </data>
+  <data name="propName_EditControl_ContextTooltipBackgroundBrush" xml:space="preserve">
+    <value>ContextTooltipBackgroundBrush</value>
+  </data>
+  <data name="descr_EditControl_ContextTooltipBackgroundBrush" xml:space="preserve">
+    <value>Specifies brush info for context tooltip background.</value>
+  </data>
+  <data name="propName_EditControl_HorizontalSplitterPosition" xml:space="preserve">
+    <value>HorizontalSplitterPosition</value>
+  </data>
+  <data name="descr_EditControl_HorizontalSplitterPosition" xml:space="preserve">
+    <value>Specifies position of the horizontal splitter.</value>
+  </data>
+  <data name="propName_EditControl_WordWrapMode" xml:space="preserve">
+    <value>WordWrapMode</value>
+  </data>
+  <data name="descr_EditControl_WordWrapMode" xml:space="preserve">
+    <value>Specifies mode of word wrapping.</value>
+  </data>
+  <data name="propName_EditControl_UserMarginBackgroundColor" xml:space="preserve">
+    <value>UserMarginBackgroundColor</value>
+  </data>
+  <data name="descr_EditControl_UserMarginBackgroundColor" xml:space="preserve">
+    <value>Specifies BrushInfo object that is used when user margin is being drawn.</value>
+  </data>
+  <data name="propName_EditControl_SaveOnClose" xml:space="preserve">
+    <value>SaveOnClose</value>
+  </data>
+  <data name="descr_EditControl_SaveOnClose" xml:space="preserve">
+    <value>Specifies whether save prompt dialog should be displayed before control is closed.</value>
+  </data>
+  <data name="propName_EditControl_ChangedLinesMarkingLineColor" xml:space="preserve">
+    <value>ChangedLinesMarkingLineColor</value>
+  </data>
+  <data name="descr_EditControl_ChangedLinesMarkingLineColor" xml:space="preserve">
+    <value>Specifies color of changed lines marking line.</value>
+  </data>
+  <data name="propName_EditControl_UserMarginWidth" xml:space="preserve">
+    <value>UserMarginWidth</value>
+  </data>
+  <data name="descr_EditControl_UserMarginWidth" xml:space="preserve">
+    <value>Specifies user margin width.</value>
+  </data>
+  <data name="propName_EditControl_LineNumbersColor" xml:space="preserve">
+    <value>LineNumbersColor</value>
+  </data>
+  <data name="descr_EditControl_LineNumbersColor" xml:space="preserve">
+    <value>Specifies color of line numbers.</value>
+  </data>
+  <data name="propName_EditControl_Lines" xml:space="preserve">
+    <value>Lines</value>
+  </data>
+  <data name="descr_EditControl_Lines" xml:space="preserve">
+    <value>Specifies the collection of the text lines.</value>
+  </data>
+  <data name="propName_EditControl_BottomVerticalSplitterPosition" xml:space="preserve">
+    <value>BottomVerticalSplitterPosition</value>
+  </data>
+  <data name="descr_EditControl_BottomVerticalSplitterPosition" xml:space="preserve">
+    <value>Specifies position of the bottom vertical splitter.</value>
+  </data>
+  <data name="propName_EditControl_ShowBookmarkTooltip" xml:space="preserve">
+    <value>ShowBookmarkTooltip</value>
+  </data>
+  <data name="descr_EditControl_ShowBookmarkTooltip" xml:space="preserve">
+    <value>Specifies whether bookmark tooltips are shown.</value>
+  </data>
+  <data name="propName_EditControl_WhiteSpaceIndicators" xml:space="preserve">
+    <value>WhiteSpaceIndicators</value>
+  </data>
+  <data name="descr_EditControl_WhiteSpaceIndicators" xml:space="preserve">
+    <value>Specifies options of White space mode.</value>
+  </data>
+  <data name="propName_EditControl_TextAreaWidth" xml:space="preserve">
+    <value>TextAreaWidth</value>
+  </data>
+  <data name="descr_EditControl_TextAreaWidth" xml:space="preserve">
+    <value>Specifies width of the word-wrap margin. To make word-wrap margin visible you should set WordWrapMarginVisible property to true.</value>
+  </data>
+  <data name="propName_EditControl_LineNumbersFont" xml:space="preserve">
+    <value>LineNumbersFont</value>
+  </data>
+  <data name="descr_EditControl_LineNumbersFont" xml:space="preserve">
+    <value>Specifies font of line numbers.</value>
+  </data>
+  <data name="propName_EditControl_ContextTooltipBorderColor" xml:space="preserve">
+    <value>ContextTooltipBorderColor</value>
+  </data>
+  <data name="descr_EditControl_ContextTooltipBorderColor" xml:space="preserve">
+    <value>Specifies color of context tooltip form border. Used when UseXPStyle is set to false,
+			otherwise 3D border is drawn.</value>
+  </data>
+  <data name="propName_EditControl_MarkChangedLines" xml:space="preserve">
+    <value>MarkChangedLines</value>
+  </data>
+  <data name="descr_EditControl_MarkChangedLines" xml:space="preserve">
+    <value>Specifies whether changed lines should be marked.</value>
+  </data>
+  <data name="propName_EditControl_IndentationBlockBackgroundBrush" xml:space="preserve">
+    <value>IndentationBlockBackgroundBrush</value>
+  </data>
+  <data name="descr_EditControl_IndentationBlockBackgroundBrush" xml:space="preserve">
+    <value>Specifies brush info for indentation block background.</value>
+  </data>
+  <data name="propName_EditControl_MarkLineWrapping" xml:space="preserve">
+    <value>MarkLineWrapping</value>
+  </data>
+  <data name="descr_EditControl_MarkLineWrapping" xml:space="preserve">
+    <value>Specifies whether lines wrapping should be marked.</value>
+  </data>
+  <data name="propName_EditControl_ColumnGuidesMeasuringFont" xml:space="preserve">
+    <value>ColumnGuidesMeasuringFont</value>
+  </data>
+  <data name="descr_EditControl_ColumnGuidesMeasuringFont" xml:space="preserve">
+    <value>Specifies font that is used while measuring position of column guides.</value>
+  </data>
+  <data name="propName_EditControl_ContextPromptBackgroundBrush" xml:space="preserve">
+    <value>ContextPromptBackgroundBrush</value>
+  </data>
+  <data name="descr_EditControl_ContextPromptBackgroundBrush" xml:space="preserve">
+    <value>Specifies brush info for context prompt background.</value>
+  </data>
+  <data name="propName_EditControl_DefaultNewLineStyle" xml:space="preserve">
+    <value>DefaultNewLineStyle</value>
+  </data>
+  <data name="descr_EditControl_DefaultNewLineStyle" xml:space="preserve">
+    <value>Specifies style of new line of the newly created stream.</value>
+  </data>
+  <data name="propName_EditControl_ContextChoiceSize" xml:space="preserve">
+    <value>ContextChoiceSize</value>
+  </data>
+  <data name="descr_EditControl_ContextChoiceSize" xml:space="preserve">
+    <value>Specifies size of the context choice form.</value>
+  </data>
+  <data name="propName_EditControl_LoadConfigFile" xml:space="preserve">
+    <value>LoadConfigFile</value>
+  </data>
+  <data name="descr_EditControl_LoadConfigFile" xml:space="preserve">
+    <value>Specifies whether config file should be loaded. If set to false, default language is created from code.</value>
+  </data>
+  <data name="propName_EditControl_BookmarkTooltipBorderColor" xml:space="preserve">
+    <value>BookmarkTooltipBorderColor</value>
+  </data>
+  <data name="descr_EditControl_BookmarkTooltipBorderColor" xml:space="preserve">
+    <value>Specifies color of bookmark tooltip form border. Used when UseXPStyle is set to false,
+			otherwise 3D border is drawn.</value>
+  </data>
+  <data name="propName_EditControl_IndentationBlockBorderColor" xml:space="preserve">
+    <value>IndentationBlockBorderColor</value>
+  </data>
+  <data name="descr_EditControl_IndentationBlockBorderColor" xml:space="preserve">
+    <value>Specifies color of indentation block border line.</value>
+  </data>
+  <data name="propName_EditControl_UseXPStyle" xml:space="preserve">
+    <value>UseXPStyle</value>
+  </data>
+  <data name="descr_EditControl_UseXPStyle" xml:space="preserve">
+    <value>Specifies whether XP style should be used.</value>
+  </data>
+  <data name="propName_EditControl_WordWrapMarginLineStyle" xml:space="preserve">
+    <value>WordWrapMarginLineStyle</value>
+  </data>
+  <data name="descr_EditControl_WordWrapMarginLineStyle" xml:space="preserve">
+    <value>Specifies style of line that is drawn at the border of the word-wrap margin.</value>
+  </data>
+  <data name="propName_EditControl_ShowHorizontalScroller" xml:space="preserve">
+    <value>ShowHorizontalScroller</value>
+  </data>
+  <data name="descr_EditControl_ShowHorizontalScroller" xml:space="preserve">
+    <value>Specifies whether horizontal scroller can be shown.</value>
+  </data>
+  <data name="propName_EditControl_ShowVerticalScroller" xml:space="preserve">
+    <value>ShowVerticalScroller</value>
+  </data>
+  <data name="descr_EditControl_ShowVerticalScroller" xml:space="preserve">
+    <value>Specifies whether vertical scroller can be shown.</value>
+  </data>
+  <data name="propName_EditControl_StatusBarSettings" xml:space="preserve">
+    <value>StatusBarSettings</value>
+  </data>
+  <data name="descr_EditControl_StatusBarSettings" xml:space="preserve">
+    <value>Specifies settings of status bar.</value>
+  </data>
+  <data name="propName_EditControl_ShowIndentationBlockBorders" xml:space="preserve">
+    <value>ShowIndentationBlockBorders</value>
+  </data>
+  <data name="descr_EditControl_ShowIndentationBlockBorders" xml:space="preserve">
+    <value>Specifies whether indentation block borders should be drawn.</value>
+  </data>
+  <data name="propName_EditControl_MarkerAreaWidth" xml:space="preserve">
+    <value>MarkerAreaWidth</value>
+  </data>
+  <data name="descr_EditControl_MarkerAreaWidth" xml:space="preserve">
+    <value>Specifies width of marker area.</value>
+  </data>
+  <data name="propName_EditControl_ColumnGuideItems" xml:space="preserve">
+    <value>ColumnGuideItems</value>
+  </data>
+  <data name="descr_EditControl_ColumnGuideItems" xml:space="preserve">
+    <value>Specifies array of ColumnGuideItem objects.</value>
+  </data>
+  <data name="propName_EditControl_UseTabStops" xml:space="preserve">
+    <value>UseTabStops</value>
+  </data>
+  <data name="descr_EditControl_UseTabStops" xml:space="preserve">
+    <value>Specifies whether tab stops should be used.</value>
+  </data>
+  <data name="propName_EditControl_ShowContextTooltip" xml:space="preserve">
+    <value>ShowContextTooltip</value>
+  </data>
+  <data name="descr_EditControl_ShowContextTooltip" xml:space="preserve">
+    <value>Specifies whether context tooltips are shown.</value>
+  </data>
+  <data name="propName_EditControl_CustomWrappedLinesMarkingImage" xml:space="preserve">
+    <value>CustomWrappedLinesMarkingImage</value>
+  </data>
+  <data name="descr_EditControl_CustomWrappedLinesMarkingImage" xml:space="preserve">
+    <value>Specifies custom image that marks wrapped lines .</value>
+  </data>
+  <data name="propName_EditControl_MinSize" xml:space="preserve">
+    <value>MinSize</value>
+  </data>
+  <data name="descr_EditControl_MinSize" xml:space="preserve">
+    <value>Specifies minimum size in autosize mode. If AutoSize mode is off, the value of this property is ignored.</value>
+  </data>
+  <data name="propName_EditControl_AutoIndentMode" xml:space="preserve">
+    <value>AutoIndentMode</value>
+  </data>
+  <data name="descr_EditControl_AutoIndentMode" xml:space="preserve">
+    <value>Specifies mode of autoindentation.</value>
+  </data>
+  <data name="propName_EditControl_ShowOutliningCollapsers" xml:space="preserve">
+    <value>ShowOutliningCollapsers</value>
+  </data>
+  <data name="descr_EditControl_ShowOutliningCollapsers" xml:space="preserve">
+    <value>Specifies whether outlining collapsers should be visible.</value>
+  </data>
+  <data name="propName_EditControl_ContextPromptBorderColor" xml:space="preserve">
+    <value>ContextPromptBorderColor</value>
+  </data>
+  <data name="descr_EditControl_ContextPromptBorderColor" xml:space="preserve">
+    <value>Specifies color of context prompt form border. Used when UseXPStyle is set to false,
+			otherwise 3D border is drawn.</value>
+  </data>
+  <data name="propName_EditControl_ParagraphOffset" xml:space="preserve">
+    <value>ParagraphOffset</value>
+  </data>
+  <data name="descr_EditControl_ParagraphOffset" xml:space="preserve">
+    <value>Specifies offset of paragraphs.</value>
+  </data>
+  <data name="propName_EditControl_ParsingMode" xml:space="preserve">
+    <value>ParsingMode</value>
+  </data>
+  <data name="descr_EditControl_ParsingMode" xml:space="preserve">
+    <value>Specifies text parsing mode used by control. Parsing can be set to be accurate and slow or non-accurate and fast.</value>
+  </data>
+  <data name="propName_EditControl_TabStopsArray" xml:space="preserve">
+    <value>TabStopsArray</value>
+  </data>
+  <data name="descr_EditControl_TabStopsArray" xml:space="preserve">
+    <value>Specifies array of tab stops.</value>
+  </data>
+  <data name="propName_EditControl_ShowUserMargin" xml:space="preserve">
+    <value>ShowUserMargin</value>
+  </data>
+  <data name="descr_EditControl_ShowUserMargin" xml:space="preserve">
+    <value>Specifies whether user margin should be visible.</value>
+  </data>
+  <data name="propName_EditControl_BookmarkTooltipBackgroundBrush" xml:space="preserve">
+    <value>BookmarkTooltipBackgroundBrush</value>
+  </data>
+  <data name="descr_EditControl_BookmarkTooltipBackgroundBrush" xml:space="preserve">
+    <value>Specifies brush info for bookmark tooltip background.</value>
+  </data>
+  <data name="propName_EditControl_InsertDroppedFileIntoText" xml:space="preserve">
+    <value>InsertDroppedFileIntoText</value>
+  </data>
+  <data name="descr_EditControl_InsertDroppedFileIntoText" xml:space="preserve">
+    <value>Specifies whether outer file dragged &amp; dropped into Edit Control
+			should be inserted into curent content. When set to false, current file is closed,
+			and dropped outer file is opened.</value>
+  </data>
+  <data name="propName_EditControl_ContextPromptCustomSize" xml:space="preserve">
+    <value>ContextPromptCustomSize</value>
+  </data>
+  <data name="descr_EditControl_ContextPromptCustomSize" xml:space="preserve">
+    <value>Specifies custom size of the context prompt dropdown.
+			The specified value is used only if UseCustomSizeContextPrompt is set to true.</value>
+  </data>
+  <data name="propName_EditControl_UserMarginTextColor" xml:space="preserve">
+    <value>UserMarginTextColor</value>
+  </data>
+  <data name="descr_EditControl_UserMarginTextColor" xml:space="preserve">
+    <value>Specifies default color of user margin text.</value>
+  </data>
+  <data name="propName_EditControl_TopVerticalSplitterPosition" xml:space="preserve">
+    <value>TopVerticalSplitterPosition</value>
+  </data>
+  <data name="descr_EditControl_TopVerticalSplitterPosition" xml:space="preserve">
+    <value>Specifies position of the top vertical splitter.</value>
+  </data>
+  <data name="propName_EditControl_WordWrapMarginVisible" xml:space="preserve">
+    <value>WordWrapMarginVisible</value>
+  </data>
+  <data name="descr_EditControl_WordWrapMarginVisible" xml:space="preserve">
+    <value>Specifies whether word-wrap margin should be shown. It can be shown even when word-wrap is off.</value>
+  </data>
+  <data name="propName_EditControl_AutoCompleteSingleLexem" xml:space="preserve">
+    <value>AutoCompleteSingleLexem</value>
+  </data>
+  <data name="descr_EditControl_AutoCompleteSingleLexem" xml:space="preserve">
+    <value>Specifies whether context choice list gets autocompleted when single lexem remains in the list.</value>
+  </data>
+  <data name="propName_EditControl_UserMarginBorderColor" xml:space="preserve">
+    <value>UserMarginBorderColor</value>
+  </data>
+  <data name="descr_EditControl_UserMarginBorderColor" xml:space="preserve">
+    <value>Specifies color of user margin border.</value>
+  </data>
+  <data name="propName_EditControl_WrappedLinesOffset" xml:space="preserve">
+    <value>WrappedLinesOffset</value>
+  </data>
+  <data name="descr_EditControl_WrappedLinesOffset" xml:space="preserve">
+    <value>Specifies offset of wrapped lines.</value>
+  </data>
+  <data name="propName_EditControl_CustomLineWrappingMarkingImage" xml:space="preserve">
+    <value>CustomLineWrappingMarkingImage</value>
+  </data>
+  <data name="descr_EditControl_CustomLineWrappingMarkingImage" xml:space="preserve">
+    <value>Specifies custom image that marks lines wrapping.</value>
+  </data>
+  <data name="propName_EditControl_IndentationBlockBorderStyle" xml:space="preserve">
+    <value>IndentationBlockBorderStyle</value>
+  </data>
+  <data name="descr_EditControl_IndentationBlockBorderStyle" xml:space="preserve">
+    <value>Specifies style of indentation block border line.</value>
+  </data>
+  <data name="propName_EditControl_ShowOutliningTooltip" xml:space="preserve">
+    <value>ShowOutliningTooltip</value>
+  </data>
+  <data name="descr_EditControl_ShowOutliningTooltip" xml:space="preserve">
+    <value>Specifies whether info about encoding is shown on the statusbar.</value>
+  </data>
+  <data name="propName_EditControl_MarkWrappedLines" xml:space="preserve">
+    <value>MarkWrappedLines</value>
+  </data>
+  <data name="descr_EditControl_MarkWrappedLines" xml:space="preserve">
+    <value>Specifies whether wrapped lines should be marked.</value>
+  </data>
+  <data name="propName_EditControl_UseCustomSizeContextPrompt" xml:space="preserve">
+    <value>UseCustomSizeContextPrompt</value>
+  </data>
+  <data name="descr_EditControl_UseCustomSizeContextPrompt" xml:space="preserve">
+    <value>Indicates whether custom context promt size should be used.</value>
+  </data>
+  <data name="propName_EditControl_ShowColumnGuides" xml:space="preserve">
+    <value>ShowColumnGuides</value>
+  </data>
+  <data name="descr_EditControl_ShowColumnGuides" xml:space="preserve">
+    <value>Specifies whether column guides should be drawn.</value>
+  </data>
+  <data name="propName_EditControl_ShowIndicatorMargin" xml:space="preserve">
+    <value>ShowIndicatorMargin</value>
+  </data>
+  <data name="descr_EditControl_ShowIndicatorMargin" xml:space="preserve">
+    <value>Specifies whether bookmarks and indicator margin should be visible.</value>
+  </data>
+  <data name="propName_EditControl_WordWrapMarginBrush" xml:space="preserve">
+    <value>WordWrapMarginBrush</value>
+  </data>
+  <data name="descr_EditControl_WordWrapMarginBrush" xml:space="preserve">
+    <value>Specifies BrushInfo object that is used when area situated after text area is drawn.</value>
+  </data>
+  <data name="eventName_EditControl_OutliningTooltipClose" xml:space="preserve">
+    <value>OutliningTooltipClose</value>
+  </data>
+  <data name="descr_EditControl_OutliningTooltipClose" xml:space="preserve">
+    <value>Occurs when outlining tooltip is closed.</value>
+  </data>
+  <data name="eventName_EditControl_CodeSnippetActivating" xml:space="preserve">
+    <value>CodeSnippetActivating</value>
+  </data>
+  <data name="descr_EditControl_CodeSnippetActivating" xml:space="preserve">
+    <value>Occurs when code snippet is to be activated.</value>
+  </data>
+  <data name="eventName_EditControl_OutliningExpand" xml:space="preserve">
+    <value>OutliningExpand</value>
+  </data>
+  <data name="descr_EditControl_OutliningExpand" xml:space="preserve">
+    <value>Occurs when region expands.</value>
+  </data>
+  <data name="eventName_EditControl_CodeSnippetTemplateTextChanging" xml:space="preserve">
+    <value>CodeSnippetTemplateTextChanging</value>
+  </data>
+  <data name="descr_EditControl_CodeSnippetTemplateTextChanging" xml:space="preserve">
+    <value>Occurs when text of template member is to be changed.</value>
+  </data>
+  <data name="eventName_EditControl_NewSnippetMemberHighlighting" xml:space="preserve">
+    <value>NewSnippetMemberHighlighting</value>
+  </data>
+  <data name="descr_EditControl_NewSnippetMemberHighlighting" xml:space="preserve">
+    <value>Occurs when new snippet member has to be highlighted.</value>
+  </data>
+  <data name="eventName_EditControl_Closing" xml:space="preserve">
+    <value>Closing</value>
+  </data>
+  <data name="descr_EditControl_Closing" xml:space="preserve">
+    <value>Occurs when edited stream is about to be closed and changes should be saved.</value>
+  </data>
+  <data name="eventName_EditControl_OutliningTooltipBeforePopup" xml:space="preserve">
+    <value>OutliningTooltipBeforePopup</value>
+  </data>
+  <data name="descr_EditControl_OutliningTooltipBeforePopup" xml:space="preserve">
+    <value>Occurs when outlining tooltip is about to be shown.</value>
+  </data>
+  <data name="eventName_EditControl_SaveFileWithDataLoss" xml:space="preserve">
+    <value>SaveFileWithDataLoss</value>
+  </data>
+  <data name="descr_EditControl_SaveFileWithDataLoss" xml:space="preserve">
+    <value>Occurs when user tries to save file with data loosing.</value>
+  </data>
+  <data name="eventName_EditControl_OutliningBeforeCollapse" xml:space="preserve">
+    <value>OutliningBeforeCollapse</value>
+  </data>
+  <data name="descr_EditControl_OutliningBeforeCollapse" xml:space="preserve">
+    <value>Occurs before region is about to collapse.</value>
+  </data>
+  <data name="eventName_EditControl_UpdateBookmarkToolTip" xml:space="preserve">
+    <value>UpdateBookmarkToolTip</value>
+  </data>
+  <data name="descr_EditControl_UpdateBookmarkToolTip" xml:space="preserve">
+    <value>Occurs when bookmark tooltip text should be updated.</value>
+  </data>
+  <data name="eventName_EditControl_OutliningTooltipPopup" xml:space="preserve">
+    <value>OutliningTooltipPopup</value>
+  </data>
+  <data name="descr_EditControl_OutliningTooltipPopup" xml:space="preserve">
+    <value>Occurs when outlining tooltip is shown.</value>
+  </data>
+  <data name="eventName_EditControl_CodeSnippetDeactivating" xml:space="preserve">
+    <value>CodeSnippetDeactivating</value>
+  </data>
+  <data name="descr_EditControl_CodeSnippetDeactivating" xml:space="preserve">
+    <value>Occurs when code snippet is to be deactivated.</value>
+  </data>
+  <data name="eventName_EditControl_OutliningBeforeExpand" xml:space="preserve">
+    <value>OutliningBeforeExpand</value>
+  </data>
+  <data name="descr_EditControl_OutliningBeforeExpand" xml:space="preserve">
+    <value>Occurs before region is about to expand.</value>
+  </data>
+  <data name="eventName_EditControl_UnreachableTextFound" xml:space="preserve">
+    <value>UnreachableTextFound</value>
+  </data>
+  <data name="descr_EditControl_UnreachableTextFound" xml:space="preserve">
+    <value>Occurs when text in hidden block is found and this block can't be expanded due to user's cancelling.</value>
+  </data>
+  <data name="eventName_EditControl_OutliningCollapse" xml:space="preserve">
+    <value>OutliningCollapse</value>
+  </data>
+  <data name="descr_EditControl_OutliningCollapse" xml:space="preserve">
+    <value>Occurs when region collapses.</value>
+  </data>
+  <data name="eventName_EditControl_SaveStreamWithDataLoss" xml:space="preserve">
+    <value>SaveStreamWithDataLoss</value>
+  </data>
+  <data name="descr_EditControl_SaveStreamWithDataLoss" xml:space="preserve">
+    <value>Occurs when user tries to save stream with data loosing.</value>
+  </data>
+  <data name="eventName_EditControl_DrawUserMarginText" xml:space="preserve">
+    <value>DrawUserMarginText</value>
+  </data>
+  <data name="descr_EditControl_DrawUserMarginText" xml:space="preserve">
+    <value>Occurs when user margin area text is ready to be drawn.</value>
+  </data>
+  <data name="AddFormatButton" xml:space="preserve">
+    <value>Add...</value>
+  </data>
+  <data name="AddLexemButton" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AddSubLexemButton" xml:space="preserve">
+    <value>Add sub</value>
+  </data>
+  <data name="BackColorLabel" xml:space="preserve">
+    <value>Back Color:</value>
+  </data>
+  <data name="BeginTokenCheckBox" xml:space="preserve">
+    <value>Is Regexp</value>
+  </data>
+  <data name="BeginTokenLabel" xml:space="preserve">
+    <value>Begin token:</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="ContinueTokenCheckBox" xml:space="preserve">
+    <value>Is Regexp</value>
+  </data>
+  <data name="ContinueTokenLabel" xml:space="preserve">
+    <value>Continue:</value>
+  </data>
+  <data name="DeleteButton" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="EndTokenCheckBox" xml:space="preserve">
+    <value>Is Regexp</value>
+  </data>
+  <data name="EndTokenLabel" xml:space="preserve">
+    <value>End token:</value>
+  </data>
+  <data name="FileExtensionLabel" xml:space="preserve">
+    <value>File Extensions:</value>
+  </data>
+  <data name="FileExtensionTabPageText" xml:space="preserve">
+    <value>Extensions &amp;&amp; Delimiters</value>
+  </data>
+  <data name="FontColorLabel" xml:space="preserve">
+    <value>Font Color:</value>
+  </data>
+  <data name="FontFormatButton" xml:space="preserve">
+    <value>Font...</value>
+  </data>
+  <data name="ForeColorLabel" xml:space="preserve">
+    <value>Fore Color:</value>
+  </data>
+  <data name="FormatLabel" xml:space="preserve">
+    <value>Format:</value>
+  </data>
+  <data name="FormatListLabel" xml:space="preserve">
+    <value>Available Formats:</value>
+  </data>
+  <data name="FormatTabPageText" xml:space="preserve">
+    <value>Formats</value>
+  </data>
+  <data name="FormTitle" xml:space="preserve">
+    <value>Language Coloring Configuration</value>
+  </data>
+  <data name="HatchStyleLabel" xml:space="preserve">
+    <value>Hatch Style:</value>
+  </data>
+  <data name="HelpButton" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="IsComplexCheckBox" xml:space="preserve">
+    <value>Is Complex</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>&amp;Language Name:</value>
+  </data>
+  <data name="LexemLabel" xml:space="preserve">
+    <value>Lexems tree:</value>
+  </data>
+  <data name="LexemTabPageText" xml:space="preserve">
+    <value>Lexems</value>
+  </data>
+  <data name="LineColorLabel" xml:space="preserve">
+    <value>Line Color:</value>
+  </data>
+  <data name="ListEditorAddButton" xml:space="preserve">
+    <value>Add...</value>
+  </data>
+  <data name="ListEditorRemoveButton" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="MultiCharsLabel" xml:space="preserve">
+    <value>Multi-chars delimiters list:</value>
+  </data>
+  <data name="OkButton" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="OneCharLabel" xml:space="preserve">
+    <value>One char delimiters list:</value>
+  </data>
+  <data name="OnlyLocalCheckBox" xml:space="preserve">
+    <value>Only Local Sub-lexems</value>
+  </data>
+  <data name="OpenButton" xml:space="preserve">
+    <value>&amp;Load...</value>
+  </data>
+  <data name="OpenDialogTitle" xml:space="preserve">
+    <value>Load configuration</value>
+  </data>
+  <data name="PriorityLabel" xml:space="preserve">
+    <value>Priority:</value>
+  </data>
+  <data name="RemoveFormatButton" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RemoveLexemButton" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RestoreButton" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="SampleLabel" xml:space="preserve">
+    <value>Sample</value>
+  </data>
+  <data name="SaveAsButton" xml:space="preserve">
+    <value>&amp;Save As...</value>
+  </data>
+  <data name="SaveDialogTitle" xml:space="preserve">
+    <value>Save configuration</value>
+  </data>
+  <data name="SetFontButton" xml:space="preserve">
+    <value>Set current Font for all</value>
+  </data>
+  <data name="UnderlineStyleLabel" xml:space="preserve">
+    <value>Underline Style:</value>
+  </data>
+  <data name="UnderlineWeightLabel" xml:space="preserve">
+    <value>Underline Weight:</value>
+  </data>
+  <data name="DEF_COLOR_EMPTY" xml:space="preserve">
+    <value>colorEmpty</value>
+  </data>
+  <data name="DEF_CONFIG_CREATE_LANGUAGE" xml:space="preserve">
+    <value>ConfigCreateLanguage</value>
+  </data>
+  <data name="DEF_CONFIG_SAVE_CHANGES" xml:space="preserve">
+    <value>ConfigSaveChanges</value>
+  </data>
+  <data name="DEF_CONFIG_SAVE_OTHERS_CHANGES" xml:space="preserve">
+    <value>ConfigSaveOthersConfig</value>
+  </data>
+  <data name="DEF_ERROR_ENUMEXPECTED" xml:space="preserve">
+    <value>errArgEnumExpected</value>
+  </data>
+  <data name="DEF_ERROR_ENUM_VALUE_NOT_DEFINED" xml:space="preserve">
+    <value>errEnumValueNotDefined</value>
+  </data>
+  <data name="DEF_ERROR_INVALID_ENUM_VALUE_NAME" xml:space="preserve">
+    <value>errInvalidLocalizedEnumValueName</value>
+  </data>
+  <data name="DEF_ERROR_NOTIMPLEMENTED" xml:space="preserve">
+    <value>errNotImplemented</value>
+  </data>
+  <data name="DEF_FORMAT_SETTINGS_SAMPLE_TEXT" xml:space="preserve">
+    <value>FormatConfigSampleText</value>
+  </data>
+  <data name="DEF_GOTO_CAPTION_FORMAT" xml:space="preserve">
+    <value>Line Number {0}-{1}:</value>
+  </data>
+  <data name="DEF_LEXEM_TREE_ROOT" xml:space="preserve">
+    <value>LexemTreeRoot</value>
+  </data>
+  <data name="DEF_MENU_ADVANCED" xml:space="preserve">
+    <value>contextmenuAdvanced</value>
+  </data>
+  <data name="DEF_MENU_BOOKMARKS" xml:space="preserve">
+    <value>contextmenuBookmarks</value>
+  </data>
+  <data name="DEF_MENU_CLEARBOOKMARKS" xml:space="preserve">
+    <value>contextmenuClearBookmarks</value>
+  </data>
+  <data name="DEF_MENU_CLOSE" xml:space="preserve">
+    <value>contextmenuClose</value>
+  </data>
+  <data name="DEF_MENU_COLLAPSEALL" xml:space="preserve">
+    <value>contextmenuCollapseAll</value>
+  </data>
+  <data name="DEF_MENU_COMMENTSELECTION" xml:space="preserve">
+    <value>contextmenuCommentSelection</value>
+  </data>
+  <data name="DEF_MENU_COPY" xml:space="preserve">
+    <value>contextmenuCopy</value>
+  </data>
+  <data name="DEF_MENU_CUT" xml:space="preserve">
+    <value>contextmenuCut</value>
+  </data>
+  <data name="DEF_MENU_DELETE" xml:space="preserve">
+    <value>contextmenuDelete</value>
+  </data>
+  <data name="DEF_MENU_DELETEALL" xml:space="preserve">
+    <value>contextmenuDeleteAll</value>
+  </data>
+  <data name="DEF_MENU_EDIT" xml:space="preserve">
+    <value>contextmenuEdit</value>
+  </data>
+  <data name="DEF_MENU_EXPANDALL" xml:space="preserve">
+    <value>contextmenuExpandAll</value>
+  </data>
+  <data name="DEF_MENU_FILE" xml:space="preserve">
+    <value>contextmenuFile</value>
+  </data>
+  <data name="DEF_MENU_FIND" xml:space="preserve">
+    <value>contextmenuFind</value>
+  </data>
+  <data name="DEF_MENU_GOTO" xml:space="preserve">
+    <value>contextmenuGoto</value>
+  </data>
+  <data name="DEF_MENU_INDENTSELECTION" xml:space="preserve">
+    <value>contextmenuIndentSelection</value>
+  </data>
+  <data name="DEF_MENU_NEW" xml:space="preserve">
+    <value>contextmenuNew</value>
+  </data>
+  <data name="DEF_MENU_NEXTBOOKMARK" xml:space="preserve">
+    <value>contextmenuNextBookmark</value>
+  </data>
+  <data name="DEF_MENU_OPEN" xml:space="preserve">
+    <value>contextmenuOpen</value>
+  </data>
+  <data name="DEF_MENU_OPTIONS" xml:space="preserve">
+    <value>contextmenuOptions</value>
+  </data>
+  <data name="DEF_MENU_PASTE" xml:space="preserve">
+    <value>contextmenuPaste</value>
+  </data>
+  <data name="DEF_MENU_PREVBOOKMARK" xml:space="preserve">
+    <value>contextmenuPrevBookmark</value>
+  </data>
+  <data name="DEF_MENU_PRINT" xml:space="preserve">
+    <value>contextmenuPrint</value>
+  </data>
+  <data name="DEF_MENU_PRINTPREVIEW" xml:space="preserve">
+    <value>contextmenuPrintPreview</value>
+  </data>
+  <data name="DEF_MENU_REDO" xml:space="preserve">
+    <value>contextmenuRedo</value>
+  </data>
+  <data name="DEF_MENU_REPLACE" xml:space="preserve">
+    <value>contextmenuReplace</value>
+  </data>
+  <data name="DEF_MENU_SAVE" xml:space="preserve">
+    <value>contextmenuSave</value>
+  </data>
+  <data name="DEF_MENU_SAVEAS" xml:space="preserve">
+    <value>contextmenuSaveAs</value>
+  </data>
+  <data name="DEF_MENU_SELECTALL" xml:space="preserve">
+    <value>contextmenuSelectAll</value>
+  </data>
+  <data name="DEF_MENU_TABIFYSELECTION" xml:space="preserve">
+    <value>contextmenuTabifySelection</value>
+  </data>
+  <data name="DEF_MENU_TOGGLEBOOKMARK" xml:space="preserve">
+    <value>contextmenuToggleBookmark</value>
+  </data>
+  <data name="DEF_MENU_UNCOMMENTSELECTION" xml:space="preserve">
+    <value>contextmenuUncommentSelection</value>
+  </data>
+  <data name="DEF_MENU_UNDO" xml:space="preserve">
+    <value>contextmenuUndo</value>
+  </data>
+  <data name="DEF_MENU_UNINDENTSELECTION" xml:space="preserve">
+    <value>contextmenuUnindentSelection</value>
+  </data>
+  <data name="DEF_MENU_UNTABIFYSELECTION" xml:space="preserve">
+    <value>contextmenuUntabifySelection</value>
+  </data>
+  <data name="DEF_MSG_ENCODING_CHANGED" xml:space="preserve">
+    <value>Encoding was changed due to insertion of unsupported symbols. Do you want to save using new encoding?</value>
+  </data>
+  <data name="DEF_MSG_FOUND_NOTHING" xml:space="preserve">
+    <value>No text was found.</value>
+  </data>
+  <data name="DEF_MSG_FOUND_NOTHING_CAPTION" xml:space="preserve">
+    <value>Find text</value>
+  </data>
+  <data name="DEF_MSG_KEYBINDINGS_SET_DEFAULT" xml:space="preserve">
+    <value>All your changes will be lost. Do you really want reset key bindings to defaults?</value>
+  </data>
+  <data name="DEF_MSG_KEYBINDINGS_SET_DEFAULT_CAPTION" xml:space="preserve">
+    <value>Key bindings</value>
+  </data>
+  <data name="DEF_MSG_LINE_NUMBERING_PROBLEMS" xml:space="preserve">
+    <value>There are some problems with line numbering.</value>
+  </data>
+  <data name="DEF_MSG_REGEX_INCORRECT" xml:space="preserve">
+    <value>The regular expression you have entered is incorrect.</value>
+  </data>
+  <data name="DEF_MSG_REGEX_INCORRECT_CAPTION" xml:space="preserve">
+    <value>Incorrect search request</value>
+  </data>
+  <data name="DEF_MSG_SAVE_FILE_USING_ENCODING" xml:space="preserve">
+    <value>If you save file using this encoding some data may be lost. Do you want to proceed?</value>
+  </data>
+  <data name="DEF_MSG_SAVE_FILE_USING_ENCODING_CAPTION" xml:space="preserve">
+    <value>Saving file using new encoding</value>
+  </data>
+  <data name="DEF_MSG_SAVE_MODIFIED" xml:space="preserve">
+    <value>File was changed, do you want to save changes?</value>
+  </data>
+  <data name="DEF_MSG_SAVE_MODIFIED_CAPTION" xml:space="preserve">
+    <value>Save changes</value>
+  </data>
+  <data name="DEF_MSG_SAVE_STREAM_USING_ENCODING" xml:space="preserve">
+    <value>If you save stream using this encoding some data may be lost. Do you want to proceed?</value>
+  </data>
+  <data name="DEF_MSG_SAVE_STREAM_USING_ENCODING_CAPTION" xml:space="preserve">
+    <value>Saving stream using new encoding</value>
+  </data>
+  <data name="DEF_MSG_XML_CONFIG_LOAD_ERROR" xml:space="preserve">
+    <value>Can't load defined XML document.</value>
+  </data>
+  <data name="DEF_NONE_HATCH" xml:space="preserve">
+    <value>noneHatch</value>
+  </data>
+  <data name="DEF_OPTS_APPEARANCE" xml:space="preserve">
+    <value>optionsAppearance</value>
+  </data>
+  <data name="DEF_OPTS_APPEARANCEAREAS" xml:space="preserve">
+    <value>optionsAppearanceAreas</value>
+  </data>
+  <data name="DEF_OPTS_APPEARANCECONTROL" xml:space="preserve">
+    <value>optionsAppearanceControl</value>
+  </data>
+  <data name="DEF_OPTS_APPEARANCETEXT" xml:space="preserve">
+    <value>optionsAppearanceText</value>
+  </data>
+  <data name="DEF_OPTS_BEHAVIOUR" xml:space="preserve">
+    <value>optionsBehavior</value>
+  </data>
+  <data name="DEF_OPTS_BEHAVIOURGENERAL" xml:space="preserve">
+    <value>optionsBehaviorGeneral</value>
+  </data>
+  <data name="DEF_OPTS_BEHAVIOURTABS" xml:space="preserve">
+    <value>optionsBehaviorTabs</value>
+  </data>
+  <data name="DEF_PRINT_FILE_PREFIX" xml:space="preserve">
+    <value>File:</value>
+  </data>
+  <data name="DEF_PRINT_NONAME_DOCUMENT" xml:space="preserve">
+    <value>New document</value>
+  </data>
+  <data name="DEF_PRINT_PAGE_PREFIX" xml:space="preserve">
+    <value>Page:</value>
+  </data>
+  <data name="DEF_PROMPT_INDEX" xml:space="preserve">
+    <value>ContextPromptIndexFormat</value>
+  </data>
+  <data name="DEF_SOLID_FILL" xml:space="preserve">
+    <value>backGroundSolidFill</value>
+  </data>
+  <data name="DEF_STATUSBAR_INSERT" xml:space="preserve">
+    <value>INS</value>
+  </data>
+  <data name="DEF_STATUSBAR_OVERWRITE" xml:space="preserve">
+    <value>OVR</value>
+  </data>
+  <data name="DEF_STATUSBAR_POSITION" xml:space="preserve">
+    <value>Line: {0,8}; Column: {1,8}</value>
+  </data>
+  <data name="DEF_STATUSBAR_READONLY" xml:space="preserve">
+    <value>Read only</value>
+  </data>
+  <data name="FDbtnClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FDbtnFind" xml:space="preserve">
+    <value>&amp;Find Next</value>
+  </data>
+  <data name="FDbtnMarkAll" xml:space="preserve">
+    <value>&amp;Mark All</value>
+  </data>
+  <data name="FDbtnTempaltes" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="FDchkCase" xml:space="preserve">
+    <value>Match &amp;case</value>
+  </data>
+  <data name="FDchkHidden" xml:space="preserve">
+    <value>Search &amp;hidden text</value>
+  </data>
+  <data name="FDchkRegular" xml:space="preserve">
+    <value>Use &amp;regular expressions</value>
+  </data>
+  <data name="FDchkUp" xml:space="preserve">
+    <value>Search &amp;up</value>
+  </data>
+  <data name="FDchkWholeWord" xml:space="preserve">
+    <value>Match &amp;whole word</value>
+  </data>
+  <data name="FDchkWrap" xml:space="preserve">
+    <value>Wrap around</value>
+  </data>
+  <data name="FDGroupTitle" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="FDMain" xml:space="preserve">
+    <value>Fi&amp;nd what:</value>
+  </data>
+  <data name="FDrdbDocument" xml:space="preserve">
+    <value>Current &amp;document</value>
+  </data>
+  <data name="FDrdbSelection" xml:space="preserve">
+    <value>Current &amp;selection</value>
+  </data>
+  <data name="FDTitle" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="FGobtnCancel" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="FGobtnOK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="FGoNumber" xml:space="preserve">
+    <value>Line number ({0} - {1}):</value>
+  </data>
+  <data name="FGoTitle" xml:space="preserve">
+    <value>Go To Line</value>
+  </data>
+  <data name="FRbtnClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FRbtnReplace" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="FRbtnReplaceAll" xml:space="preserve">
+    <value>Replace All</value>
+  </data>
+  <data name="FRchkCase" xml:space="preserve">
+    <value>Match &amp;case</value>
+  </data>
+  <data name="FRGroupTitle" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="FRlblFind" xml:space="preserve">
+    <value>Fi&amp;nd what:</value>
+  </data>
+  <data name="FRlblReplace" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="FRrdbSelection" xml:space="preserve">
+    <value>Current &amp;selection</value>
+  </data>
+  <data name="FRTitle" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="GoToDialogErrorInfo" xml:space="preserve">
+    <value>Value must be an interger in the range [{0}-{1}]</value>
+  </data>
+  <data name="RegexAnyCharset" xml:space="preserve">
+    <value>[^ ] Any character not in the set</value>
+  </data>
+  <data name="RegexAnyOneCharset" xml:space="preserve">
+    <value>[] Any one character in the set</value>
+  </data>
+  <data name="RegexBeginEndWord" xml:space="preserve">
+    <value>\\b Beginning or End of word</value>
+  </data>
+  <data name="RegexEscapeChar" xml:space="preserve">
+    <value>\\ Escape special character</value>
+  </data>
+  <data name="RegexIdentifier" xml:space="preserve">
+    <value>:i C/C++ identifier</value>
+  </data>
+  <data name="RegexInteger" xml:space="preserve">
+    <value>:z Integer</value>
+  </data>
+  <data name="RegexLineBegining" xml:space="preserve">
+    <value>^ Beginning of line</value>
+  </data>
+  <data name="RegexLineBreak" xml:space="preserve">
+    <value>\\n Line break</value>
+  </data>
+  <data name="RegexLineEnd" xml:space="preserve">
+    <value>$ End of line</value>
+  </data>
+  <data name="RegexOneorMore" xml:space="preserve">
+    <value>+ One or more</value>
+  </data>
+  <data name="RegexOr" xml:space="preserve">
+    <value>| Or</value>
+  </data>
+  <data name="RegexQuotedString" xml:space="preserve">
+    <value>:q Quoted string</value>
+  </data>
+  <data name="RegexSingleChar" xml:space="preserve">
+    <value>. Any single character</value>
+  </data>
+  <data name="RegexSpaceorTab" xml:space="preserve">
+    <value>:b Space or Tab</value>
+  </data>
+  <data name="RegexTag" xml:space="preserve">
+    <value>{} Tag expression</value>
+  </data>
+  <data name="RegexZeroOrMore" xml:space="preserve">
+    <value>* Zero or more</value>
+  </data>
+  <data name="StringFindCompleteEventArgs" xml:space="preserve">
+    <value>Find reached the starting point of the search.</value>
+  </data>
+</root>

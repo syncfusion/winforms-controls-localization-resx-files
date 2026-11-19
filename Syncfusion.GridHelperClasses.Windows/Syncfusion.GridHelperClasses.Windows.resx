@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="All" xml:space="preserve">
+    <value>(All)</value>
+  </data>
+  <data name="Automatic" xml:space="preserve">
+    <value>Automatic</value>
+  </data>
+  <data name="AvailableCellColors" xml:space="preserve">
+    <value>Available Cell Colors</value>
+  </data>
+  <data name="AvailableFontColors" xml:space="preserve">
+    <value>Available Font Colors</value>
+  </data>
+  <data name="Blanks" xml:space="preserve">
+    <value>(Blanks)</value>
+  </data>
+  <data name="ClearFilterFrom" xml:space="preserve">
+    <value>Clear Filter From</value>
+  </data>
+  <data name="CopySeries" xml:space="preserve">
+    <value>Copy Series</value>
+  </data>
+  <data name="Custom" xml:space="preserve">
+    <value>(Custom...)</value>
+  </data>
+  <data name="CustomAutoFilter" xml:space="preserve">
+    <value>Custom Filter</value>
+  </data>
+  <data name="CustomAutoFilterBeginsWith" xml:space="preserve">
+    <value>Begins with...</value>
+  </data>
+  <data name="CustomAutoFilterCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CustomAutoFilterContains" xml:space="preserve">
+    <value>Contains...</value>
+  </data>
+  <data name="CustomAutoFilterDialogBox" xml:space="preserve">
+    <value>Custom AutoFilter</value>
+  </data>
+  <data name="CustomAutoFilterEndsWith" xml:space="preserve">
+    <value>Ends with...</value>
+  </data>
+  <data name="CustomAutoFilterEqual" xml:space="preserve">
+    <value>Equals...</value>
+  </data>
+  <data name="CustomAutoFilterGreaterthan" xml:space="preserve">
+    <value>greater than</value>
+  </data>
+  <data name="CustomAutoFilterGreaterthanOrEqual" xml:space="preserve">
+    <value>greater than or equal</value>
+  </data>
+  <data name="CustomAutoFilterLessthan" xml:space="preserve">
+    <value>less than</value>
+  </data>
+  <data name="CustomAutoFilterlessthanOrEqual" xml:space="preserve">
+    <value>less than or equal</value>
+  </data>
+  <data name="CustomAutoFilterLike" xml:space="preserve">
+    <value>like</value>
+  </data>
+  <data name="CustomAutoFilterMatch" xml:space="preserve">
+    <value>match</value>
+  </data>
+  <data name="CustomAutoFilterNotequal" xml:space="preserve">
+    <value>Does Not Equal...</value>
+  </data>
+  <data name="CustomAutoFilterOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="CustomComboboxAutoFilterafter" xml:space="preserve">
+    <value>is after</value>
+  </data>
+  <data name="CustomComboboxAutoFilterAfterthanOrEqual" xml:space="preserve">
+    <value>is after or equal to</value>
+  </data>
+  <data name="CustomComboboxAutoFilterBefore" xml:space="preserve">
+    <value>is before</value>
+  </data>
+  <data name="CustomComboboxAutoFilterBeforethanOrEqual" xml:space="preserve">
+    <value>is before or equal to</value>
+  </data>
+  <data name="CustomComboboxAutoFilterBeginsWith" xml:space="preserve">
+    <value>begins with</value>
+  </data>
+  <data name="CustomComboboxAutoFilterEndsWith" xml:space="preserve">
+    <value>ends with</value>
+  </data>
+  <data name="CustomComboboxAutoFilterEqual" xml:space="preserve">
+    <value>equals</value>
+  </data>
+  <data name="CustomComboboxAutoFilterGreaterthan" xml:space="preserve">
+    <value>is greater than</value>
+  </data>
+  <data name="CustomComboboxAutoFilterGreaterthanOrEqual" xml:space="preserve">
+    <value>is greater than or equal to</value>
+  </data>
+  <data name="CustomComboboxAutoFilterLessthan" xml:space="preserve">
+    <value>is less than</value>
+  </data>
+  <data name="CustomComboboxAutoFilterlessthanOrEqual" xml:space="preserve">
+    <value>is less than or equal to</value>
+  </data>
+  <data name="CustomComboboxAutoFilterLike" xml:space="preserve">
+    <value>like</value>
+  </data>
+  <data name="CustomComboboxAutoFilterMatch" xml:space="preserve">
+    <value>match</value>
+  </data>
+  <data name="CustomComboboxAutoFilterNotequal" xml:space="preserve">
+    <value>does not equal</value>
+  </data>
+  <data name="CustomTop10AutoFilterDialogBox" xml:space="preserve">
+    <value>Top 10 Auto Filter</value>
+  </data>
+  <data name="DateTimeFilters" xml:space="preserve">
+    <value>Date Filters</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>(Empty)</value>
+  </data>
+  <data name="EndsWith" xml:space="preserve">
+    <value>Ends With</value>
+  </data>
+  <data name="Equal" xml:space="preserve">
+    <value>Equals</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error:</value>
+  </data>
+  <data name="ExpressionMATCH" xml:space="preserve">
+    <value>Expression Match</value>
+  </data>
+  <data name="FieldChooser" xml:space="preserve">
+    <value>Field Chooser</value>
+  </data>
+  <data name="FieldDialogBox" xml:space="preserve">
+    <value>FieldDialogBox</value>
+  </data>
+  <data name="FieldTreeDialogBox" xml:space="preserve">
+    <value>FieldTreeDialogBox</value>
+  </data>
+  <data name="FillSeries" xml:space="preserve">
+    <value>Fill Series</value>
+  </data>
+  <data name="FilterByCellColor" xml:space="preserve">
+    <value>Filter by Cell Color</value>
+  </data>
+  <data name="FilterByColor" xml:space="preserve">
+    <value>Filter by Color</value>
+  </data>
+  <data name="FilterByFontColor" xml:space="preserve">
+    <value>Filter by Font Color</value>
+  </data>
+  <data name="GreaterThan" xml:space="preserve">
+    <value>Is Greater Than</value>
+  </data>
+  <data name="GreaterThanOrEqualTo" xml:space="preserve">
+    <value>Is Greater Than Or Equal</value>
+  </data>
+  <data name="LessThan" xml:space="preserve">
+    <value>Is Less Than</value>
+  </data>
+  <data name="LessThanOrEqualTo" xml:space="preserve">
+    <value>Is Less Than Or Equal</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>Like</value>
+  </data>
+  <data name="Match" xml:space="preserve">
+    <value>Match</value>
+  </data>
+  <data name="MoreCellColors" xml:space="preserve">
+    <value>More Cell Colors...</value>
+  </data>
+  <data name="MoreFontColors" xml:space="preserve">
+    <value>More Font Colors...</value>
+  </data>
+  <data name="NoFill" xml:space="preserve">
+    <value>No Fill</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="NotEquals" xml:space="preserve">
+    <value>Does Not Equal</value>
+  </data>
+  <data name="NumberFilters" xml:space="preserve">
+    <value>Number Filters</value>
+  </data>
+  <data name="Office2007FilteraboveAverage" xml:space="preserve">
+    <value>Above Average</value>
+  </data>
+  <data name="Office2007Filterafter" xml:space="preserve">
+    <value>After...</value>
+  </data>
+  <data name="Office2007FilterallDatesInThePeriod" xml:space="preserve">
+    <value>All Dates in the Period</value>
+  </data>
+  <data name="Office2007Filterapril" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="Office2007Filteraugust" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="Office2007Filterbefore" xml:space="preserve">
+    <value>Before...</value>
+  </data>
+  <data name="Office2007FilterBeginswith" xml:space="preserve">
+    <value>Begins With...</value>
+  </data>
+  <data name="Office2007FilterbelowAverage" xml:space="preserve">
+    <value>Below Average</value>
+  </data>
+  <data name="Office2007Filterbetween" xml:space="preserve">
+    <value>Between...</value>
+  </data>
+  <data name="Office2007FilterCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Office2007FilterContains" xml:space="preserve">
+    <value>Contains...</value>
+  </data>
+  <data name="Office2007FiltercustomDateTimeFilter" xml:space="preserve">
+    <value>Custom Filter...</value>
+  </data>
+  <data name="Office2007FilterCustomFilter" xml:space="preserve">
+    <value>Custom Filter...</value>
+  </data>
+  <data name="Office2007FilterCustomFilterand" xml:space="preserve">
+    <value>And</value>
+  </data>
+  <data name="Office2007FilterCustomFilteror" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="Office2007FilterDateEquals" xml:space="preserve">
+    <value>Equals...</value>
+  </data>
+  <data name="Office2007Filterdecember" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="Office2007FilterEndswith" xml:space="preserve">
+    <value>Ends With...</value>
+  </data>
+  <data name="Office2007FilterEquals" xml:space="preserve">
+    <value>Equals...</value>
+  </data>
+  <data name="Office2007Filterfebruary" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="Office2007Filtergreater" xml:space="preserve">
+    <value>Greater Than...</value>
+  </data>
+  <data name="Office2007FiltergreaterOrEqual" xml:space="preserve">
+    <value>Greater Than Or Equal To...</value>
+  </data>
+  <data name="Office2007Filterjanuary" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="Office2007Filterjuly" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="Office2007Filterjune" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="Office2007FilterlastMonth" xml:space="preserve">
+    <value>Last Month</value>
+  </data>
+  <data name="Office2007FilterlastQuarter" xml:space="preserve">
+    <value>Last Quarter</value>
+  </data>
+  <data name="Office2007FilterlastWeek" xml:space="preserve">
+    <value>Last Week</value>
+  </data>
+  <data name="Office2007FilterlastYear" xml:space="preserve">
+    <value>Last Year</value>
+  </data>
+  <data name="Office2007FilterlessOEqual" xml:space="preserve">
+    <value>Less Than Or Equal To...</value>
+  </data>
+  <data name="Office2007Filterlessthan" xml:space="preserve">
+    <value>Less Than...</value>
+  </data>
+  <data name="Office2007Filtermarch" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="Office2007Filtermay" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="Office2007FilternextMonth" xml:space="preserve">
+    <value>Next Month</value>
+  </data>
+  <data name="Office2007FilternextQuarter" xml:space="preserve">
+    <value>Next Quarter</value>
+  </data>
+  <data name="Office2007FilternextWeek" xml:space="preserve">
+    <value>Next Week</value>
+  </data>
+  <data name="Office2007FilternextYear" xml:space="preserve">
+    <value>Next Year</value>
+  </data>
+  <data name="Office2007FilterNotEquals" xml:space="preserve">
+    <value>Does Not Equal...</value>
+  </data>
+  <data name="Office2007Filternovember" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="Office2007FilternumberBetween" xml:space="preserve">
+    <value>Between...</value>
+  </data>
+  <data name="Office2007FilternumberCustomFilter" xml:space="preserve">
+    <value>Custom Filter...</value>
+  </data>
+  <data name="Office2007FilternumberEqual" xml:space="preserve">
+    <value>Equals...</value>
+  </data>
+  <data name="Office2007FilternumberNotEqual" xml:space="preserve">
+    <value>Does Not Equal...</value>
+  </data>
+  <data name="Office2007Filteroctober" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="Office2007FilterOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Office2007Filterquarter1" xml:space="preserve">
+    <value>Quarter 1</value>
+  </data>
+  <data name="Office2007Filterquarter2" xml:space="preserve">
+    <value>Quarter 2</value>
+  </data>
+  <data name="Office2007Filterquarter3" xml:space="preserve">
+    <value>Quarter 3</value>
+  </data>
+  <data name="Office2007Filterquarter4" xml:space="preserve">
+    <value>Quarter 4</value>
+  </data>
+  <data name="Office2007Filterseptember" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="Office2007FilterthisMonth" xml:space="preserve">
+    <value>This Month</value>
+  </data>
+  <data name="Office2007FilterthisQuarter" xml:space="preserve">
+    <value>This Quarter</value>
+  </data>
+  <data name="Office2007FilterthisWeek" xml:space="preserve">
+    <value>This Week</value>
+  </data>
+  <data name="Office2007FilterthisYear" xml:space="preserve">
+    <value>This Year</value>
+  </data>
+  <data name="Office2007Filtertoday" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Office2007Filtertomorrow" xml:space="preserve">
+    <value>Tomorrow</value>
+  </data>
+  <data name="Office2007Filtertop10" xml:space="preserve">
+    <value>Top 10...</value>
+  </data>
+  <data name="Office2007FilteryearToDate" xml:space="preserve">
+    <value>Year to Date</value>
+  </data>
+  <data name="Office2007Filteryesterday" xml:space="preserve">
+    <value>Yesterday</value>
+  </data>
+  <data name="PagerOf" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="PagerPage" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="ShowRowsWhere" xml:space="preserve">
+    <value>Show rows where:</value>
+  </data>
+  <data name="SortAtoZ" xml:space="preserve">
+    <value>Sort A to Z</value>
+  </data>
+  <data name="SortLargesttoSmallest" xml:space="preserve">
+    <value>Sort Largest to Smallest</value>
+  </data>
+  <data name="SortNewesttoOldest" xml:space="preserve">
+    <value>Sort Newest to Oldest</value>
+  </data>
+  <data name="SortOldesttoNewest" xml:space="preserve">
+    <value>Sort Oldest to Newest</value>
+  </data>
+  <data name="SortSmallesttoLargest" xml:space="preserve">
+    <value>Sort Smallest to Largest</value>
+  </data>
+  <data name="SortZtoA" xml:space="preserve">
+    <value>Sort Z to A</value>
+  </data>
+  <data name="StartsWith" xml:space="preserve">
+    <value>Starts With</value>
+  </data>
+  <data name="TextFilters" xml:space="preserve">
+    <value>Text Filters</value>
+  </data>
+  <data name="ExcelFilterCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ExcelFilterOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+</root>
